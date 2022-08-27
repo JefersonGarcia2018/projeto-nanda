@@ -24,10 +24,10 @@
                 <!-- v-for em [classe.diagnosticos] para gerar os Buttons-Modal e os seus respectivos Modais -->
                 <b-card-text v-for="(diagnostico, index2) in classe.diagnosticos" :key="diagnostico.id">
                 <div v-if="diagnostico.titulo_Diagnostico !== ''">
-                  <b-button size="sm" variant="outline-primary" v-b-modal="`modal-${index1}-${index2}`">{{diagnostico.titulo_Diagnostico}}</b-button>
+                  <b-button size="sm" variant="outline-primary" v-b-modal="`modal-diagnostico-${index1}-${index2}`">{{diagnostico.titulo_Diagnostico}}</b-button>
                  
                  <!-- Modal -->
-                  <b-modal :id="`modal-${index1}-${index2}`" scrollable size="lg" cancel-disabled>
+                  <b-modal :id="`modal-diagnostico-${index1}-${index2}`" scrollable size="lg" cancel-disabled>
                     <template #modal-header>
                       <div>
                         <h3><strong>{{diagnostico.titulo_Diagnostico}}</strong></h3>
@@ -60,11 +60,11 @@
                                 >
                                 {{item}}
                                 </b-form-checkbox>
-                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-FRela-${index1}-${index2}-${index3}`">detalhes...</b-badge>
+                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-FRela-${index1}-${index2}-${index3}`">detalhes...</b-badge>
                             </b-list-group-item>
 
                             <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                            <b-modal :id="`modal-secundario-FRela-${index1}-${index2}-${index3}`" ok-only>
+                            <b-modal :id="`modal-secundario-detalhes-FRela-${index1}-${index2}-${index3}`" ok-only>
                               <template #modal-header>
                                   {{item}}
                               </template>
@@ -108,11 +108,11 @@
                                 >
                                 {{item}}
                                 </b-form-checkbox>
-                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-CD-${index1}-${index2}-${index3}`">detalhes...</b-badge>
+                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-CD-${index1}-${index2}-${index3}`">detalhes...</b-badge>
                             </b-list-group-item>
 
                             <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                            <b-modal :id="`modal-secundario-CD-${index1}-${index2}-${index3}`" ok-only>
+                            <b-modal :id="`modal-secundario-detalhes-CD-${index1}-${index2}-${index3}`" ok-only>
                               <template #modal-header>
                                   {{item}}
                               </template>
@@ -155,11 +155,11 @@
                                 >
                                 {{item}}
                                 </b-form-checkbox>
-                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-FRisco-${index1}-${index2}-${index3}`">detalhes...</b-badge>
+                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-FRisco-${index1}-${index2}-${index3}`">detalhes...</b-badge>
                             </b-list-group-item>
 
                             <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                            <b-modal :id="`modal-secundario-FRisco-${index1}-${index2}-${index3}`" ok-only>
+                            <b-modal :id="`modal-secundario-detalhes-FRisco-${index1}-${index2}-${index3}`" ok-only>
                               <template #modal-header>
                                   {{item}}
                               </template>
@@ -205,11 +205,11 @@
                                 >
                                 {{item}}
                                 </b-form-checkbox>
-                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-CA-${index1}-${index2}-${index3}`">detalhes...</b-badge>
+                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-CA-${index1}-${index2}-${index3}`">detalhes...</b-badge>
                             </b-list-group-item>
 
                             <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                            <b-modal :id="`modal-secundario-CA-${index1}-${index2}-${index3}`" ok-only>
+                            <b-modal :id="`modal-secundario-detalhes-CA-${index1}-${index2}-${index3}`" ok-only>
                               <template #modal-header>
                                   {{item}}
                               </template>
@@ -255,11 +255,11 @@
                                 >
                                 {{item}}
                                 </b-form-checkbox>
-                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-PR-${index1}-${index2}-${index3}`">detalhes...</b-badge>
+                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-PR-${index1}-${index2}-${index3}`">detalhes...</b-badge>
                             </b-list-group-item>
 
                             <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                            <b-modal :id="`modal-secundario-PR-${index1}-${index2}-${index3}`" ok-only>
+                            <b-modal :id="`modal-secundario-detalhes-PR-${index1}-${index2}-${index3}`" ok-only>
                               <template #modal-header>
                                   {{item}}
                               </template>
@@ -278,12 +278,12 @@
                       </b-list-group>
                     </div>
 
-                    <template #modal-footer>
+                    <template #modal-footer="{close}">
                       <!-- Emulate built in modal footer ok and cancel button actions -->
-                      <b-button size="sm" variant="success" @click="salvarDiagnostico(diagnostico.titulo_Diagnostico)">
-                        Salvar
+                      <b-button size="sm" variant="success" v-b-modal.modal-gerar-diagnostico @click="gerarDiagnostico(diagnostico.titulo_Diagnostico)">
+                        Gerar
                       </b-button>
-                      <b-button size="sm" variant="danger" @click="fechaModelDiagnostico()">
+                      <b-button size="sm" variant="danger" @click="close()">
                         Fechar
                       </b-button>
                     </template>
@@ -299,6 +299,19 @@
             </b-collapse>
 
           </b-card>
+
+          <b-modal id="modal-gerar-diagnostico" title="Diagnóstico gerado" size="lg">
+            <p class="my-4">{{diagnosticoGerado}}</p>
+            <template #modal-footer="{close}">
+                      <!-- Emulate built in modal footer ok and cancel button actions -->
+                      <b-button size="sm" variant="success" v-b-modal.modal-gerar-diagnostico @click="copiarDiagnostico()">
+                        Copiar
+                      </b-button>
+                      <b-button size="sm" variant="danger" @click="close()">
+                        Fechar
+                      </b-button>
+                    </template>
+          </b-modal>
           
         </div>
 
@@ -329,7 +342,8 @@ export default {
         selectedFatoresRelacionados: [],
         selectedFatoresRiscos: [],
         selectedCondAssociadas: [],
-        selectedPopulacoesRisco: []
+        selectedPopulacoesRisco: [],
+        diagnosticoGerado: ''
       }
   },
   
@@ -363,18 +377,33 @@ export default {
       return (termos.indexOf(item) !== -1) ? true : false;
     },
 
-    salvarDiagnostico(diagnostico){
-
-      console.log(diagnostico);
+    gerarDiagnostico(diagnostico){
+      //console.log(diagnostico);
+      this.diagnosticoGerado = `${diagnostico} relacionado a ${this.selectedFatoresRelacionados} caracterizado por ${this.selectedCaracDefinidoras}.`;
     },
 
-    fechaModelDiagnostico(){
-      this.selectedCaracDefinidoras = [];
-      this.selectedFatoresRelacionados = [];
-      this.selectedFatoresRiscos = [];
-      this.selectedCondAssociadas = [];
-      this.selectedPopulacoesRisco = [];
+    copiarDiagnostico(){
+      navigator.clipboard.writeText(this.diagnosticoGerado);
     }
   },
+
+  mounted() {
+    this.$root.$on('bv::modal::show', (bvEvent, modalId) => {
+      //console.log('Modal exibido', bvEvent, modalId)
+
+      let valor = modalId.indexOf("modal-diagnostico");
+      
+      if(valor !== -1 ) {
+
+        this.selectedCaracDefinidoras = [];
+        this.selectedFatoresRelacionados = [];
+        this.selectedFatoresRiscos = [];
+        this.selectedCondAssociadas = [];
+        this.selectedPopulacoesRisco = [];
+
+      }
+      
+    })
+  }
 }
 </script>
