@@ -1,0 +1,385 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 6",
+          "descricaoDominio": "Autopercepção",
+          "totalClasses": 3
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Autoconceito",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Disposição para autoconceito melhorado",
+              "definicao_Diagnostico": "Padrão de percepções ou ideias sobre si mesmo que pode ser melhorado.",
+              "codigo_Diagnostico": "00167",
+              "caracteristicas_Definidoras": [
+                "Aceitação das limitações",
+                "Aceitação das qualidades",
+                "Ações congruentes com expressões verbais",
+                "Expressa confiança nas capacidades",
+                "Expressa desejo de melhorar o autoconceito",
+                "Expressa desejo de melhorar o desempenho de papel",
+                "Expressa satisfação com a identidade pessoal",
+                "Expressa satisfação com a imagem corporal",
+                "Expressa satisfação com pensamentos sobre si mesmo",
+                "Expressa satisfação com senso de valorização"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de dignidade humana comprometida",
+              "definicao_Diagnostico": "Suscetibilidade à perda percebida de respeito e honra que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00174",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Compreensão insuficiente das informações de saúde",
+                "Estigmatização",
+                "Experiência limitada de tomada de decisão",
+                "Exposição do corpo",
+                "Humilhação",
+                "Incongruência cultural",
+                "Intromissão do profissional de saúde",
+                "Invasão da privacidade",
+                "Perda de controle sobre função corporal",
+                "Revelação de informações confidenciais",
+                "Tratamento desumano"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Desesperança",
+              "definicao_Diagnostico": "Estado subjetivo no qual um indivíduo vê alternativas limitadas ou não vê alternativas ou escolhas pessoais disponíveis e é incapaz de mobilizar energias em benefício próprio.",
+              "codigo_Diagnostico": "00124",
+              "caracteristicas_Definidoras": [
+                "Alteração no padrão de sono",
+                "Apetite reduzido",
+                "Contato visual insuficiente",
+                "Dá as costas a quem está falando",
+                "Diminuição no afeto",
+                "Encolhe os ombros em resposta a quem está falando",
+                "Envolvimento inadequado no cuidado",
+                "Indicadores verbais de desânimo",
+                "Iniciativa diminuída",
+                "Passividade",
+                "Resposta diminuída a estímulos",
+                "Verbalização diminuída"
+              ],
+              "fatores_Relacionados": [
+                "Estresse crônico",
+                "Isolamento social",
+                "Perda da crença em um poder espiritual",
+                "Perda da fé em valores transcendentais",
+                "Restrição prolongada de atividade"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Deterioração da condição fisiológica"
+              ],
+              "populacoes_Em_Risco": [
+                "História de abandono"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para esperança melhorada",
+              "definicao_Diagnostico": "Padrão de expectativas e desejos para mobilizar energias em benefício próprio que pode ser melhorado.",
+              "codigo_Diagnostico": "00185",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a coerência entre expectativas e metas",
+                "Expressa desejo de aumentar a crença nas possibilidades",
+                "Expressa desejo de aumentar a esperança",
+                "Expressa desejo de aumentar a percepção de sentido da vida",
+                "Expressa desejo de melhorar a capacidade de estabelecer metas alcançáveis",
+                "Expressa desejo de melhorar a conexão com os outros",
+                "Expressa desejo de melhorar a espiritualidade",
+                "Expressa desejo de melhorar a resolução de problemas para alcançar as metas"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Distúrbio na identidade pessoal",
+              "definicao_Diagnostico": "Incapacidade de manter uma percepção integrada e completa de si mesmo.",
+              "codigo_Diagnostico": "00121",
+              "caracteristicas_Definidoras": [
+                "Alteração da imagem corporal",
+                "Comportamento inconsistente",
+                "Confusão de gênero",
+                "Confusão em relação a metas",
+                "Confusão em relação a valores culturais",
+                "Confusão em relação a valores ideológicos",
+                "Descrição de si mesmo por meio de ideias delirantes",
+                "Desempenho de papel ineficaz",
+                "Estratégias de enfrentamento ineficazes",
+                "Incapacidade de distinguir estímulos internos de externos",
+                "Relacionamentos ineficazes",
+                "Sensação de estranhamento",
+                "Sensação de vazio",
+                "Sentimentos oscilantes acerca de si mesmo"
+              ],
+              "fatores_Relacionados": [
+                "Alteração no papel social",
+                "Baixa autoestima",
+                "Discriminação",
+                "Doutrinação de um determinado culto",
+                "Estados maníacos",
+                "Estágios de crescimento",
+                "Incongruência cultural",
+                "Preconceito percebido",
+                "Processos familiares disfuncionais"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Distúrbio cerebral orgânico",
+                "Transtorno de identidade dissociativa",
+                "Transtorno psiquiátrico"
+              ],
+              "populacoes_Em_Risco": [
+                "Crise situacional",
+                "Exposição a substância química tóxica",
+                "Transição de desenvolvimento"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de distúrbio na identidade pessoal",
+              "definicao_Diagnostico": "Suscetibilidade à incapacidade de manter uma percepção integrada e completa de si mesmo que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00225",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Alteração no papel social",
+                "Baixa autoestima",
+                "Discriminação",
+                "Doutrinação de um determinado culto",
+                "Estados maníacos",
+                "Estágios de crescimento",
+                "Incongruência cultural",
+                "Preconceito percebido",
+                "Processos familiares disfuncionais"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Distúrbio cerebral orgânico",
+                "Transtorno de identidade dissociativa",
+                "Transtorno psiquiátrico"
+              ],
+              "populacoes_Em_Risco": [
+                "Crise situacional",
+                "Exposição a substância química tóxica",
+                "Transição de desenvolvimento"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Autoestima",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Baixa autoestima crônica",
+              "definicao_Diagnostico": "Avaliação e/ou sentimentos negativos sobre as próprias capacidades, com duração de pelo menos 3 meses.",
+              "codigo_Diagnostico": "00119",
+              "caracteristicas_Definidoras": [
+                "Busca excessiva por reafirmação",
+                "Comportamento indeciso",
+                "Comportamento não assertivo",
+                "Contato visual insuficiente",
+                "Culpa",
+                "Dependente das opiniões dos outros",
+                "Exagera no feedback negativo sobre si mesmo",
+                "Excessivamente conformado",
+                "Falta de sucesso frequente nos eventos da vida",
+                "Hesita em tentar novas experiências",
+                "Passividade",
+                "Rejeita f eedback positivo",
+                "Subestima a capacidade de lidar com a situação",
+                "Vergonha"
+              ],
+              "fatores_Relacionados": [
+                "Afeto recebido inadequado",
+                "Enfrentamento ineficaz da perda",
+                "Incongruência cultural",
+                "Incongruência espiritual",
+                "Participação inadequada em grupos",
+                "Pertencimento inadequado",
+                "Recebe aprovação insuficiente dos outros",
+                "Respeito inadequado dos outros"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Transtorno psiquiátrico"
+              ],
+              "populacoes_Em_Risco": [
+                "Exposição a situações traumáticas",
+                "Padrão de fracassos",
+                "Reforço negativo repetido"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de baixa autoestima crônica",
+              "definicao_Diagnostico": "Suscetibilidade a avaliação e/ou sentimentos negativos e prolongados sobre as próprias capacidades que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00224",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Afeto recebido inadequado",
+                "Enfrentamento ineficaz da perda",
+                "Incongruência cultural",
+                "Incongruência espiritual",
+                "Participação inadequada em grupos",
+                "Pertencimento inadequado",
+                "Recebe aprovação insuficiente dos outros",
+                "Respeito inadequado dos outros"
+              ],
+              "condicoes_Associadas": [
+                "Transtorno psiquiátrico"
+              ],
+              "populacoes_Em_Risco": [
+                "Exposição a situações traumáticas",
+                "Padrão de fracassos",
+                "Reforço negativo repetido"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Baixa autoestima situacional",
+              "definicao_Diagnostico": "Desenvolvimento de percepção negativa sobre o seu próprio valor em resposta a uma situação atual.",
+              "codigo_Diagnostico": "00120",
+              "caracteristicas_Definidoras": [
+                "Ausência de propósito",
+                "Comportamento indeciso",
+                "Comportamento não assertivo",
+                "Desafio situacional ao próprio valor",
+                "Desamparo",
+                "Subestima a capacidade de lidar com a situação",
+                "Verbalizações autonegativas"
+              ],
+              "fatores_Relacionados": [
+                "Alteração da imagem corporal",
+                "Alteração no papel social",
+                "Autoexpectativas não realistas",
+                "Comportamento inconsistente em relação aos valores",
+                "Diminuição do controle sobre o ambiente",
+                "Padrão de desamparo",
+                "Reconhecimento inadequado"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Doença física",
+                "Prejuízo funcional"
+              ],
+              "populacoes_Em_Risco": [
+                "História de abandono",
+                "História de abuso",
+                "História de negligência",
+                "História de perda",
+                "História de rejeição",
+                "Padrão de fracassos",
+                "Transição de desenvolvimento"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de baixa autoestima situacional",
+              "definicao_Diagnostico": "Suscetibilidade ao desenvolvimento de uma percepção negativa sobre o seu próprio valor em resposta a uma situação atual que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00153",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Alteração da imagem corporal",
+                "Alteração no papel social",
+                "Autoexpectativas não realistas",
+                "Comportamento inconsistente em relação aos valores",
+                "Diminuição do controle sobre o ambiente",
+                "Padrão de desamparo",
+                "Reconhecimento inadequado"
+              ],
+              "condicoes_Associadas": [
+                "Doença física",
+                "Prejuízo funcional"
+              ],
+              "populacoes_Em_Risco": [
+                "História de abandono",
+                "História de abuso",
+                "História de negligência",
+                "História de perda",
+                "História de rejeição",
+                "Padrão de fracassos",
+                "Transição de desenvolvimento"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Imagem corporal",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Distúrbio na imagem corporal",
+              "definicao_Diagnostico": "Confusão na imagem mental do eu físico.",
+              "codigo_Diagnostico": "00118",
+              "caracteristicas_Definidoras": [
+                "Alteração na estrutura corporal",
+                "Alteração na função corporal",
+                "Alteração na visão do próprio corpo",
+                "Ausência de parte do corpo",
+                "Comportamento de monitoração do próprio corpo",
+                "Comportamento de reconhecimento do próprio corpo",
+                "Despersonalização de parte do corpo pelo uso de pronomes impessoais",
+                "Despersonalização de uma perda por meio de pronomes impessoais",
+                "Ênfase nos pontos positivos remanescentes",
+                "Esconder parte do corpo",
+                "Evita olhar o próprio corpo",
+                "Evita tocar o próprio corpo",
+                "Extensão dos limites do corpo",
+                "Foco em função do passado",
+                "Foco em ponto positivo do passado",
+                "Foco na aparência anterior",
+                "Medo da reação dos outros",
+                "Mudança na capacidade de avaliar a relação espacial do corpo com o ambiente",
+                "Mudança no envolvimento social",
+                "Mudança no estilo de vida",
+                "Percepções que refletem uma visão alterada da aparência do corpo",
+                "Personalização de uma parte do corpo por meio de um nome",
+                "Personalização de uma perda por meio de um nome",
+                "Preocupação com mudança",
+                "Preocupação com perda",
+                "Realização aumentada",
+                "Recusa em reconhecer alterações",
+                "Resposta não verbal a alteração no corpo",
+                "Resposta não verbal a alteração no corpo percebida",
+                "Sentimento negativo em relação ao corpo",
+                "Superexposição de parte do corpo",
+                "Trauma em relação a não funcionamento de parte do corpo"
+              ],
+              "fatores_Relacionados": [
+                "Alteração na autopercepção",
+                "Incongruência cultural",
+                "Incongruência espiritual"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração da função cognitiva",
+                "Alteração na função corporal",
+                "Doença",
+                "Funcionamento psicossocial prejudicado",
+                "Lesão",
+                "Procedimento cirúrgico",
+                "Regime de tratamento",
+                "Trauma"
+              ],
+              "populacoes_Em_Risco": [
+                "Transição de desenvolvimento"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

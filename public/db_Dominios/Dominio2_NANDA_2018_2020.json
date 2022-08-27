@@ -1,0 +1,967 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 2",
+          "descricaoDominio": "Nutrição",
+          "totalClasses": 5
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Ingestão",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Produção insuficiente de leite materno",
+              "definicao_Diagnostico": "Suprimento inadequado de leite materno para atender ao estado nutricional de um lactente ou uma criança.",
+              "codigo_Diagnostico": "00216",
+              "caracteristicas_Definidoras": [
+                "Ausência de produção de leite com estimulação do mamilo",
+                "Choro frequente do lactente",
+                "Constipação do lactente",
+                "Ganho de peso do lactente inferior a 500 g em 1 mês",
+                "Lactente busca sugar a mama com frequência",
+                "Lactente elimina pequenas quantidades de urina concentrada",
+                "Lactente se recusa sugar a mama",
+                "Leite materno ordenhado é inferior ao volume prescrito a um lactente",
+                "Retardo na produção de leite",
+                "Sucção na mama não sustentada",
+                "Tempo de amamentação prolongado"
+              ],
+              "fatores_Relacionados": [
+                "Consumo de álcool pela mãe",
+                "Desnutrição materna",
+                "Oportunidade insuficiente de sugar a mama",
+                "Pega ineficaz do seio materno",
+                "Reflexo de sucção ineficaz",
+                "Regime de tratamento materno",
+                "Rejeição da mama",
+                "Tabagismo materno",
+                "Tempo de sucção na mama insuficiente",
+                "Volume de líquidos deficiente da mãe"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Gravidez"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Amamentação ineficaz",
+              "definicao_Diagnostico": "Dificuldade para oferecer o leite das mamas, o que pode comprometer o estado nutricional do lactente ou da criança.",
+              "codigo_Diagnostico": "00104",
+              "caracteristicas_Definidoras": [
+                "Arqueamento do lactente quando na mama",
+                "Ausência de resposta do lactente a outras medidas de conforto",
+                "Esvaziamento insuficiente de cada mama por amamentação",
+                "Fezes inadequadas do lactente",
+                "Ganho de peso insuficiente do lactente",
+                "Incapacidade do lactente de apreender a região areolar-mamilar materna corretamente",
+                "Lactente chora ao ser posto na mama",
+                "Lactente chora na primeira hora após a amamentação",
+                "Lactente exibe agitação na primeira hora após a amamentação",
+                "Perda de peso do lactente sustentada",
+                "Persistência de mamilos doloridos após a primeira semana de amamentação",
+                "Resistência do lactente em apreender a região areolar-mamilar",
+                "Sinais insuficientes de liberação de ocitocina",
+                "Sucção na mama não sustentada",
+                "Suprimento de leite inadequado percebido"
+              ],
+              "fatores_Relacionados": [
+                "Alimentações suplementares com bico artificial",
+                "Amamentação interrompida",
+                "Ambivalência materna",
+                "Anomalia da mama materna",
+                "Ansiedade materna",
+                "Apoio familiar insuficiente",
+                "Atraso do estágio II da lactogênese",
+                "Conhecimento insuficiente dos pais sobre a importância da amamentação",
+                "Conhecimento insuficiente dos pais sobre técnicas de amamentação",
+                "Dor materna",
+                "Fadiga materna",
+                "Obesidade materna",
+                "Oportunidade insuficiente de sugar a mama",
+                "Reflexo de sucção do lactente insatisfatório",
+                "Suprimento de leite inadequado",
+                "Uso da chupeta"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Defeito orofaríngeo"
+              ],
+              "populacoes_Em_Risco": [
+                "Cirurgia prévia da mama",
+                "História anterior de falha na amamentação",
+                "Lactente prematuro",
+                "Licença maternidade curta"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Amamentação interrompida",
+              "definicao_Diagnostico": "Quebra na continuidade do oferecimento de leite das mamas que pode comprometer o sucesso da amamentação e/ou o estado nutricional do lactente ou da criança.",
+              "codigo_Diagnostico": "00105",
+              "caracteristicas_Definidoras": [
+                "Amamentação não exclusiva"
+              ],
+              "fatores_Relacionados": [
+                "Necessidade de desmamar abruptamente o lactente",
+                "Separação entre mãe e lactente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Contraindicações ao aleitamento materno",
+                "Doença da mãe",
+                "Doença do lactente"
+              ],
+              "populacoes_Em_Risco": [
+                "Emprego materno",
+                "Hospitalização da criança",
+                "Lactente prematuro"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para amamentação melhorada",
+              "definicao_Diagnostico": "Padrão de oferecimento de leite das mamas a um lactente ou uma criança que pode ser melhorado.",
+              "codigo_Diagnostico": "00106",
+              "caracteristicas_Definidoras": [
+                "Mãe expressa desejo de melhorar a capacidade de amamentar com exclusividade",
+                "Mãe expressa desejo de melhorar a capacidade de amamentar para atender às necessidades nutricionais da criança"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Deglutição prejudicada",
+              "definicao_Diagnostico": "Funcionamento anormal do mecanismo da deglutição associado a déficits na estrutura ou função oral, faríngea ou esofágica.",
+              "codigo_Diagnostico": "00103",
+              "caracteristicas_Definidoras": [
+                "Primeiro estágio: oral",
+                "Ação ineficaz da língua na formação do bolo alimentar",
+                "Acúmulo de bolo alimentar nos sulcos laterais",
+                "Alimento empurrado para fora da boca",
+                "Asfixia antes de deglutir",
+                "“Babar”",
+                "Deglutição aos pedaços",
+                "Engasgos antes de deglutir",
+                "Entrada prematura do bolo alimentar",
+                "Escape do alimento pela boca",
+                "Fase oral anormal na avaliação da deglutição",
+                "Fechamento incompleto dos lábios",
+                "Formação prolongada do bolo alimentar",
+                "Incapacidade de esvaziar a cavidade oral",
+                "Mastigação insuficiente",
+                "“Pega” ineficaz",
+                "Refluxo nasal",
+                "Sucção ineficaz",
+                "Tempo de refeição prolongado com consumo insuficiente",
+                "Tosse antes de deglutir",
+                "Segundo estágio: faríngeo",
+                "Alteração na posição da cabeça",
+                "Ânsia de vômito",
+                "Asfixia",
+                "Deglutição repetida",
+                "Deglutição retardada",
+                "Elevação inadequada da laringe",
+                "Fase faríngea anormal na avaliação da deglutição",
+                "Febres de etiologia desconhecida",
+                "Infecção pulmonar recorrente",
+                "Qualidade gorgolejante da voz",
+                "Recusa do alimento",
+                "Refluxo nasal",
+                "Tosse",
+                "Terceiro estágio: esofágico",
+                "Acordar durante a noite",
+                "Azia",
+                "Bruxismo",
+                "Deglutição repetida",
+                "Dificuldade para deglutir",
+                "Dor epigástrica",
+                "Fase esofágica anormal na avaliação da deglutição",
+                "Hálito com odor ácido",
+                "Hematêmese",
+                "Hiperextensão da cabeça",
+                "Irritabilidade sem explicação nas proximidades dos horários das refeições",
+                "Limitação de volume",
+                "Odinofagia",
+                "Recusa do alimento",
+                "Regurgitação",
+                "Relata “algo entalado”",
+                "Tosse durante a noite",
+                "Vômito",
+                "Vômito no travesseiro"
+              ],
+              "fatores_Relacionados": [
+                "Comportamento de autolesão",
+                "Problema de comportamento alimentar"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Acalasia",
+                "Anormalidade de vias aéreas superiores",
+                "Anormalidade da laringe",
+                "Anormalidade da orofaringe",
+                "Condição respiratória",
+                "Condições com hipotonia muscular significativa",
+                "Defeito laríngeo",
+                "Defeito na cavidade nasofaríngea",
+                "Defeito nasal",
+                "Defeito traqueal",
+                "Defeitos anatômicos adquiridos",
+                "Desnutrição proteico-calórica",
+                "Doença cardíaca congênita",
+                "Doença do refluxo esofágico",
+                "Envolvimento de nervo craniano",
+                "Lesão encefálica",
+                "Obstrução mecânica",
+                "Paralisia cerebral",
+                "Prejuízo neuromuscular",
+                "Problemas neurológicos",
+                "Trauma"
+              ],
+              "populacoes_Em_Risco": [
+                "Atraso no desenvolvimento",
+                "Falha em desenvolver-se",
+                "História de alimentação enteral",
+                "Prematuridade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Dinâmica alimentar ineficaz do adolescente",
+              "definicao_Diagnostico": "Atitudes e comportamentos alimentares alterados que resultam em padrões de alimentação excessiva ou insuficiente, comprometendo a saúde nutricional.",
+              "codigo_Diagnostico": "00269",
+              "caracteristicas_Definidoras": [
+                "Alimentação excessiva",
+                "Alimentação frequente em restaurantes fast food",
+                "Alimentação insuficiente",
+                "Esquiva de participação nos horários regulares de refeição",
+                "Hábito de “beliscar” alimentos com frequência",
+                "Ingestão frequente de alimentos de baixa qualidade",
+                "Ingestão frequente de alimentos processados",
+                "Pouco apetite",
+                "Queixas de fome entre as refeições",
+                "Recusa do alimento"
+              ],
+              "fatores_Relacionados": [
+                "Abuso psicológico",
+                "Ansiedade",
+                "Controle excessivo da família durante as refeições",
+                "Depressão",
+                "Dinâmica familiar alterada",
+                "Escolha inadequada de alimentos",
+                "Estresse excessivo",
+                "Horário irregular das refeições",
+                "Influência midiática no comportamento de ingestão de alimentos altamente calóricos e não saudáveis",
+                "Influência midiática no conhecimento de alimentos altamente calóricos e não saudáveis",
+                "Influências negativas dos pais nos comportamentos alimentares",
+                "Momentos de refeições estressantes",
+                "Mudança na autoestima ao iniciar a puberdade",
+                "Negligência psicológica",
+                "Refeições sem companhia",
+                "Transtorno alimentar"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Desafio físico relacionado ao ato de alimentar",
+                "Desafio físico relacionado ao ato de comer",
+                "Questões de saúde física dos pais",
+                "Questões de saúde psicológica dos pais"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Dinâmica alimentar ineficaz da criança",
+              "definicao_Diagnostico": "Atitudes, comportamentos e influências alterados nos padrões de alimentação da criança que resultam em saúde nutricional comprometida.",
+              "codigo_Diagnostico": "00270",
+              "caracteristicas_Definidoras": [
+                "Alimentação excessiva",
+                "Alimentação frequente em restaurantes fast food",
+                "Alimentação insuficiente",
+                "Esquiva de participação nos horários regulares de refeição",
+                "Hábito de “beliscar” alimentos com frequência",
+                "Ingestão frequente de alimentos de baixa qualidade",
+                "Ingestão frequente de alimentos processados",
+                "Pouco apetite",
+                "Queixas de fome entre as refeições",
+                "Recusa do alimento"
+              ],
+              "fatores_Relacionados": [
+                "Hábito alimentar",
+                "Ausência de horários regulares de refeições",
+                "Chantagem para que a criança se alimente",
+                "Consumo de grandes volumes de alimento em um período curto de tempo",
+                "Controle excessivo dos pais no horário de refeições em família",
+                "Controle excessivo dos pais relativo à experiência alimentar da criança",
+                "Criança forçada a comer",
+                "Escolha inadequada de alimentos",
+                "Hábitos alimentares desorganizados",
+                "Ingestão não estruturada de lanches entre as refeições",
+                "Limitação da alimentação da criança",
+                "Momentos de refeições estressantes",
+                "Padrões alimentares imprevisíveis",
+                "Recompensar a criança por se alimentar",
+                "Refeições sem companhia",
+                "Processo familiar",
+                "Estilo de paternidade/maternidade com excesso de envolvimento",
+                "Estilo de paternidade/maternidade com pouco envolvimento",
+                "Estilo de paternidade/maternidade sem envolvimento",
+                "Relação ansiosa pais-filhos",
+                "Relação hostil pais-filhos",
+                "Relação insegura pais-filhos",
+                "Relação tensa pais-filhos",
+                "Relacionamento abusivo",
+                "Nos pais",
+                "Abuso de substâncias",
+                "Anorexia",
+                "Depressão",
+                "Estratégias de enfrentamento ineficazes",
+                "Falta de confiança na criança quanto ao desenvolvimento de hábitos alimentares saudáveis",
+                "Falta de confiança no crescimento apropriado da criança",
+                "Incapacidade de apoiar padrões alimentares saudáveis",
+                "Incapacidade de divisão da responsabilidade sobre o ato de alimentar entre pais e filhos",
+                "Incapacidade de divisão da responsabilidade sobre o ato de comer entre pais e filhos",
+                "Ambientais",
+                "Influência midiática no comportamento de ingestão de alimentos altamente calóricos e não saudáveis",
+                "Influência midiática no conhecimento de alimentos altamente calóricos e não saudáveis"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Desafio físico relacionado ao ato de alimentar",
+                "Desafio físico relacionado ao ato de comer",
+                "Questões de saúde física dos pais",
+                "Questões de saúde psicológica dos pais"
+              ],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente",
+                "Envolvimento com sistemas de acolhimento/adoção de crianças",
+                "Obesidade paterna/materna",
+                "População de rua",
+                "Transição de vida"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Dinâmica ineficaz de alimentação do lactente",
+              "definicao_Diagnostico": "Comportamentos de alimentação alterados por parte dos pais que resultam em padrões de alimentação excessiva ou insuficiente.",
+              "codigo_Diagnostico": "00271",
+              "caracteristicas_Definidoras": [
+                "Alimentação excessiva",
+                "Alimentação insuficiente",
+                "Pouco apetite",
+                "Recusa do alimento",
+                "Transição inadequada para alimentos sólidos"
+              ],
+              "fatores_Relacionados": [
+                "Estilo de paternidade/maternidade com excesso de envolvimento",
+                "Estilo de paternidade/maternidade com pouco envolvimento",
+                "Estilo de paternidade/maternidade sem envolvimento",
+                "Falta de confiança no crescimento apropriado do lactente",
+                "Falta de confiança no lactente quanto ao desenvolvimento de hábitos alimentares saudáveis",
+                "Falta de conhecimento sobre a responsabilidade dos pais em relação à alimentação do lactente",
+                "Falta de conhecimento sobre métodos adequados de alimentação do lactente para cada estágio do desenvolvimento",
+                "Falta de conhecimento sobre os estágios de desenvolvimento do lactente",
+                "Influência midiática no conhecimento de alimentos altamente calóricos e não saudáveis",
+                "Influência midiática no oferecimento de alimentos altamente calóricos e não saudáveis",
+                "Múltiplos cuidadores",
+                "Problemas de vínculo",
+                "Relacionamento abusivo"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alimentações enterais prolongadas",
+                "Defeitos no tubo neural",
+                "Desafio físico relacionado ao ato de comer",
+                "Disfunção de integração sensorial",
+                "Distúrbio genético",
+                "Distúrbios cromossômicos",
+                "Doença cardíaca congênita",
+                "Fenda labial",
+                "Fenda palatina",
+                "Questões de saúde física dos pais",
+                "Questões de saúde psicológica dos pais"
+              ],
+              "populacoes_Em_Risco": [
+                "Abandono do lactente",
+                "Desfavorecido economicamente",
+                "Envolvimento com sistemas de acolhimento/adoção de crianças",
+                "Experiências com cuidados intensivos neonatais",
+                "História de experiências inseguras com atos de comer e alimentar",
+                "Hospitalização prolongada",
+                "Pequeno para a idade gestacional",
+                "População de rua",
+                "Prematuridade",
+                "Transição de vida"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Padrão ineficaz de alimentação do lactente",
+              "definicao_Diagnostico": "Capacidade prejudicada de um lactente de sugar ou de coordenar a resposta sucção-deglutição que resulta em nutrição oral inadequada para as necessidades metabólicas.",
+              "codigo_Diagnostico": "00107",
+              "caracteristicas_Definidoras": [
+                "Incapacidade de coordenar a sucção, a deglutição e a respiração",
+                "Incapacidade de iniciar uma sucção eficaz",
+                "Incapacidade de manter uma sucção eficaz"
+              ],
+              "fatores_Relacionados": [
+                "Estado de jejum oral (NPO, do latim nil p er os) prolongado"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Atraso neurológico",
+                "Hipersensibilidade oral",
+                "Prejuízo neurológico"
+              ],
+              "populacoes_Em_Risco": [
+                "Prematuridade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Nutrição desequilibrada: menor do que as necessidades corporais",
+              "definicao_Diagnostico": "Ingestão de nutrientes insuficiente para satisfazer às necessidades metabólicas.",
+              "codigo_Diagnostico": "00002",
+              "caracteristicas_Definidoras": [
+                "Alteração no paladar",
+                "Aversão a alimento",
+                "Cavidade oral ferida",
+                "Cólica abdominal",
+                "Diarreia",
+                "Dor abdominal",
+                "Fragilidade capilar",
+                "Fraqueza dos músculos necessários à deglutição",
+                "Fraqueza dos músculos necessários à mastigação",
+                "Incapacidade percebida de ingestão de alimentos",
+                "Informações incorretas",
+                "Informações insuficientes",
+                "Ingestão de alimentos menor que a ingestão diária recomendada (IDR)",
+                "Interesse insuficiente pelos alimentos",
+                "Membranas mucosas pálidas",
+                "Percepções incorretas",
+                "Perda de peso com ingestão adequada de alimentos",
+                "Perda excessiva de pelos",
+                "Peso corporal 20% ou mais abaixo do ideal",
+                "Ruídos intestinais hiperativos",
+                "Saciedade imediatamente após a ingestão de alimentos",
+                "Tônus muscular insuficiente"
+              ],
+              "fatores_Relacionados": [
+                "Ingestão alimentar insuficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Incapacidade de absorver nutrientes",
+                "Incapacidade de digerir os alimentos",
+                "Incapacidade de ingerir os alimentos",
+                "Transtorno psicológico"
+              ],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente",
+                "Fatores biológicos"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para nutrição melhorada",
+              "definicao_Diagnostico": "Padrão de ingestão de nutrientes que pode ser melhorado.",
+              "codigo_Diagnostico": "00163",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de melhorar a nutrição"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Obesidade",
+              "definicao_Diagnostico": "Condição em que o indivíduo acumula gordura excessiva para a idade e o sexo que excede o sobrepeso.",
+              "codigo_Diagnostico": "00232",
+              "caracteristicas_Definidoras": [
+                "ADULTO: Índice de massa corporal (IMC) > 30 kg/m2",
+                "CRIANÇA < 2 anos: Termo não usado com crianças dessa idade",
+                "2 CRIANÇA 2-18 anos: Índice de massa corporal (IMC) > percentil 95, ou 30 kg/m para a idade e o sexo"
+              ],
+              "fatores_Relacionados": [
+                "Alimentos sólidos como principal fonte alimentar antes dos 5 meses de idade",
+                "Baixo consumo alimentar de cálcio nas crianças",
+                "Comportamento sedentário que ocorre por ≥ 2 horas/dia",
+                "Comportamentos alimentares desorganizados",
+                "Consumo de bebidas açucaradas",
+                "Consumo excessivo de álcool",
+                "Distúrbio do sono",
+                "Frequência alta a restaurantes e de consumo de frituras",
+                "Gasto de energia abaixo da ingestão de energia, com base em avaliação padronizada",
+                "Hábito de “beliscar” alimentos com frequência",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Medo relativo à falta de suprimento de alimentos",
+                "Percepções alimentares desorganizadas",
+                "Tamanhos das porções maiores que os recomendados",
+                "Tempo de sono reduzido"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Distúrbio genético"
+              ],
+              "populacoes_Em_Risco": [
+                "Aumento rápido de peso durante a infância",
+                "Aumento rápido de peso durante a lactância, inclusive na primeira semana, quatro primeiros meses e primeiro ano",
+                "Desfavorecido economicamente",
+                "Diabetes melito materno",
+                "Escore elevado de desinibição e comportamento de contenção alimentar",
+                "Herança de fatores inter-relacionados",
+                "Lactentes alimentados com fórmula ou alimentação mista",
+                "Obesidade paterna/materna",
+                "Pubarca precoce",
+                "Sobrepeso na lactância",
+                "Tabagismo materno"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Sobrepeso",
+              "definicao_Diagnostico": "Condição em que o indivíduo acumula gordura excessiva para a idade e o sexo.",
+              "codigo_Diagnostico": "00233",
+              "caracteristicas_Definidoras": [
+                "ADULTO: Índice de massa corporal (IMC) > 25 kg/m2",
+                "CRIANÇA < 2 anos: Relação peso-altura > percentil 95",
+                "CRIANÇA 2-18 anos: Índice de massa corporal (IMC) > percentil 85, ou 25 kg/m2, mas percentil",
+                "2 < 95, ou 30 kg/m , para a idade e o sexo"
+              ],
+              "fatores_Relacionados": [
+                "Alimentos sólidos como principal fonte alimentar antes dos 5 meses de idade",
+                "Baixo consumo alimentar de cálcio nas crianças",
+                "Comportamento sedentário que ocorre por ≥ 2 horas/dia",
+                "Comportamentos alimentares desorganizados",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Consumo de bebidas açucaradas",
+                "Consumo excessivo de álcool",
+                "Distúrbio do sono",
+                "Frequência alta a restaurantes e de consumo de frituras",
+                "Gasto de energia abaixo da ingestão de energia, com base em avaliação padronizada",
+                "Hábito de “beliscar” alimentos com frequência",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Medo relativo à falta de suprimento de alimentos",
+                "Percepções alimentares desorganizadas",
+                "Tamanhos das porções maiores que os recomendados",
+                "Tempo de sono reduzido"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Distúrbio genético"
+              ],
+              "populacoes_Em_Risco": [
+                "ADULTO: Índice de massa corporal (IMC) próximo de 25 kg/m2",
+                "CRIANÇA < 2 anos: Relação peso-altura próxima do percentil 95",
+                "CRIANÇA 2-18 anos: Índice de massa corporal (IMC) próximo do percentil 85, ou 25 kg/m2",
+                "Aumento rápido de peso durante a infância",
+                "Aumento rápido de peso durante a lactância, inclusive na primeira semana, quatro primeiros meses e primeiro ano",
+                "Crianças com elevados percentis de índice de massa corporal (IMC)",
+                "Crianças que estão ultrapassando percentis de índice de massa corporal (IMC)",
+                "Desfavorecido economicamente",
+                "Diabetes melito materno",
+                "Escore elevado de desinibição e comportamento de contenção alimentar",
+                "Herança de fatores inter-relacionados",
+                "Lactentes alimentados com fórmula ou alimentação mista",
+                "Obesidade na infância",
+                "Obesidade paterna/materna",
+                "Pubarca precoce",
+                "Tabagismo materno"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de sobrepeso",
+              "definicao_Diagnostico": "Suscetibilidade ao acúmulo de gordura excessiva para a idade e o sexo que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00234",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Alimentos sólidos como principal fonte alimentar antes dos 5 meses de idade",
+                "Baixo consumo alimentar de cálcio nas crianças",
+                "Comportamento sedentário que ocorre por ≥ 2 horas/dia",
+                "Comportamentos alimentares desorganizados",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Consumo de bebidas açucaradas",
+                "Consumo excessivo de álcool",
+                "Distúrbio do sono",
+                "Frequência alta a restaurantes e de consumo de frituras",
+                "Gasto de energia abaixo da ingestão de energia, com base em avaliação padronizada",
+                "Hábito de “beliscar” alimentos com frequência",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Medo relativo à falta de suprimento de alimentos",
+                "Percepções alimentares desorganizadas",
+                "Tamanhos das porções maiores que os recomendados",
+                "Tempo de sono reduzido"
+              ],
+              "condicoes_Associadas": [
+                "Distúrbio genético"
+              ],
+              "populacoes_Em_Risco": [
+                "ADULTO: Índice de massa corporal (IMC) próximo de 25 kg/m2",
+                "CRIANÇA < 2 anos: Relação peso-altura próxima do percentil 95",
+                "CRIANÇA 2-18 anos: Índice de massa corporal (IMC) próximo do percentil 85, ou 25 kg/m2",
+                "Aumento rápido de peso durante a infância",
+                "Aumento rápido de peso durante a lactância, inclusive na primeira semana, quatro primeiros meses e primeiro ano",
+                "Crianças com elevados percentis de índice de massa corporal (IMC)",
+                "Crianças que estão ultrapassando percentis de índice de massa corporal (IMC)",
+                "Desfavorecido economicamente",
+                "Diabetes melito materno",
+                "Escore elevado de desinibição e comportamento de contenção alimentar",
+                "Herança de fatores inter-relacionados",
+                "Lactentes alimentados com fórmula ou alimentação mista",
+                "Obesidade na infância",
+                "Obesidade paterna/materna",
+                "Pubarca precoce",
+                "Tabagismo materno"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Digestão",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "",
+              "definicao_Diagnostico": "",
+              "codigo_Diagnostico": "",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Absorção",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "",
+              "definicao_Diagnostico": "",
+              "codigo_Diagnostico": "",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Metabolismo",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Risco de função hepática prejudicada",
+              "definicao_Diagnostico": "Suscetibilidade à diminuição na função hepática que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00178",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de substâncias"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Coinfecção pelo vírus da imunodeficiência humana (HIV)",
+                "Infecção viral"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de glicemia instável",
+              "definicao_Diagnostico": "Suscetibilidade à variação dos níveis séricos de glicose em relação à faixa normal que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00179",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Conhecimento insuficiente sobre o controle da doença",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Controle ineficaz de medicamentos",
+                "Controle insuficiente do diabetes",
+                "Estresse excessivo",
+                "Falta de adesão ao plano de controle do diabetes",
+                "Ganho de peso excessivo",
+                "Ingestão alimentar insuficiente",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Monitoração inadequada da glicemia",
+                "Não aceita o diagnóstico",
+                "Perda de peso excessiva"
+              ],
+              "condicoes_Associadas": [
+                "Gravidez"
+              ],
+              "populacoes_Em_Risco": [
+                "Alteração no estado mental",
+                "Atraso no desenvolvimento cognitivo",
+                "Estado de saúde física comprometido",
+                "Período de crescimento rápido"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Hiperbilirrubinemia neonatal",
+              "definicao_Diagnostico": "Acúmulo de bilirrubina não conjugada na circulação (menos de 15 mL/dL) que ocorre após 24 horas de vida.",
+              "codigo_Diagnostico": "00194",
+              "caracteristicas_Definidoras": [
+                "Esclerótica amarelada",
+                "Hematomas e equimoses na pele",
+                "Membranas mucosas amareladas",
+                "Pele amarelo-alaranjada",
+                "Perfil sanguíneo anormal"
+              ],
+              "fatores_Relacionados": [
+                "Atraso na eliminação do mecônio",
+                "Lactentes com nutrição inadequada",
+                "Padrão de alimentação deficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Hemorragia interna",
+                "Infecção bacteriana",
+                "Infecção pré-natal",
+                "Infecção viral",
+                "Lactente com deficiência enzimática",
+                "Lactente com mau funcionamento hepático",
+                "Sepse"
+              ],
+              "populacoes_Em_Risco": [
+                "Diabetes melito materno",
+                "Etnia asiática-oriental",
+                "Etnia indígena norte-americana",
+                "Idade ≤ 7 dias",
+                "Incompatibilidade de grupo sanguíneo ABO",
+                "Incompatibilidade de tipo sanguíneo entre a mãe e o lactente",
+                "Incompatibilidade do fator Rhesus (Rh)",
+                "Irmão anterior com icterícia",
+                "Lactente com baixo peso ao nascer",
+                "Lactente em aleitamento materno",
+                "Lactente prematuro",
+                "Muitos hematomas/equimoses durante o nascimento",
+                "Populações que vivem em altitudes elevadas"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de hiperbilirrubinemia neonatal",
+              "definicao_Diagnostico": "Suscetibilidade ao acúmulo de bilirrubina não conjugada na circulação (menos de 15 mL/dL) que ocorre após 24 horas de vida e que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00230",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Atraso na eliminação do mecônio",
+                "Lactentes com nutrição inadequada",
+                "Padrão de alimentação deficiente"
+              ],
+              "condicoes_Associadas": [
+                "Hemorragia interna",
+                "Infecção bacteriana",
+                "Infecção pré-natal",
+                "Infecção viral",
+                "Lactente com deficiência enzimática",
+                "Lactente com mau funcionamento hepático",
+                "Sepse"
+              ],
+              "populacoes_Em_Risco": [
+                "Diabetes melito materno",
+                "Etnia asiática-oriental",
+                "Etnia indígena norte-americana",
+                "Idade ≤ 7 dias",
+                "Incompatibilidade de grupo sanguíneo ABO",
+                "Incompatibilidade de tipo sanguíneo entre a mãe e o lactente",
+                "Incompatibilidade do fator Rhesus (Rh)",
+                "Irmão anterior com icterícia",
+                "Lactente com baixo peso ao nascer",
+                "Lactente em aleitamento materno",
+                "Lactente prematuro",
+                "Muitos hematomas/equimoses durante o nascimento",
+                "Populações que vivem em altitudes elevadas"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de síndrome do desequilíbrio metabólico",
+              "definicao_Diagnostico": "Suscetibilidade a um agrupamento tóxico de fatores bioquímicos e fisiológicos associados ao desenvolvimento de doença cardiovascular decorrente de obesidade e diabetes tipo 2 que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00263",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Comportamento de saúde propenso a risco (00188)",
+                "Estilo de vida sedentário (00168)",
+                "Manutenção ineficaz da saúde (00099)",
+                "Obesidade (00232)",
+                "Risco de glicemia instável (00179)",
+                "Sobrecarga de estresse (00177)",
+                "Sobrepeso (00233)"
+              ],
+              "condicoes_Associadas": [
+                "Ácido úrico > 7 mg/dL",
+                "Glicocorticoides endógenos ou exógenos em excesso > 25 g/dL",
+                "Microalbuminúria > 30 mg/dL",
+                "Pressão arterial instável",
+                "Síndrome dos ovários policísticos"
+              ],
+              "populacoes_Em_Risco": [
+                "História familiar de diabetes melito",
+                "História familiar de dislipidemia",
+                "História familiar de hipertensão",
+                "História familiar de obesidade",
+                "Idade > 30 anos"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Hidratação",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Risco de desequilíbrio eletrolítico",
+              "definicao_Diagnostico": "Suscetibilidade a mudanças nos níveis de eletrólitos séricos que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00195",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Diarreia",
+                "Volume de líquidos deficiente",
+                "Volume de líquidos excessivo",
+                "Vômito"
+              ],
+              "condicoes_Associadas": [
+                "Disfunção da regulação endócrina",
+                "Disfunção renal",
+                "Mecanismo de regulação comprometido",
+                "Regime de tratamento"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Volume de líquidos deficiente",
+              "definicao_Diagnostico": "Diminuição do líquido intravascular, intersticial e/ou intracelular. Refere- se à desidratação, perda de água apenas, sem mudança no sódio.",
+              "codigo_Diagnostico": "00027",
+              "caracteristicas_Definidoras": [
+                "Alteração no estado mental",
+                "Alterações no turgor da pele",
+                "Aumento da frequência cardíaca",
+                "Aumento da temperatura corporal",
+                "Aumento na concentração urinária",
+                "Diminuição da pressão arterial",
+                "Diminuição da pressão de pulso",
+                "Diminuição do débito urinário",
+                "Diminuição do enchimento venoso",
+                "Diminuição do turgor da língua",
+                "Diminuição do volume do pulso",
+                "Fraqueza",
+                "Hematócrito aumentado",
+                "Membranas mucosas ressecadas",
+                "Pele ressecada",
+                "Perda súbita de peso",
+                "Sede"
+              ],
+              "fatores_Relacionados": [
+                "Barreira ao acesso a líquidos",
+                "Conhecimento insuficiente sobre necessidades de líquidos",
+                "Ingestão de líquidos insuficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Desvios que afetam a absorção de líquidos",
+                "Desvios que afetam a ingestão de líquidos",
+                "Mecanismo de regulação comprometido",
+                "Perda ativa de volume de líquido",
+                "Perda de líquido por vias anormais",
+                "Perda excessiva de líquido por vias normais"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade",
+                "Extremos de peso",
+                "Fatores que influenciam a necessidade de líquidos"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de volume de líquidos deficiente",
+              "definicao_Diagnostico": "Suscetibilidade à diminuição do volume de líquido intravascular, intersticial e/ou intracelular que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00028",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Barreira ao acesso a líquidos",
+                "Conhecimento insuficiente sobre necessidades de líquido",
+                "Ingestão de líquidos insuficiente"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Desvios que afetam a absorção de líquidos",
+                "Desvios que afetam a ingestão de líquidos",
+                "Mecanismo de regulação comprometido",
+                "Perda ativa de volume de líquido",
+                "Perda de líquido por vias anormais",
+                "Perda excessiva de líquido por vias normais"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade",
+                "Extremos de peso",
+                "Fatores que influenciam a necessidade de líquidos"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Volume de líquidos excessivo",
+              "definicao_Diagnostico": "Entrada excessiva e/ou retenção de líquidos.",
+              "codigo_Diagnostico": "00026",
+              "caracteristicas_Definidoras": [
+                "Alteração na gravidade específica da urina",
+                "Alteração na pressão arterial",
+                "Alteração na pressão arterial pulmonar (PAP)",
+                "Alteração no estado mental",
+                "Alteração no padrão respiratório",
+                "Anasarca",
+                "Ansiedade",
+                "Aumento da pressão venosa central (PVC)",
+                "Azotemia",
+                "Congestão pulmonar",
+                "Derrame pleural",
+                "Desequilíbrio eletrolítico",
+                "Dispneia",
+                "Dispneia paroxística noturna",
+                "Distensão da veia jugular",
+                "Edema",
+                "Ganho de peso em um curto período de tempo",
+                "Hematócrito diminuído",
+                "Hemoglobina diminuída",
+                "Hepatomegalia",
+                "Ingestão maior que a eliminação",
+                "Inquietação",
+                "Oligúria",
+                "Ortopneia",
+                "Presença de 3ª bulha cardíaca (B3)",
+                "Reflexo hepatojugular positivo",
+                "Ruídos adventícios respiratórios"
+              ],
+              "fatores_Relacionados": [
+                "Entrada excessiva de líquidos",
+                "Entrada excessiva de sódio"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Mecanismo de regulação comprometido"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de volume de líquidos desequilibrado",
+              "definicao_Diagnostico": "Suscetibilidade a diminuição, aumento ou rápida mudança de uma localização para outra do líquido intravascular, intersticial e/ou intracelular que pode comprometer a saúde. Refere-se à perda, ao ganho, ou a ambos, dos líquidos corporais.",
+              "codigo_Diagnostico": "00025",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "A serem desenvolvidos"
+              ],
+              "condicoes_Associadas": [
+                "Aférese",
+                "Ascite",
+                "Lesão por queimadura",
+                "Obstrução intestinal",
+                "Pancreatite",
+                "Regime de tratamento",
+                "Sepse",
+                "Trauma"
+              ],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        }
+      ]
+    }
+  ]

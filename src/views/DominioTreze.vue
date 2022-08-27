@@ -1,5 +1,5 @@
 <template>
-    <div class="viewDominioUm">
+    <div class="viewDominioTreze">
       <conteudo-central :objDominio="objDominio" :arrayClasses="arrayClasses" />
     </div>
 </template>
@@ -10,7 +10,7 @@ import { http } from "@/http/configuracao.js";
 import ConteudoCentral from '@/components/ConteudoCentral.vue'
 
 export default {
-  name: 'ViewDominioUm',
+  name: 'ViewDominioTreze',
   components:{ConteudoCentral},
   data() {
       return {
@@ -27,7 +27,7 @@ export default {
   },
 
   mounted() {
-   http.get("/db_Dominios/Dominio1_NANDA_2018_2020.json")
+   http.get("/db_Dominios/Dominio13_NANDA_2018_2020.json")
         .then( (dado) => (  this.getDados(dado.data) ) );
   },
 }

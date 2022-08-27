@@ -1,0 +1,229 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 8",
+          "descricaoDominio": "Sexualidade",
+          "totalClasses": 3
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Identidade sexual",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "",
+              "definicao_Diagnostico": "",
+              "codigo_Diagnostico": "",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Função sexual",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Disfunção sexual",
+              "definicao_Diagnostico": "Estado em que um indivíduo passa por mudança na função sexual, durante as fases de resposta sexual de desejo, excitação e/ou orgasmo, que é vista como insatisfatória, não recompensadora ou inadequada.",
+              "codigo_Diagnostico": "00059",
+              "caracteristicas_Definidoras": [
+                "Alteração na atividade sexual",
+                "Alteração na excitação sexual",
+                "Alteração na satisfação sexual",
+                "Busca de confirmação da qualidade de ser desejável",
+                "Limitação sexual percebida",
+                "Mudança indesejada na função sexual",
+                "Mudança no interesse por outras pessoas",
+                "Mudança no interesse por si mesmo",
+                "Mudança no papel sexual",
+                "Redução do desejo sexual"
+              ],
+              "fatores_Relacionados": [
+                "Abuso psicossocial",
+                "Ausência de privacidade",
+                "Conflito de valores",
+                "Conhecimento insuficiente sobre a função sexual",
+                "Informações incorretas sobre a função sexual",
+                "Modelo inadequado",
+                "Presença de abuso",
+                "Vulnerabilidade"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na estrutura corporal",
+                "Alteração na função corporal"
+              ],
+              "populacoes_Em_Risco": [
+                "Ausência de pessoa significativa"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Padrão de sexualidade ineficaz",
+              "definicao_Diagnostico": "Expressões de preocupação quanto à própria sexualidade.",
+              "codigo_Diagnostico": "00065",
+              "caracteristicas_Definidoras": [
+                "Alteração na atividade sexual",
+                "Alteração no comportamento sexual",
+                "Alteração no relacionamento com pessoa significativa",
+                "Conflito de valores",
+                "Dificuldade com atividade sexual",
+                "Dificuldade com comportamento sexual",
+                "Mudança no papel sexual"
+              ],
+              "fatores_Relacionados": [
+                "Ausência de privacidade",
+                "Conflito sobre orientação sexual",
+                "Conflito sobre variação de preferência",
+                "Conhecimento insuficiente sobre alternativas relacionadas à sexualidade",
+                "Déficit de habilidades sobre alternativas relacionadas à sexualidade",
+                "Medo de gravidez",
+                "Medo de infecção sexualmente transmissível",
+                "Modelo inadequado",
+                "Relacionamento prejudicado com uma pessoa significativa"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Ausência de pessoa significativa"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Reprodução",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Risco de binômio mãe-feto perturbado",
+              "definicao_Diagnostico": "Suscetibilidade à ruptura da relação simbiótica mãe-feto em consequência de comorbidade ou problemas relacionados à gestação que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00209",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de substâncias",
+                "Cuidado pré-natal inadequado",
+                "Presença de abuso"
+              ],
+              "condicoes_Associadas": [
+                "Alteração no metabolismo da glicose",
+                "Complicação gestacional",
+                "Regime de tratamento",
+                "Transferência de oxigênio ao feto comprometida"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Processo perinatológico ineficaz",
+              "definicao_Diagnostico": "Incapacidade de preparar-se para e/ou manter a gestação, o processo de nascimento e os cuidados do recém-nascido saudáveis para assegurar o bem-estar.",
+              "codigo_Diagnostico": "00221",
+              "caracteristicas_Definidoras": [
+                "Durante a gestação",
+                "Acesso insuficiente a sistema de apoio",
+                "Controle ineficaz de sintomas desagradáveis na gestação",
+                "Cuidado pré-natal inadequado",
+                "Estilo de vida pré-natal inadequado",
+                "Plano de nascimento não realista",
+                "Preparo inadequado do ambiente de casa",
+                "Preparo inadequado dos itens necessários ao cuidado do recém-nascido",
+                "Respeito insuficiente pelo bebê ainda não nascido",
+                "Durante o trabalho de parto e o nascimento",
+                "Acesso insuficiente a sistema de apoio",
+                "Comportamento de vínculo insuficiente",
+                "Estilo de vida inadequado para o estágio do trabalho de parto",
+                "Redução da proatividade durante o trabalho de parto e o nascimento",
+                "Resposta inadequada ao início do trabalho de parto",
+                "Após o nascimento",
+                "Acesso insuficiente a sistema de apoio",
+                "Ambiente inseguro para o lactente",
+                "Comportamento de vínculo insuficiente",
+                "Cuidados inadequados com as mamas",
+                "Estilo de vida pós-parto inadequado",
+                "Técnicas inadequadas de cuidados do bebê",
+                "Técnicas inadequadas para alimentar o bebê"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Ambiente inseguro",
+                "Baixa confiança materna",
+                "Conhecimento insuficiente sobre o processo perinatológico",
+                "Cuidado pré-natal insuficiente",
+                "Disposição cognitiva insuficiente para a paternidade/maternidade",
+                "Exemplo paterno/materno insuficiente",
+                "Nutrição materna inadequada",
+                "Plano de nascimento não realista",
+                "Sentimento de impotência materno",
+                "Sistema de apoio insuficiente",
+                "Sofrimento psicológico materno",
+                "Violência doméstica",
+                "Visitas de saúde inconsistentes no pré-natal"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Gravidez não desejada",
+                "Gravidez não planejada"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de processo perinatológico ineficaz",
+              "definicao_Diagnostico": "Suscetibilidade a uma incapacidade de preparar-se para e/ou manter a gestação, o processo de nascimento e os cuidados do recém-nascido saudáveis para assegurar o bem-estar.",
+              "codigo_Diagnostico": "00227",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de substâncias",
+                "Ambiente inseguro",
+                "Baixa confiança materna",
+                "Conhecimento insuficiente sobre o processo perinatológico",
+                "Cuidado pré-natal insuficiente",
+                "Disposição cognitiva insuficiente para a paternidade/maternidade",
+                "Exemplo paterno/materno insuficiente",
+                "Nutrição materna inadequada",
+                "Plano de nascimento não realista",
+                "Sentimento de impotência materno",
+                "Sistema de apoio insuficiente",
+                "Sofrimento psicológico materno",
+                "Violência doméstica",
+                "Visitas de saúde inconsistentes no pré-natal"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Gravidez não desejada",
+                "Gravidez não planejada"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para processo perinatológico melhorado",
+              "definicao_Diagnostico": "Padrão de preparação para e manutenção da gestação, processo de nascimento e cuidados do recém-nascido saudáveis para assegurar o bem-estar que pode ser melhorado.",
+              "codigo_Diagnostico": "00208",
+              "caracteristicas_Definidoras": [
+                "Durante a gestação",
+                "Expressa desejo de aumentar o controle de sintomas desagradáveis na gestação",
+                "Expressa desejo de aumentar o preparo para o recém-nascido",
+                "Expressa desejo de aumentar os conhecimentos sobre o processo perinatológico",
+                "Expressa desejo de melhorar o estilo de vida pré-natal",
+                "Durante o trabalho de parto e o nascimento",
+                "Expressa desejo de aumentar a proatividade durante o trabalho de parto e o nascimento",
+                "Expressa desejo de reforçar um estilo de vida adequado ao estágio do trabalho de parto",
+                "Após o nascimento",
+                "Expressa desejo de aumentar a segurança ambiental para o bebê",
+                "Expressa desejo de aumentar o comportamento de vínculo",
+                "Expressa desejo de aumentar o cuidado das mamas",
+                "Expressa desejo de aumentar o uso de sistemas de apoio",
+                "Expressa desejo de melhorar as técnicas de cuidado do bebê",
+                "Expressa desejo de melhorar as técnicas para alimentar o bebê",
+                "Expressa desejo de melhorar o estilo de vida pós-parto"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        }
+      ]
+    }
+  ]

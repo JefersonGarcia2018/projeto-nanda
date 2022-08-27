@@ -1,0 +1,1583 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 9",
+          "descricaoDominio": "Enfrentamento/tolerância ao estresse",
+          "totalClasses": 3
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Respostas pós-trauma",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Síndrome do estresse por mudança",
+              "definicao_Diagnostico": "Distúrbio fisiológico e/ou psicossocial decorrente de transferência de um ambiente para outro.",
+              "codigo_Diagnostico": "00114",
+              "caracteristicas_Definidoras": [
+                "Alienação",
+                "Alteração no padrão de sono",
+                "Ansiedade (00146)",
+                "Aumento da verbalização de necessidades",
+                "Aumento de doenças",
+                "Aumento dos sintomas físicos",
+                "Baixa autoestima",
+                "Dependência",
+                "Depressão",
+                "Distanciamento",
+                "Estar só",
+                "Falta de vontade de mudar-se",
+                "Frustração",
+                "Insegurança",
+                "Medo (00148)",
+                "Perda da autovalorização",
+                "Perda de identidade",
+                "Pessimismo",
+                "Preocupação",
+                "Preocupação quanto a mudança",
+                "Raiva",
+                "Solidão"
+              ],
+              "fatores_Relacionados": [
+                "Aconselhamento insuficiente anterior à partida",
+                "Barreira linguística",
+                "Estratégias de enfrentamento ineficazes",
+                "Imprevisibilidade da experiência",
+                "Isolamento social",
+                "Mudança ambiental significativa",
+                "Mudança de um ambiente para outro",
+                "Sentimento de impotência",
+                "Sistema de apoio insuficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Competência mental deficiente",
+                "Estado de saúde comprometido",
+                "Funcionamento psicossocial prejudicado"
+              ],
+              "populacoes_Em_Risco": [
+                "História de perda"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de síndrome do estresse por mudança",
+              "definicao_Diagnostico": "Suscetibilidade a distúrbio fisiológico e/ou psicossocial decorrente de transferência de um ambiente para outro que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00149",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Aconselhamento insuficiente anterior à partida",
+                "Barreira linguística",
+                "Estratégias de enfrentamento ineficazes",
+                "Imprevisibilidade da experiência",
+                "Isolamento social",
+                "Mudança ambiental significativa",
+                "Mudança de um ambiente para outro",
+                "Sentimento de impotência",
+                "Sistema de apoio insuficiente"
+              ],
+              "condicoes_Associadas": [
+                "Competência mental deficiente",
+                "Estado de saúde comprometido",
+                "Funcionamento psicossocial prejudicado"
+              ],
+              "populacoes_Em_Risco": [
+                "História de perda"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Síndrome do trauma de estupro",
+              "definicao_Diagnostico": "Resposta mal-adaptada e sustentada a uma penetração sexual forçada, violenta, contra a vontade e o consentimento da vítima.",
+              "codigo_Diagnostico": "00142",
+              "caracteristicas_Definidoras": [
+                "Abuso de substâncias",
+                "Agitação",
+                "Agressão",
+                "Alteração no padrão de sono",
+                "Ansiedade (00146)",
+                "Baixa autoestima",
+                "Choque",
+                "Confusão",
+                "Constrangimento",
+                "Culpa",
+                "Culpar a si mesmo",
+                "Dependência",
+                "Depressão",
+                "Desamparo",
+                "Desorganização",
+                "Disfunção sexual (00059)",
+                "Espasmo muscular",
+                "Estado hiperalerta",
+                "Fobias",
+                "Humilhação",
+                "Medo (00148)",
+                "Mudança no(s) relacionamento(s)",
+                "Negação",
+                "Oscilações no humor",
+                "Paranoia",
+                "Pensamentos de vingança",
+                "Pesadelos",
+                "Raiva",
+                "Sentimento de impotência (00125)",
+                "Tensão muscular",
+                "Tomada de decisões prejudicada",
+                "Trauma físico",
+                "Vergonha",
+                "Vulnerabilidade percebida"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "História de tentativa de suicídio",
+                "Transtorno de identidade dissociativa"
+              ],
+              "populacoes_Em_Risco": [
+                "Estupro"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Síndrome pós-trauma",
+              "definicao_Diagnostico": "Resposta mal-adaptada e sustentada a evento traumático e opressivo.",
+              "codigo_Diagnostico": "00141",
+              "caracteristicas_Definidoras": [
+                "Abuso de substâncias",
+                "Agressão",
+                "Alienação",
+                "Alteração na concentração",
+                "Alteração no humor",
+                "Amnésia dissociativa",
+                "Ansiedade (00146)",
+                "Ataques de pânico",
+                "Cefaleia",
+                "Comportamento compulsivo",
+                "Comportamentos de esquiva",
+                "Culpa",
+                "Depressão",
+                "Desesperança (00124)",
+                "Enurese",
+                "Fúria",
+                "Hipervigilância",
+                "História de afastamento",
+                "Horror",
+                "Irritabilidade",
+                "Irritabilidade neurossensorial",
+                "Irritação gastrintestinal",
+                "Lembranças repetidas dos fatos (flashbacks)",
+                "Medo (00148)",
+                "Negação",
+                "Palpitações cardíacas",
+                "Pensamentos invasivos",
+                "Pesadelos",
+                "Pesar (00136)",
+                "Raiva",
+                "Reação de susto exagerada",
+                "Relata sensação de entorpecimento",
+                "Repressão",
+                "Sonhos invasivos",
+                "Vergonha"
+              ],
+              "fatores_Relacionados": [
+                "Ambiente que não atende às necessidades",
+                "Apoio social insuficiente",
+                "Comportamento de autolesão",
+                "Força do ego diminuída",
+                "Papel de sobrevivente",
+                "Percepção de evento como traumático",
+                "Senso de responsabilidade exagerado"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Acidente grave",
+                "Ameaça grave a entes queridos",
+                "Ameaça grave a si mesmo",
+                "Destruição do lar",
+                "Evento diferente da experiência humana habitual",
+                "Exposição a desastre",
+                "Exposição a epidemias",
+                "Exposição a evento envolvendo múltiplas mortes",
+                "Exposição a guerras",
+                "Forçado a sair de casa",
+                "História de abuso",
+                "História de ser prisioneiro de guerra",
+                "História de tortura",
+                "História de vitimização criminal",
+                "Lesão grave a entes queridos",
+                "Ocupações relacionadas a serviços humanitários",
+                "Persistência de evento traumático",
+                "Testemunhar morte violenta",
+                "Testemunhar mutilação"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de síndrome pós-trauma",
+              "definicao_Diagnostico": "Suscetibilidade a resposta mal-adaptada e sustentada a evento traumático e opressivo que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00145",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Ambiente que não atende às necessidades",
+                "Apoio social insuficiente",
+                "Comportamento de autolesão",
+                "Força do ego diminuída",
+                "Papel de sobrevivente",
+                "Percepção de evento como traumático",
+                "Senso de responsabilidade exagerado"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Acidente grave",
+                "Ameaça grave a entes queridos",
+                "Ameaça grave a si mesmo",
+                "Destruição do lar",
+                "Evento diferente da experiência humana habitual",
+                "Exposição a desastre",
+                "Exposição a epidemias",
+                "Exposição a evento envolvendo múltiplas mortes",
+                "Exposição a guerras",
+                "Forçado a sair de casa",
+                "História de abuso",
+                "História de ser prisioneiro de guerra",
+                "História de tortura",
+                "História de vitimização criminal",
+                "Lesão grave a entes queridos",
+                "Ocupações relacionadas a serviços humanitários",
+                "Persistência de evento traumático",
+                "Testemunhar morte violenta",
+                "Testemunhar mutilação"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de transição complicada na imigração",
+              "definicao_Diagnostico": "Suscetibilidade a sentimentos negativos (solidão, medo, ansiedade) em resposta a consequências insatisfatórias e barreiras culturais à adaptação de um imigrante, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00260",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Apoio social insuficiente no país hospedeiro",
+                "Barreiras culturais no país hospedeiro",
+                "Barreiras linguísticas no país hospedeiro",
+                "Conflitos pais-filhos relativos ao processo de aculturação no país hospedeiro",
+                "Conhecimento insuficiente sobre o processo de acesso a recursos no país hospedeiro",
+                "Discriminação explícita",
+                "Habitação sem condições sanitárias",
+                "Multiplicidade de pessoas desconhecidas no domicílio",
+                "Proprietário do domicílio abusivo",
+                "Superlotação no domicílio",
+                "Trabalho disponível abaixo do nível educacional"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Condição de ilegalidade no país hospedeiro",
+                "Condições perigosas de trabalho com treinamento inadequado",
+                "Expectativas de imigração não satisfeitas",
+                "Exploração do trabalho",
+                "Migração forçada",
+                "Separação da família no país de origem",
+                "Separação dos amigos no país de origem",
+                "Situação econômica precária"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Respostas de enfrentamento",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Ansiedade",
+              "definicao_Diagnostico": "Sentimento vago e incômodo de desconforto ou temor, acompanhado por resposta autonômica (a fonte é frequentemente não específica ou desconhecida para o indivíduo); sentimento de apreensão causado pela antecipação de perigo. É um sinal de alerta que chama a atenção para um perigo iminente e permite ao indivíduo tomar medidas para lidar com a ameaça.",
+              "codigo_Diagnostico": "00146",
+              "caracteristicas_Definidoras": [
+                "Comportamentais",
+                "Age como se examinasse o ambiente",
+                "Contato visual insuficiente",
+                "Gestos de inquietação",
+                "Hipervigilância",
+                "Inquietação",
+                "Insônia",
+                "Movimento sem finalidade",
+                "Olhares de relance",
+                "Preocupações em razão de mudança em eventos da vida",
+                "Produtividade diminuída",
+                "Afetivas",
+                "Agonia",
+                "Apreensão",
+                "Arrependimento",
+                "Atos bruscos",
+                "Desamparo",
+                "Entusiasmo excessivo",
+                "Foco em si próprio",
+                "Incerteza",
+                "Irritabilidade",
+                "Medo",
+                "Nervosismo",
+                "Sensação de inadequação",
+                "Sofrimento",
+                "Suspeição aumentada",
+                "Fisiológicas",
+                "Aumento da tensão",
+                "Aumento da transpiração",
+                "Estremecimentos",
+                "Tensão facial",
+                "Tremores",
+                "Tremores nas mãos",
+                "Voz trêmula",
+                "Simpáticas",
+                "Alteração no padrão respiratório",
+                "Anorexia",
+                "Aumento da frequência cardíaca",
+                "Aumento da frequência respiratória",
+                "Aumento da pressão arterial",
+                "Boca seca",
+                "Diarreia",
+                "Excitação cardiovascular",
+                "Fraqueza",
+                "Movimentos bruscos",
+                "Palpitações cardíacas",
+                "Pupilas dilatadas",
+                "Reflexos rápidos",
+                "Rubor facial",
+                "Vasoconstrição superficial",
+                "Parassimpáticas",
+                "Alteração no padrão de sono",
+                "Desmaio",
+                "Diarreia",
+                "Diminuição da frequência cardíaca",
+                "Diminuição da pressão arterial",
+                "Dor abdominal",
+                "Fadiga",
+                "Formigamento das extremidades",
+                "Frequência urinária",
+                "Hesitação urinária",
+                "Náusea",
+                "Urgência urinária",
+                "Cognitivas",
+                "Alteração na atenção",
+                "Alteração na concentração",
+                "Bloqueio de pensamentos",
+                "Campo de percepção diminuído",
+                "Capacidade diminuída para aprender",
+                "Capacidade diminuída para solucionar problemas",
+                "Confusão",
+                "Consciência dos sintomas fisiológicos",
+                "Esquecimento",
+                "Preocupação",
+                "Ruminação mental",
+                "Tendência a culpar os outros"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Ameaça à condição atual",
+                "Ameaça de morte",
+                "Conflito de valores",
+                "Conflito sobre as metas da vida",
+                "Contágio interpessoal",
+                "Estressores",
+                "Necessidades não atendidas",
+                "Transmissão interpessoal"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Crise maturacional",
+                "Crise situacional",
+                "Exposição a toxinas",
+                "Hereditariedade",
+                "História familiar de ansiedade",
+                "Mudança importante"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Ansiedade relacionada à morte",
+              "definicao_Diagnostico": "Sentimento vago e incômodo de desconforto ou temor gerado por percepções de uma ameaça real ou imaginária à própria existência.",
+              "codigo_Diagnostico": "00147",
+              "caracteristicas_Definidoras": [
+                "Medo da dor relacionada ao morrer",
+                "Medo de desenvolver doença terminal",
+                "Medo de morte prematura",
+                "Medo de perda de capacidades mentais quando estiver morrendo",
+                "Medo de sofrimento ao morrer",
+                "Medo de um processo de morte prolongado",
+                "Medo do processo de morrer",
+                "Pensamentos negativos relacionados à morte e ao morrer",
+                "Preocupação quanto à tensão do cuidador",
+                "Preocupação quanto ao impacto da própria morte sobre pessoa significativa",
+                "Sentimento de impotência",
+                "Tristeza profunda"
+              ],
+              "fatores_Relacionados": [
+                "Antecipação da dor",
+                "Antecipação de consequências adversas de anestesia",
+                "Antecipação de sofrimento",
+                "Antecipação do impacto da própria morte nos outros",
+                "Discussões sobre o assunto “morte”",
+                "Incerteza quanto a encontrar um poder maior",
+                "Incerteza quanto à existência de um poder maior",
+                "Incerteza quanto à vida após a morte",
+                "Incerteza quanto ao prognóstico",
+                "Não aceitação da própria mortalidade",
+                "Observações relacionadas à morte",
+                "Percepção de iminência de morte"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Doença terminal"
+              ],
+              "populacoes_Em_Risco": [
+                "Experiência de quase morte",
+                "Experiência do processo de morrer",
+                "Observações relacionadas ao processo de morrer"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Enfrentamento defensivo",
+              "definicao_Diagnostico": "Projeção repetida de uma autoavaliação falsamente positiva, baseada em um padrão autoprotetor que defende contra ameaças subjacentes percebidas a uma autoestima positiva.",
+              "codigo_Diagnostico": "00071",
+              "caracteristicas_Definidoras": [
+                "Alteração em teste de realidade",
+                "Atitude superior em relação aos outros",
+                "Dificuldade para estabelecer relacionamentos",
+                "Dificuldade para manter relacionamentos",
+                "Distorção da realidade",
+                "Gargalhada hostil",
+                "Hipersensibilidade a críticas",
+                "Hipersensibilidade a uma indelicadeza",
+                "Negação de fraquezas",
+                "Negação de problemas",
+                "Participação insuficiente no tratamento",
+                "Projeção de culpa",
+                "Projeção de responsabilidade",
+                "Racionalização de fracassos",
+                "Ridicularização dos outros",
+                "Seguimento insuficiente do tratamento",
+                "Sentimentos de grandeza"
+              ],
+              "fatores_Relacionados": [
+                "Autoconfiança insuficiente",
+                "Autoexpectativas não realistas",
+                "Confiança insuficiente nos outros",
+                "Conflito entre autopercepção e sistema de valores",
+                "Incerteza",
+                "Medo da humilhação",
+                "Medo de repercussões",
+                "Medo do fracasso",
+                "Resiliência insuficiente",
+                "Sistema de apoio insuficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Enfrentamento ineficaz",
+              "definicao_Diagnostico": "Padrão de avaliação inválida de estressores, com esforços cognitivos e/ou comportamentais, que falha em controlar as demandas relativas ao bem- estar.",
+              "codigo_Diagnostico": "00069",
+              "caracteristicas_Definidoras": [
+                "Abuso de substâncias",
+                "Acesso insuficiente a apoio social",
+                "Alteração na concentração",
+                "Alteração no padrão de sono",
+                "Comportamento de assumir riscos",
+                "Comportamento destrutivo em relação a si mesmo",
+                "Comportamento destrutivo em relação aos outros",
+                "Comportamento voltado a metas insuficiente",
+                "Dificuldade para organizar informações",
+                "Doença frequente",
+                "Estratégias de enfrentamento ineficazes",
+                "Fadiga",
+                "Habilidades insuficientes para a solução de problemas",
+                "Incapacidade de atender às expectativas do papel",
+                "Incapacidade de lidar com uma situação",
+                "Incapacidade de pedir ajuda",
+                "Incapacidade de satisfazer às necessidades básicas",
+                "Incapacidade de seguir informações",
+                "Mudança no padrão de comunicação",
+                "Resolução insuficiente de problemas"
+              ],
+              "fatores_Relacionados": [
+                "Alto grau de ameaça",
+                "Apoio social insuficiente",
+                "Avaliação imprecisa de ameaças",
+                "Confiança inadequada na capacidade de lidar com uma situação",
+                "Estratégias ineficazes para alívio de tensão",
+                "Incapacidade de conservar energias adaptativas",
+                "Oportunidade inadequada de preparar-se para estressores",
+                "Recursos inadequados",
+                "Sensação de controle insuficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Crise maturacional",
+                "Crise situacional"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para enfrentamento melhorado",
+              "definicao_Diagnostico": "Padrão de avaliação válida de estressores, com esforços cognitivos e/ou comportamentais, para controlar as demandas relativas ao bem-estar, que pode ser melhorado.",
+              "codigo_Diagnostico": "00158",
+              "caracteristicas_Definidoras": [
+                "Consciência de possível mudança ambiental",
+                "Expressa desejo de aumentar o conhecimento sobre estratégias para controle do estresse",
+                "Expressa desejo de aumentar o controle de estressores",
+                "Expressa desejo de aumentar o uso de estratégias voltadas à emoção",
+                "Expressa desejo de aumentar o uso de estratégias voltadas ao problema",
+                "Expressa desejo de aumentar o uso de recursos espirituais",
+                "Expressa desejo de melhorar o apoio social"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Enfrentamento familiar comprometido",
+              "definicao_Diagnostico": "Uma pessoa importante, geralmente apoiadora (membro da família, parceiro ou amigo próximo), oferece apoio, conforto, assistência ou encorajamento insuficiente, ineficaz ou comprometido, que pode ser necessário ao paciente para administrar ou dominar as tarefas adaptativas relacionadas a seu desafio de saúde.",
+              "codigo_Diagnostico": "00074",
+              "caracteristicas_Definidoras": [
+                "Comportamento protetor da pessoa de apoio incoerente com a necessidade de autonomia do paciente",
+                "Comportamento protetor da pessoa de apoio incoerente com as habilidades do paciente",
+                "Comportamentos de assistência da pessoa de apoio produzem resultados insatisfatórios",
+                "Limitação na comunicação entre a pessoa de apoio e o paciente",
+                "Paciente preocupa-se com a resposta da pessoa de apoio a problema de saúde",
+                "Paciente queixa-se da resposta da pessoa de apoio a problema de saúde",
+                "Pessoa de apoio afasta-se do paciente",
+                "Pessoa de apoio relata compreensão inadequada que interfere em comportamentos eficazes",
+                "Pessoa de apoio relata conhecimento insuficiente que interfere em comportamentos eficazes",
+                "Pessoa de apoio relata preocupação com a própria reação à necessidade do paciente"
+              ],
+              "fatores_Relacionados": [
+                "Apoio insuficiente dado pelo paciente à pessoa de apoio",
+                "Apoio recíproco insuficiente",
+                "Compreensão incorreta de informações pela pessoa de apoio",
+                "Compreensão insuficiente de informações pela pessoa de apoio",
+                "Desorganização familiar",
+                "Exaustão da capacidade da pessoa de apoio",
+                "Informações incorretas obtidas pela pessoa de apoio",
+                "Informações insuficientes disponíveis à pessoa de apoio",
+                "Preocupação da pessoa de apoio com questões de fora da família",
+                "Situações coexistentes que afetam a pessoa de apoio"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Crise de desenvolvimento vivenciada pela pessoa de apoio",
+                "Crise situacional vivenciada pela pessoa de apoio",
+                "Doença prolongada que esgota capacidades da pessoa de apoio",
+                "Mudança em papéis familiares"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Enfrentamento familiar incapacitado",
+              "definicao_Diagnostico": "Comportamento de pessoa importante (membro da família, parceiro ou amigo próximo) que inabilita suas próprias capacidades e as capacidades do paciente para tratar, de maneira eficaz, das tarefas essenciais para a adaptação de qualquer uma dessas pessoas ao desafio de saúde.",
+              "codigo_Diagnostico": "00073",
+              "caracteristicas_Definidoras": [
+                "Abandono",
+                "Adoção dos sintomas da doença do paciente",
+                "Agitação",
+                "Agressão",
+                "Capacidade prejudicada para a estruturação de uma vida significativa",
+                "Comportamentos familiares prejudiciais ao bem-estar",
+                "Dependência do paciente",
+                "Depressão",
+                "Desconsideração das necessidades do paciente",
+                "Deserção",
+                "Distorção da realidade com relação ao problema de saúde do paciente",
+                "Foco exagerado prolongado no paciente",
+                "Hostilidade",
+                "Individualismo prejudicado",
+                "Intolerância",
+                "Negligência em relação às necessidades básicas do paciente",
+                "Negligência quanto ao regime de tratamento",
+                "Negligência quanto ao relacionamento com membro da família",
+                "Realização das rotinas usuais desconsiderando as necessidades do paciente",
+                "Rejeição",
+                "Sintomas psicossomáticos"
+              ],
+              "fatores_Relacionados": [
+                "Estilos de enfrentamento dissonantes entre a pessoa de apoio e o paciente",
+                "Estilos de enfrentamento dissonantes entre as pessoas de apoio",
+                "Manejo inconsistente da resistência da família ao tratamento",
+                "Pessoa de apoio com sentimentos cronicamente não expressos",
+                "Relacionamentos familiares ambivalentes"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Disposição para enfrentamento familiar melhorado",
+              "definicao_Diagnostico": "Padrão de controle das tarefas adaptativas por pessoa importante (membro da família, parceiro ou amigo próximo) envolvida com o desafio de saúde do paciente que pode ser melhorado.",
+              "codigo_Diagnostico": "00075",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a conexão com outros que tenham passado por situação similar",
+                "Expressa desejo de escolher experiências que otimizem o bem-estar",
+                "Expressa desejo de melhorar a promoção da saúde",
+                "Expressa desejo de melhorar o estilo de vida",
+                "Expressa desejo de reconhecer o impacto de crescimento da crise"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Enfrentamento ineficaz da comunidade",
+              "definicao_Diagnostico": "Padrão de atividades comunitárias de adaptação e resolução de problemas que é insatisfatório para atender às demandas ou necessidades da comunidade.",
+              "codigo_Diagnostico": "00077",
+              "caracteristicas_Definidoras": [
+                "A comunidade não atende às expectativas de seus membros",
+                "Alta incidência de problemas na comunidade",
+                "Estresse excessivo",
+                "Excesso de conflitos na comunidade",
+                "Participação comunitária deficiente",
+                "Percepção de impotência da comunidade",
+                "Percepção de vulnerabilidade da comunidade",
+                "Taxa elevada de doenças na comunidade"
+              ],
+              "fatores_Relacionados": [
+                "Falta de sistemas comunitários",
+                "Recursos comunitários insuficientes",
+                "Recursos inadequados à solução de problemas"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Exposição a desastre",
+                "História de desastre"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para enfrentamento melhorado da comunidade",
+              "definicao_Diagnostico": "Padrão de atividades comunitárias de adaptação e resolução de problemas que atende às demandas ou necessidades da comunidade e que pode ser melhorado.",
+              "codigo_Diagnostico": "00076",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a disponibilidade de programas de relaxamento na comunidade",
+                "Expressa desejo de aumentar a disponibilidade de programas recreativos na comunidade",
+                "Expressa desejo de aumentar a responsabilidade da comunidade para controle de estresse",
+                "Expressa desejo de aumentar os recursos da comunidade para controlar estressores",
+                "Expressa desejo de melhorar a comunicação entre grupos e a comunidade maior",
+                "Expressa desejo de melhorar a comunicação entre membros da comunidade",
+                "Expressa desejo de melhorar a solução de problemas para uma questão identificada",
+                "Expressa desejo de melhorar o planejamento da comunidade para estressores previsíveis"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Sobrecarga de estresse",
+              "definicao_Diagnostico": "Excessivas quantidades e tipos de demandas que requerem ação.",
+              "codigo_Diagnostico": "00177",
+              "caracteristicas_Definidoras": [
+                "Aumento da impaciência",
+                "Aumento da raiva",
+                "Aumento de comportamento de raiva",
+                "Estresse excessivo",
+                "Funcionamento prejudicado",
+                "Impacto negativo do estresse",
+                "Sentir-se pressionado",
+                "Tensão",
+                "Tomada de decisões prejudicada"
+              ],
+              "fatores_Relacionados": [
+                "Estressores",
+                "Estressores repetidos",
+                "Recursos insuficientes"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Medo",
+              "definicao_Diagnostico": "Resposta a uma ameaça percebida que é conscientemente reconhecida como um perigo.",
+              "codigo_Diagnostico": "00148",
+              "caracteristicas_Definidoras": [
+                "Apreensão",
+                "Aumento da pressão arterial",
+                "Aumento da tensão",
+                "Autossegurança diminuída",
+                "Estado de agitação",
+                "Gestos de inquietação",
+                "Náusea",
+                "Palidez",
+                "Pupilas dilatadas",
+                "Sensação de alarme",
+                "Sensação de medo",
+                "Sensação de pânico",
+                "Sensação de receio",
+                "Sensação de terror",
+                "Tensão muscular",
+                "Vômito",
+                "Cognitivas",
+                "Capacidade de aprendizagem diminuída",
+                "Capacidade de resolução de problemas diminuída",
+                "Estímulos entendidos como ameaça",
+                "Identifica o objeto do medo",
+                "Produtividade diminuída",
+                "Comportamentais",
+                "Comportamentos de ataque",
+                "Comportamentos de esquiva",
+                "Estado de alerta aumentado",
+                "Foco direcionado para a fonte do medo",
+                "Impulsividade",
+                "Fisiológicas",
+                "Alteração na resposta fisiológica",
+                "Anorexia",
+                "Aumento da transpiração",
+                "Boca seca",
+                "Diarreia",
+                "Dispneia",
+                "Fadiga"
+              ],
+              "fatores_Relacionados": [
+                "Barreira linguística",
+                "Cenário pouco conhecido",
+                "Reação a um estímulo fóbico",
+                "Reação aprendida a uma ameaça",
+                "Separação do sistema de apoio"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Déficit sensorial"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Negação ineficaz",
+              "definicao_Diagnostico": "Tentativa consciente ou inconsciente de negar o conhecimento ou o significado de um evento para reduzir ansiedade e/ou medo, o que leva a prejuízo da saúde.",
+              "codigo_Diagnostico": "00072",
+              "caracteristicas_Definidoras": [
+                "Afeto inadequado",
+                "Desloca a origem dos sintomas",
+                "Desloca o medo do impacto da condição",
+                "Minimiza os sintomas",
+                "Não admite o impacto da doença na vida",
+                "Não percebe a relevância do perigo",
+                "Não percebe a relevância dos sintomas",
+                "Nega medo da morte",
+                "Nega medo de invalidez",
+                "Recusa da assistência à saúde",
+                "Retarda a procura de assistência à saúde",
+                "Usa comentários de desconsideração ao falar sobre evento causador de sofrimento",
+                "Usa gestos de desconsideração ao falar sobre evento causador de sofrimento",
+                "Utiliza tratamento não aconselhado pelo profissional de saúde"
+              ],
+              "fatores_Relacionados": [
+                "Ameaça de realidade desagradável",
+                "Ansiedade",
+                "Apoio emocional insuficiente",
+                "Estratégias de enfrentamento ineficazes",
+                "Estresse excessivo",
+                "Inadequação percebida ao lidar com emoções fortes",
+                "Medo da morte",
+                "Medo da separação",
+                "Medo de perda da autonomia",
+                "Sensação de controle insuficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Pesar",
+              "definicao_Diagnostico": "Processo normal e complexo que inclui respostas e comportamentos emocionais, físicos, espirituais, sociais e intelectuais, por meio dos quais indivíduos, famílias e comunidades incorporam uma perda real, antecipada ou percebida a suas vidas diárias.",
+              "codigo_Diagnostico": "00136",
+              "caracteristicas_Definidoras": [
+                "Afastamento",
+                "Alteração na função imunológica",
+                "Alteração na função neuroendócrina",
+                "Alteração no nível de atividade",
+                "Alteração no padrão de sonho",
+                "Alteração no padrão de sono",
+                "Comportamento de pânico",
+                "Crescimento pessoal",
+                "Culpa por sentir alívio",
+                "Culpar",
+                "Desespero",
+                "Desorganização",
+                "Dor",
+                "Encontrar sentido na perda",
+                "Manutenção da conexão com o falecido",
+                "Raiva",
+                "Sofrimento",
+                "Sofrimento psicológico"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Antecipação de perda de objeto significativo",
+                "Antecipação de perda de pessoa significativa",
+                "Morte de pessoa significativa",
+                "Perda de objeto significativo"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Pesar complicado",
+              "definicao_Diagnostico": "Distúrbio que ocorre após a morte de pessoa significativa, em que a experiência de sofrimento que acompanha o luto falha em atender às expectativas normais e manifesta-se como prejuízo funcional.",
+              "codigo_Diagnostico": "00135",
+              "caracteristicas_Definidoras": [
+                "Ansiedade",
+                "Baixos níveis de intimidade",
+                "Culpar a si mesmo",
+                "Depressão",
+                "Desconfiança",
+                "Descrença",
+                "Esquiva do pesar",
+                "Estresse excessivo",
+                "Fadiga",
+                "Memórias dolorosas persistentes",
+                "Não aceitação de uma morte",
+                "Preocupação com pensamentos sobre a pessoa falecida",
+                "Procura por uma pessoa falecida",
+                "Raiva",
+                "Redução das funções nos papéis de vida",
+                "Ruminação mental",
+                "Saudade da pessoa falecida",
+                "Sensação de abalo",
+                "Sensação de afastamento dos outros",
+                "Sensação de bem-estar insuficiente",
+                "Sensação de choque",
+                "Sensação de estupor",
+                "Sensação de vazio",
+                "Sofrimento pela separação",
+                "Sofrimento relativo à pessoa falecida",
+                "Sofrimento traumático",
+                "Vivência dos sintomas sentidos pelo falecido"
+              ],
+              "fatores_Relacionados": [
+                "Apoio social insuficiente",
+                "Transtorno emocional"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Morte de pessoa significativa"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de pesar complicado",
+              "definicao_Diagnostico": "Suscetibilidade a distúrbio que ocorre após a morte de pessoa significativa, em que a experiência de sofrimento que acompanha o luto falha em atender às expectativas normais e manifesta-se como prejuízo funcional, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00172",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Apoio social insuficiente",
+                "Transtorno emocional"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Morte de pessoa significativa"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Planejamento de atividade ineficaz",
+              "definicao_Diagnostico": "Incapacidade de preparar-se para um conjunto de ações com tempo estabelecido e sob certas condições.",
+              "codigo_Diagnostico": "00199",
+              "caracteristicas_Definidoras": [
+                "Ansiedade excessiva relativa a uma tarefa a ser enfrentada",
+                "Ausência de um plano",
+                "Habilidades organizacionais insuficientes",
+                "Medo relativo a uma tarefa a ser enfrentada",
+                "Metas não atendidas para a atividade escolhida",
+                "Padrão de fracassos",
+                "Preocupação relativa a uma tarefa a ser assumida",
+                "Recursos insuficientes"
+              ],
+              "fatores_Relacionados": [
+                "Apoio social insuficiente",
+                "Capacidade insuficiente de processar informações",
+                "Comportamento de esquiva diante de uma solução proposta",
+                "Hedonismo",
+                "Percepção irreal de capacidades pessoais",
+                "Percepção irreal do evento"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "História de procrastinação"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de planejamento de atividade ineficaz",
+              "definicao_Diagnostico": "Suscetibilidade a uma incapacidade de preparar-se para um conjunto de ações com tempo estabelecido e sob certas condições que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00226",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Apoio social insuficiente",
+                "Capacidade insuficiente de processar informações",
+                "Comportamento de esquiva diante de uma solução proposta",
+                "Hedonismo",
+                "Percepção irreal de capacidades pessoais",
+                "Percepção irreal do evento"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "História de procrastinação"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Regulação do humor prejudicada",
+              "definicao_Diagnostico": "Estado mental caracterizado por mudanças no humor ou no afeto e que abarca uma série de manifestações afetivas, cognitivas, somáticas e/ou fisiológicas, variando de leves a graves.",
+              "codigo_Diagnostico": "00241",
+              "caracteristicas_Definidoras": [
+                "Afeto triste",
+                "Agitação psicomotora",
+                "Autoestima influenciada",
+                "Autopercepção excessiva",
+                "Concentração prejudicada",
+                "Culpa excessiva",
+                "Culpabilização excessiva de si mesmo",
+                "Desesperança",
+                "Desinibição",
+                "Disforia",
+                "Distanciamento",
+                "Fluxo rápido de pensamentos",
+                "Irritabilidade",
+                "Mudança no comportamento verbal",
+                "Retardo psicomotor"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Alteração no apetite",
+                "Alteração no padrão de sono",
+                "Ansiedade",
+                "Dor",
+                "Função social prejudicada",
+                "Hipervigilância",
+                "Ideias de morte recorrentes",
+                "Ideias de suicídio recorrentes",
+                "Isolamento social",
+                "Mudança no peso",
+                "Solidão"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Doença crônica",
+                "Prejuízo funcional",
+                "Psicose"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Resiliência prejudicada",
+              "definicao_Diagnostico": "Capacidade diminuída de se recuperar de situações adversas ou alteradas percebidas, por meio de um processo dinâmico de adaptação.",
+              "codigo_Diagnostico": "00210",
+              "caracteristicas_Definidoras": [
+                "Aumento renovado do sofrimento",
+                "Baixa autoestima",
+                "Culpa",
+                "Depressão",
+                "Estado de saúde prejudicado",
+                "Estratégias de enfrentamento ineficazes",
+                "Integração ineficaz",
+                "Interesse diminuído pelas atividades acadêmicas",
+                "Interesse diminuído pelas atividades profissionais",
+                "Isolamento social",
+                "Sensação de controle ineficaz",
+                "Vergonha"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Adaptação ineficaz da família",
+                "Apoio social insuficiente",
+                "Controle insuficiente dos impulsos",
+                "Dinâmica familiar perturbada",
+                "Interrupção de rituais familiares",
+                "Múltiplas situações adversas coexistentes",
+                "Paternidade/maternidade inconsistente",
+                "Processos familiares disfuncionais",
+                "Recursos inadequados",
+                "Recursos insuficientes",
+                "Rompimento de papéis na família",
+                "Violência na comunidade",
+                "Vulnerabilidade percebida"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Transtorno psicológico"
+              ],
+              "populacoes_Em_Risco": [
+                "Baixa capacidade intelectual",
+                "Baixo nível educacional materno",
+                "Condição étnica minoritária",
+                "Cronicidade de crise existente",
+                "Dados demográficos que aumentam a possibilidade de má adaptação",
+                "Desfavorecido economicamente",
+                "Doença mental paterna/materna",
+                "Exposição à violência",
+                "Família grande",
+                "Nova crise",
+                "Sexo feminino"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de resiliência prejudicada",
+              "definicao_Diagnostico": "Suscetibilidade a uma capacidade diminuída de se recuperar de situações adversas ou alteradas percebidas, por meio de um processo dinâmico de adaptação, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00211",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de substâncias",
+                "Adaptação ineficaz da família",
+                "Apoio social insuficiente",
+                "Controle insuficiente dos impulsos",
+                "Dinâmica familiar perturbada",
+                "Interrupção de rituais familiares",
+                "Múltiplas situações adversas coexistentes",
+                "Paternidade/maternidade inconsistente",
+                "Processos familiares disfuncionais",
+                "Recursos inadequados",
+                "Recursos insuficientes",
+                "Rompimento de papéis na família",
+                "Violência na comunidade",
+                "Vulnerabilidade percebida"
+              ],
+              "condicoes_Associadas": [
+                "Transtorno psicológico"
+              ],
+              "populacoes_Em_Risco": [
+                "Baixa capacidade intelectual",
+                "Baixo nível educacional materno",
+                "Condição étnica minoritária",
+                "Cronicidade de crise existente",
+                "Dados demográficos que aumentam a possibilidade de má adaptação",
+                "Desfavorecido economicamente",
+                "Doença mental paterna/materna",
+                "Exposição à violência",
+                "Família grande",
+                "Nova crise",
+                "Sexo feminino"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para resiliência melhorada",
+              "definicao_Diagnostico": "Padrão de capacidade de se recuperar de situações adversas ou alteradas percebidas, por meio de um processo dinâmico de adaptação, que pode ser melhorado.",
+              "codigo_Diagnostico": "00212",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a própria responsabilidade pelas ações",
+                "Expressa desejo de aumentar a resiliência",
+                "Expressa desejo de aumentar a segurança ambiental",
+                "Expressa desejo de aumentar a sensação de controle",
+                "Expressa desejo de aumentar o envolvimento em atividades",
+                "Expressa desejo de aumentar o progresso na direção de metas",
+                "Expressa desejo de aumentar o uso de estratégias de enfrentamento",
+                "Expressa desejo de aumentar o uso de estratégias para controle de conflitos",
+                "Expressa desejo de aumentar o uso de recursos",
+                "Expressa desejo de aumentar os recursos disponíveis",
+                "Expressa desejo de melhorar a autoestima",
+                "Expressa desejo de melhorar as habilidades de comunicação",
+                "Expressa desejo de melhorar as relações com os outros",
+                "Expressa desejo de melhorar o estabelecimento de metas",
+                "Expressa desejo de melhorar o sistema de apoio",
+                "Expressa desejo de melhorar uma perspectiva de futuro positiva"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Sentimento de impotência",
+              "definicao_Diagnostico": "Experiência vivida de falta de controle sobre uma situação, inclusive uma percepção de que as próprias ações não afetam, de forma significativa, um resultado.",
+              "codigo_Diagnostico": "00125",
+              "caracteristicas_Definidoras": [
+                "Alienação",
+                "Dependência",
+                "Depressão",
+                "Dúvida em relação ao desempenho do papel",
+                "Frustração quanto à incapacidade de realizar atividades anteriores",
+                "Participação inadequada no cuidado",
+                "Sensação de controle insuficiente",
+                "Vergonha"
+              ],
+              "fatores_Relacionados": [
+                "Ambiente institucional disfuncional",
+                "Ansiedade",
+                "Apoio social insuficiente",
+                "Baixa autoestima",
+                "Conhecimento insuficiente para controlar a situação",
+                "Dor",
+                "Estigmatização",
+                "Estratégias de enfrentamento ineficazes",
+                "Interações interpessoais insuficientes",
+                "Marginalização social",
+                "Papel de cuidador"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Doença",
+                "Doença progressiva",
+                "Imprevisibilidade do curso da doença",
+                "Regime de tratamento complexo"
+              ],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de sentimento de impotência",
+              "definicao_Diagnostico": "Suscetibilidade à experiência vivida de falta de controle sobre uma situação, inclusive uma percepção de que as próprias ações não afetam, de forma significativa, um resultado, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00152",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Ambiente institucional disfuncional",
+                "Ansiedade",
+                "Apoio social insuficiente",
+                "Baixa autoestima",
+                "Conhecimento insuficiente para controlar a situação",
+                "Dor",
+                "Estigmatização",
+                "Estratégias de enfrentamento ineficazes",
+                "Interações interpessoais insuficientes",
+                "Marginalização social",
+                "Papel de cuidador"
+              ],
+              "condicoes_Associadas": [
+                "Doença",
+                "Doença progressiva",
+                "Imprevisibilidade do curso da doença",
+                "Regime de tratamento complexo"
+              ],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para poder melhorado",
+              "definicao_Diagnostico": "Padrão de participação intencional na mudança para o bem-estar que pode ser melhorado.",
+              "codigo_Diagnostico": "00187",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a identificação de escolhas possíveis para uma mudança",
+                "Expressa desejo de aumentar a independência de ações de mudança",
+                "Expressa desejo de aumentar a participação em escolhas sobre a vida diária",
+                "Expressa desejo de aumentar a participação nas escolhas de saúde",
+                "Expressa desejo de aumentar a percepção de possíveis mudanças",
+                "Expressa desejo de aumentar o conhecimento para participação em mudanças",
+                "Expressa desejo de aumentar o envolvimento na mudança",
+                "Expressa desejo de aumentar o poder"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Tristeza crônica",
+              "definicao_Diagnostico": "Padrão cíclico, recorrente e potencialmente progressivo de tristeza disseminada, vivenciada (por pai/mãe, cuidador ou indivíduo com doença crônica ou deficiência) em resposta à perda contínua ao longo da trajetória de uma doença ou deficiência.",
+              "codigo_Diagnostico": "00137",
+              "caracteristicas_Definidoras": [
+                "Sensação que interfere no bem-estar",
+                "Sentimentos negativos devastadores",
+                "Tristeza"
+              ],
+              "fatores_Relacionados": [
+                "Crise no controle da deficiência",
+                "Crise no controle da doença",
+                "Marcos não vivenciados",
+                "Oportunidades perdidas"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Doença crônica",
+                "Incapacidade crônica"
+              ],
+              "populacoes_Em_Risco": [
+                "Crise de desenvolvimento",
+                "Morte de pessoa significativa",
+                "Muito tempo como cuidador"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Estresse neurocomportamental",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Capacidade adaptativa intracraniana diminuída",
+              "definicao_Diagnostico": "Os mecanismos da dinâmica dos fluidos intracranianos que normalmente compensam os aumentos nos volumes intracranianos estão comprometidos, resultando em repetidos aumentos desproporcionais na pressão intracraniana (PIC) em resposta a uma variedade de estímulos nocivos e não nocivos.",
+              "codigo_Diagnostico": "00049",
+              "caracteristicas_Definidoras": [
+                "Aumento desproporcional da pressão intracraniana (PIC) após estímulos",
+                "Curvas da pressão intracraniana (PIC) com grande amplitude",
+                "Elevação de curva da pressão intracraniana de onda corrente (PIC P2)",
+                "Pressão intracraniana (PIC) basal ≥ 10 mmHg",
+                "Repetidos aumentos na pressão intracraniana (PIC) ≥ 10 mmHg por 5 minutos ou mais, após estímulos externos",
+                "Variação no teste de resposta volume-pressão (razão volume-pressão = 2, índice de volume- pressão < 10)"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Aumento sustentado na pressão intracraniana (PIC) de 10-15 mmHg",
+                "Hipotensão sistêmica com hipertensão intracraniana",
+                "Lesão encefálica",
+                "Redução na perfusão cerebral ≤ 50-60 mmHg"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Comportamento desorganizado do lactente",
+              "definicao_Diagnostico": "Desintegração dos sistemas de funcionamento fisiológico e neurocomportamental.",
+              "codigo_Diagnostico": "00116",
+              "caracteristicas_Definidoras": [
+                "Sistema de atenção-interação",
+                "Resposta prejudicada a estímulos sensoriais",
+                "Sistema motor",
+                "Estremecimentos",
+                "Gestos de inquietação",
+                "Hiperextensão das extremidades",
+                "Mãos cerradas em punho",
+                "Mãos espalmadas",
+                "Mãos no rosto",
+                "Movimentos bruscos",
+                "Movimentos descoordenados",
+                "Reação de susto exagerada",
+                "Reflexos primitivos alterados",
+                "Tônus motor prejudicado",
+                "Fisiológicas",
+                "Arritmias",
+                "Bradicardia",
+                "Cor da pele anormal",
+                "Dessaturação do oxigênio",
+                "Intolerância à alimentação",
+                "Sinalização de necessidade de diminuição de estímulos",
+                "Taquicardia",
+                "Problemas regulatórios",
+                "Incapacidade de inibir sobressaltos",
+                "Irritabilidade",
+                "Sistema de organização do estado",
+                "Atividade eletrencefalográfica (EEG) alfa difusa com os olhos fechados",
+                "Choro irritável",
+                "Despertar ativo",
+                "Despertar quieto",
+                "Oscilação de estados"
+              ],
+              "fatores_Relacionados": [
+                "Ambiente físico inadequado",
+                "Conhecimento insuficiente do cuidador sobre indicadores comportamentais",
+                "Contenção insuficiente no ambiente",
+                "Desnutrição do lactente",
+                "Dor",
+                "Estimulação sensorial ambiental insuficiente",
+                "Excesso de estimulação sensorial",
+                "Excesso de estímulos ambientais",
+                "Intolerância à alimentação",
+                "Leitura errada de indicador pelo cuidador",
+                "Privação sensorial"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Distúrbio congênito",
+                "Distúrbio genético",
+                "Doença do lactente",
+                "Função motora prejudicada do lactente",
+                "Função neurológica imatura",
+                "Prejuízo oral do lactente",
+                "Procedimento invasivo"
+              ],
+              "populacoes_Em_Risco": [
+                "Baixa idade pós-concepção",
+                "Exposição pré-natal a teratogênicos",
+                "Prematuridade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de comportamento des organizado do lactente",
+              "definicao_Diagnostico": "Suscetibilidade à desintegração no padrão de modulação dos sistemas de funcionamento fisiológico e neurocomportamental que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00115",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Ambiente físico inadequado",
+                "Conhecimento insuficiente do cuidador sobre indicadores comportamentais",
+                "Contenção insuficiente no ambiente",
+                "Desnutrição do lactente",
+                "Dor",
+                "Estimulação sensorial ambiental insuficiente",
+                "Excesso de estimulação sensorial",
+                "Excesso de estímulos ambientais",
+                "Intolerância à alimentação",
+                "Leitura errada de indicador pelo cuidador",
+                "Privação sensorial"
+              ],
+              "condicoes_Associadas": [
+                "Distúrbio congênito",
+                "Distúrbio genético",
+                "Doença do lactente",
+                "Função motora prejudicada do lactente",
+                "Função neurológica imatura",
+                "Prejuízo oral do lactente",
+                "Procedimento invasivo"
+              ],
+              "populacoes_Em_Risco": [
+                "Baixa idade pós-concepção",
+                "Exposição pré-natal a teratogênicos",
+                "Prematuridade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para comportamento organizado melhorado do lactente",
+              "definicao_Diagnostico": "Padrão de modulação integrado dos sistemas de funcionamento fisiológico e neurocomportamental que pode ser melhorado.",
+              "codigo_Diagnostico": "00117",
+              "caracteristicas_Definidoras": [
+                "Pai/mãe expressa desejo de aumentar o reconhecimento de indicadores",
+                "Pai/mãe expressa desejo de melhorar as condições ambientais",
+                "Pai/mãe expressa desejo de melhorar o reconhecimento dos comportamentos autorreguladores do lactente"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Disreflexia autonômica",
+              "definicao_Diagnostico": "Resposta não inibida do sistema nervoso simpático, que representa uma ameaça à vida, a um estímulo nocivo após lesão de medula espinal na sétima vértebra torácica (T7) ou acima.",
+              "codigo_Diagnostico": "00009",
+              "caracteristicas_Definidoras": [
+                "Bradicardia",
+                "Calafrios",
+                "Congestão conjuntival",
+                "Congestão nasal",
+                "Diaforese acima da lesão",
+                "Dor difusa em diferentes áreas da cabeça",
+                "Dor no peito",
+                "Gosto metálico na boca",
+                "Hipertensão paroxística",
+                "Manchas vermelhas na pele acima da lesão",
+                "Palidez abaixo da lesão",
+                "Parestesia",
+                "Reflexo pilomotor",
+                "Síndrome de Horner",
+                "Taquicardia",
+                "Visão turva"
+              ],
+              "fatores_Relacionados": [
+                "Estímulos gastrintestinais",
+                "Constipação",
+                "Dificuldade de passagem de fezes",
+                "Distensão intestinal",
+                "Enemas",
+                "Estimulação digital",
+                "Impactação fecal",
+                "Supositórios",
+                "Estímulos tegumentares",
+                "Estimulação cutânea",
+                "Ferida",
+                "Irritação da pele",
+                "Queimadura de sol",
+                "Estímulos musculoesqueléticos e neurológicos",
+                "Espasmo",
+                "Estímulos de dor abaixo do nível da lesão",
+                "Estímulos irritantes abaixo do nível da lesão",
+                "Exercícios de amplitude de movimento",
+                "Pressão nos órgãos genitais",
+                "Pressão sobre saliência óssea",
+                "Estímulos situacionais e regulatórios",
+                "Oscilações da temperatura do ambiente",
+                "Posicionamento",
+                "Roupas apertadas",
+                "Estímulos reprodutivos e urológicos",
+                "Distensão da bexiga",
+                "Espasmo da bexiga",
+                "Instrumentação",
+                "Relação sexual",
+                "Outros",
+                "Conhecimento insuficiente do cuidador sobre o processo da doença",
+                "Conhecimento insuficiente sobre o processo da doença"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Abstinência de substância",
+                "Agente farmacêutico",
+                "Cálculos biliares",
+                "Cálculos renais",
+                "Cateterização urinária",
+                "Cistite",
+                "Cisto ovariano",
+                "Dissinergia do esfincter detrusor",
+                "Doença do refluxo esofágico",
+                "Embolia pulmonar",
+                "Epididimite",
+                "Fratura",
+                "Gravidez",
+                "Hemorroidas",
+                "Infecção do trato urinário",
+                "Osso heterotópico",
+                "Patologia do sistema gastrintestinal",
+                "Período de trabalho de parto e nascimento",
+                "Procedimento cirúrgico",
+                "Trombose venosa profunda",
+                "Úlcera gástrica",
+                "Uretrite"
+              ],
+              "populacoes_Em_Risco": [
+                "Ejaculação",
+                "Extremos de temperatura ambiental",
+                "Menstruação"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de disreflexia autonômica",
+              "definicao_Diagnostico": "Suscetibilidade a uma resposta não inibida do sistema nervoso simpático, que representa uma ameaça à vida, pós-choque medular, em indivíduo com lesão de medula espinal ou lesão na sexta vértebra torácica (T6) ou acima (foi demonstrada em pacientes com lesões na sétima vértebra torácica [T7] e na oitava vértebra torácica [T8]), que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00010",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Estímulos gastrintestinais",
+                "Constipação",
+                "Dificuldade de passagem de fezes",
+                "Distensão intestinal",
+                "Enemas",
+                "Estimulação digital",
+                "Impactação fecal",
+                "Supositórios",
+                "Estímulos tegumentares",
+                "Estimulação cutânea",
+                "Ferida",
+                "Irritação da pele",
+                "Queimadura de sol",
+                "Estímulos musculoesqueléticos e neurológicos",
+                "Espasmo",
+                "Estímulos de dor abaixo do nível da lesão",
+                "Estímulos irritantes abaixo do nível da lesão",
+                "Exercícios de amplitude de movimento",
+                "Pressão nos órgãos genitais",
+                "Pressão sobre saliência óssea",
+                "Estímulos situacionais e regulatórios",
+                "Oscilações da temperatura do ambiente",
+                "Posicionamento",
+                "Roupas apertadas",
+                "Estímulos reprodutivos e urológicos",
+                "Distensão da bexiga",
+                "Espasmo da bexiga",
+                "Instrumentação",
+                "Relação sexual",
+                "Outros",
+                "Conhecimento insuficiente do cuidador sobre o processo da doença",
+                "Conhecimento insuficiente sobre o processo da doença"
+              ],
+              "condicoes_Associadas": [
+                "Abstinência de substância",
+                "Agente farmacêutico",
+                "Cálculos biliares",
+                "Cálculos renais",
+                "Cateterização urinária",
+                "Cistite",
+                "Cisto ovariano",
+                "Dissinergia do esfincter detrusor",
+                "Doença do refluxo esofágico",
+                "Embolia pulmonar",
+                "Epididimite",
+                "Fratura",
+                "Gravidez",
+                "Hemorroidas",
+                "Infecção do trato urinário",
+                "Osso heterotópico",
+                "Patologia do sistema gastrintestinal",
+                "Período de trabalho de parto e nascimento",
+                "Procedimento cirúrgico",
+                "Trombose venosa profunda",
+                "Úlcera gástrica",
+                "Uretrite"
+              ],
+              "populacoes_Em_Risco": [
+                "Ejaculação",
+                "Extremos de temperatura ambiental",
+                "Menstruação"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Síndrome de abstinência de substâncias aguda",
+              "definicao_Diagnostico": "Sequelas graves e multifatoriais após cessação repentina de uma substância aditiva.",
+              "codigo_Diagnostico": "00258",
+              "caracteristicas_Definidoras": [
+                "Ansiedade (00146)",
+                "Confusão aguda (00128)",
+                "Distúrbio no padrão de sono (00198)",
+                "Náusea (00134)",
+                "Risco de desequilíbrio eletrolítico (00195)",
+                "Risco de lesão (00035)"
+              ],
+              "fatores_Relacionados": [
+                "Desenvolvimento de dependência do álcool ou de outra substância aditiva",
+                "Desnutrição",
+                "Interrupção repentina de uma substância aditiva",
+                "Uso pesado de substância aditiva ao longo do tempo"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Doença física grave comórbida",
+                "Transtorno mental comórbido"
+              ],
+              "populacoes_Em_Risco": [
+                "História anterior de sintomas de abstinência",
+                "Pessoas idosas"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de síndrome de abstinência de substâncias aguda",
+              "definicao_Diagnostico": "Suscetibilidade a sequelas graves e multifatoriais após cessação repentina de uma substância aditiva que podem comprometer a saúde.",
+              "codigo_Diagnostico": "00259",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Desenvolvimento de dependência do álcool ou de outra substância aditiva",
+                "Desnutrição",
+                "Interrupção repentina de uma substância aditiva",
+                "Uso pesado de substância aditiva ao longo do tempo"
+              ],
+              "condicoes_Associadas": [
+                "Doença física grave comórbida",
+                "Transtorno mental comórbido"
+              ],
+              "populacoes_Em_Risco": [
+                "História anterior de sintomas de abstinência",
+                "Pessoas idosas"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Síndrome de abstinência neonatal",
+              "definicao_Diagnostico": "Conjunto de sintomas de abstinência observados em recém-nascidos como resultado de exposição uterina a substâncias aditivas ou em consequência de controle farmacológico da dor no pós-natal.",
+              "codigo_Diagnostico": "00264",
+              "caracteristicas_Definidoras": [
+                "Comportamento desorganizado do lactente (00116)",
+                "Conforto prejudicado (00214)",
+                "Diarreia (00013)",
+                "Distúrbio no padrão de sono (00198)",
+                "Estresse neurocomportamental",
+                "Padrão ineficaz de alimentação do lactente (00107)",
+                "Risco de aspiração (00039)",
+                "Risco de integridade da pele prejudicada (00047)",
+                "Risco de lesão (00035)",
+                "Risco de termorregulação ineficaz (00274)",
+                "Risco de vínculo prejudicado (00058)"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Exposição iatrogênica a substância para controle da dor após doença crítica ou cirurgia",
+                "Exposição uterina secundária a uso de substância pela mãe",
+                "Recomenda-se o Finnegan Neonatal Abstinence Scoring Tool (FNAST) (Instrumento de Classificação de Abstinência Neonatal de Finnegan) para avaliação de sintomas de abstinência e tomada de decisões relativas ao plano de cuidados. Um escore de 8 ou mais no FNAST, combinado com uma história de exposição uterina a substâncias, costuma ser usado para a elaboração do diagnóstico de Síndrome de abstinência neonatal. Esse instrumento foi elaborado e tem uso predominante nos Estados Unidos e",
+                "outros países ocidentais, então pode não ser apropriada a sua recomendação à comunidade internacional."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

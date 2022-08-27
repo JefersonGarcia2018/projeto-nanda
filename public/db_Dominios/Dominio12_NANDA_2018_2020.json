@@ -1,0 +1,445 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 12",
+          "descricaoDominio": "Conforto",
+          "totalClasses": 3
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Conforto físico",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Conforto prejudicado",
+              "definicao_Diagnostico": "Percepção de falta de conforto, de alívio e de transcendência nas dimensões física, psicoespiritual, ambiental, cultural e/ou social.",
+              "codigo_Diagnostico": "00214",
+              "caracteristicas_Definidoras": [
+                "Alteração no padrão de sono",
+                "Ansiedade",
+                "Choro",
+                "Desconforto com a situação",
+                "Descontentamento com a situação",
+                "Incapacidade de relaxar",
+                "Inquietação",
+                "Irritabilidade",
+                "Lamento",
+                "Medo",
+                "Prurido",
+                "Sensação de calor",
+                "Sensação de desconforto",
+                "Sensação de fome",
+                "Sensação de frio",
+                "Sintomas de sofrimento",
+                "Suspiros"
+              ],
+              "fatores_Relacionados": [
+                "Controle ambiental insuficiente",
+                "Controle situacional insuficiente",
+                "Estímulos ambientais nocivos",
+                "Privacidade insuficiente",
+                "Recursos insuficientes"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Regime de tratamento",
+                "Sintomas relacionados a doença",
+                "Este diagnóstico está classificado na Classe 1 (Conforto físico), na Classe 2 (Conforto ambiental) e na Classe 3 (Conforto social)."
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Disposição para conforto melhorado",
+              "definicao_Diagnostico": "Padrão de conforto, alívio e transcendência nas dimensões física, psicoespiritual, ambiental e/ou social que pode ser melhorado.",
+              "codigo_Diagnostico": "00183",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a sensação de contentamento",
+                "Expressa desejo de aumentar o conforto",
+                "Expressa desejo de aumentar o relaxamento",
+                "Expressa desejo de melhorar a resolução das queixas",
+                "Este diagnóstico está classificado na Classe 1 (Conforto físico), na Classe 2 (Conforto ambiental) e na Classe 3 (Conforto social)."
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Dor aguda",
+              "definicao_Diagnostico": "Experiência sensorial e emocional desagradável associada a lesão tissular real ou potencial, ou descrita em termos de tal lesão (International Association for the Study of Pain); início súbito ou lento, de intensidade leve a intensa, com término antecipado ou previsível e com duração menor que 3 meses.",
+              "codigo_Diagnostico": "00132",
+              "caracteristicas_Definidoras": [
+                "Alteração no apetite",
+                "Alteração no parâmetro fisiológico",
+                "Autorrelato da intensidade usando escala padronizada da dor",
+                "Autorrelato das características da dor usando instrumento padronizado de dor",
+                "Comportamento de distração",
+                "Comportamento expressivo",
+                "Comportamento protetor",
+                "Desesperança",
+                "Diaforese",
+                "Espasmo muscular que minimiza o movimento da área afetada",
+                "Evidência de dor usando uma lista padronizada de comportamento de dor para quem não consegue se comunicar verbalmente",
+                "Expressão facial de dor",
+                "Foco em si próprio",
+                "Foco estreitado",
+                "Posição para aliviar a dor",
+                "Pupilas dilatadas",
+                "Representante relata comportamento de dor/alterações nas atividades"
+              ],
+              "fatores_Relacionados": [
+                "Agente biológico lesivo",
+                "Agente físico lesivo",
+                "Agente químico lesivo"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Dor crônica",
+              "definicao_Diagnostico": "Experiência sensorial e emocional desagradável associada a lesão tissular real ou potencial, ou descrita em termos de tal lesão (International Association for the Study of Pain); início súbito ou lento, de intensidade leve a intensa, constante ou recorrente, sem término antecipado ou previsível e com duração maior que 3 meses.",
+              "codigo_Diagnostico": "00133",
+              "caracteristicas_Definidoras": [
+                "Alteração da capacidade de continuar atividades prévias",
+                "Alteração no padrão de sono",
+                "Anorexia",
+                "Autorrelato da intensidade usando escala padronizada da dor",
+                "Autorrelato das características da dor usando instrumento padronizado de dor",
+                "Evidência de dor usando uma lista padronizada de comportamento de dor para quem não consegue se comunicar verbalmente",
+                "Expressão facial de dor",
+                "Foco em si próprio",
+                "Representante relata comportamento de dor/alterações nas atividades"
+              ],
+              "fatores_Relacionados": [
+                "Agente lesivo",
+                "Alteração no padrão de sono",
+                "Aumento no índice de massa corporal",
+                "Compressão de nervo",
+                "Desnutrição",
+                "Fadiga",
+                "Isolamento social",
+                "Manuseio repetido de cargas pesadas",
+                "Padrão de sexualidade ineficaz",
+                "Sofrimento emocional",
+                "Uso prolongado do computador",
+                "Vibração em todo o corpo"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Aumento prolongado no nível de cortisol",
+                "Condição isquêmica",
+                "Condição musculoesquelética crônica",
+                "Condição relativa a pós-trauma",
+                "Contusão",
+                "Dano ao sistema nervoso",
+                "Desequilíbrio de neurotransmissores, neuromoduladores e receptores",
+                "Distúrbio genético",
+                "Distúrbio imunológico",
+                "Fratura",
+                "Função metabólica prejudicada",
+                "Infiltração de tumor",
+                "Lesão da medula espinal",
+                "Lesão muscular",
+                "Lesão por esmagamento"
+              ],
+              "populacoes_Em_Risco": [
+                "História de abuso",
+                "História de abuso de substâncias",
+                "História de excesso de dívidas",
+                "História de exercício vigoroso",
+                "História de mutilação genital",
+                "História de posturas de trabalho estáticas",
+                "Idade > 50 anos",
+                "Sexo feminino"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Síndrome da dor crônica",
+              "definicao_Diagnostico": "Dor recorrente ou persistente há no mínimo 3 meses e que afeta significativamente o funcionamento diário ou o bem-estar.",
+              "codigo_Diagnostico": "00255",
+              "caracteristicas_Definidoras": [
+                "Ansiedade (00146)",
+                "Conhecimento deficiente (00126)",
+                "Constipação (00011)",
+                "Distúrbio no padrão de sono (00198)",
+                "Fadiga (00093)",
+                "Insônia (00095)",
+                "Isolamento social (00053)",
+                "Medo (00148)",
+                "Mobilidade física prejudicada (00085)",
+                "Obesidade (00232)",
+                "Regulação do humor prejudicada (00241)",
+                "Sobrecarga de estresse (00177)"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Dor no trabalho de parto",
+              "definicao_Diagnostico": "Experiência sensorial e emocional, que varia de agradável a desagradável, associada ao trabalho de parto e nascimento da criança.",
+              "codigo_Diagnostico": "00256",
+              "caracteristicas_Definidoras": [
+                "Alteração na frequência cardíaca",
+                "Alteração na frequência respiratória",
+                "Alteração na função neuroendócrina",
+                "Alteração na função urinária",
+                "Alteração na pressão arterial",
+                "Alteração na tensão muscular",
+                "Alteração no padrão de sono",
+                "Apetite aumentado",
+                "Apetite reduzido",
+                "Comportamento de distração",
+                "Comportamento expressivo",
+                "Comportamento protetor",
+                "Contração uterina",
+                "Diaforese",
+                "Dor",
+                "Expressão facial de dor",
+                "Foco em si próprio",
+                "Foco estreitado",
+                "Náusea",
+                "Posição para aliviar a dor",
+                "Pressão no períneo",
+                "Pupilas dilatadas",
+                "Vômito"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Dilatação cervical",
+                "Expulsão do feto"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Náusea",
+              "definicao_Diagnostico": "Fenômeno subjetivo de uma sensação desagradável na parte de trás da garganta e do estômago que pode ou não resultar em vômito.",
+              "codigo_Diagnostico": "00134",
+              "caracteristicas_Definidoras": [
+                "Ânsia de vômito",
+                "Aversão à comida",
+                "Deglutição aumentada",
+                "Sabor amargo",
+                "Salivação aumentada"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Estímulos ambientais nocivos",
+                "Estímulos visuais desagradáveis",
+                "Exposição a toxinas",
+                "Medo",
+                "Sabores nocivos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Disfunção bioquímica",
+                "Distensão da cápsula do fígado",
+                "Distensão da cápsula esplênica",
+                "Distensão gástrica",
+                "Doença de Ménière",
+                "Doença esofágica",
+                "Doença pancreática",
+                "Enjoo causado pelo movimento",
+                "Gravidez",
+                "Irritação gastrintestinal",
+                "Labirintite",
+                "Meningite",
+                "Pressão intracraniana (PIC) elevada",
+                "Regime de tratamento",
+                "Transtorno psicológico",
+                "Tumor localizado",
+                "Tumores intra-abdominais"
+              ],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Conforto ambiental",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Conforto prejudicado",
+              "definicao_Diagnostico": "Percepção de falta de conforto, de alívio e de transcendência nas dimensões física, psicoespiritual, ambiental, cultural e/ou social.",
+              "codigo_Diagnostico": "00214",
+              "caracteristicas_Definidoras": [
+                "Alteração no padrão de sono",
+                "Ansiedade",
+                "Choro",
+                "Desconforto com a situação",
+                "Descontentamento com a situação",
+                "Incapacidade de relaxar",
+                "Inquietação",
+                "Irritabilidade",
+                "Lamento",
+                "Medo",
+                "Prurido",
+                "Sensação de calor",
+                "Sensação de desconforto",
+                "Sensação de fome",
+                "Sensação de frio",
+                "Sintomas de sofrimento",
+                "Suspiros"
+              ],
+              "fatores_Relacionados": [
+                "Controle ambiental insuficiente",
+                "Controle situacional insuficiente",
+                "Estímulos ambientais nocivos",
+                "Privacidade insuficiente",
+                "Recursos insuficientes"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Regime de tratamento",
+                "Sintomas relacionados a doença",
+                "Este diagnóstico está classificado na Classe 1 (Conforto físico), na Classe 2 (Conforto ambiental) e na Classe 3 (Conforto social)."
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Disposição para conforto melhorado",
+              "definicao_Diagnostico": "Padrão de conforto, alívio e transcendência nas dimensões física, psicoespiritual, ambiental e/ou social que pode ser melhorado.",
+              "codigo_Diagnostico": "00183",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a sensação de contentamento",
+                "Expressa desejo de aumentar o conforto",
+                "Expressa desejo de aumentar o relaxamento",
+                "Expressa desejo de melhorar a resolução das queixas",
+                "Este diagnóstico está classificado na Classe 1 (Conforto físico), na Classe 2 (Conforto ambiental) e na Classe 3 (Conforto social)."
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Conforto social",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Conforto prejudicado",
+              "definicao_Diagnostico": "Percepção de falta de conforto, de alívio e de transcendência nas dimensões física, psicoespiritual, ambiental, cultural e/ou social.",
+              "codigo_Diagnostico": "00214",
+              "caracteristicas_Definidoras": [
+                "Alteração no padrão de sono",
+                "Ansiedade",
+                "Choro",
+                "Desconforto com a situação",
+                "Descontentamento com a situação",
+                "Incapacidade de relaxar",
+                "Inquietação",
+                "Irritabilidade",
+                "Lamento",
+                "Medo",
+                "Prurido",
+                "Sensação de calor",
+                "Sensação de desconforto",
+                "Sensação de fome",
+                "Sensação de frio",
+                "Sintomas de sofrimento",
+                "Suspiros"
+              ],
+              "fatores_Relacionados": [
+                "Controle ambiental insuficiente",
+                "Controle situacional insuficiente",
+                "Estímulos ambientais nocivos",
+                "Privacidade insuficiente",
+                "Recursos insuficientes"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Regime de tratamento",
+                "Sintomas relacionados a doença",
+                "Este diagnóstico está classificado na Classe 1 (Conforto físico), na Classe 2 (Conforto ambiental) e na Classe 3 (Conforto social)."
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Disposição para conforto melhorado",
+              "definicao_Diagnostico": "Padrão de conforto, alívio e transcendência nas dimensões física, psicoespiritual, ambiental e/ou social que pode ser melhorado.",
+              "codigo_Diagnostico": "00183",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a sensação de contentamento",
+                "Expressa desejo de aumentar o conforto",
+                "Expressa desejo de aumentar o relaxamento",
+                "Expressa desejo de melhorar a resolução das queixas",
+                "Este diagnóstico está classificado na Classe 1 (Conforto físico), na Classe 2 (Conforto ambiental) e na Classe 3 (Conforto social)."
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Isolamento social",
+              "definicao_Diagnostico": "Solidão sentida pelo indivíduo e percebida como imposta por outros e como um estado negativo ou ameaçador.",
+              "codigo_Diagnostico": "00053",
+              "caracteristicas_Definidoras": [
+                "Ações repetitivas",
+                "Ações sem sentido",
+                "Afeto superficial",
+                "Afeto triste",
+                "Ausência de propósito",
+                "Ausência de sistema de apoio",
+                "Condição incapacitante",
+                "Contato visual insuficiente",
+                "Desejo de estar sozinho",
+                "Doença",
+                "História de rejeição",
+                "Hostilidade",
+                "Incapacidade de atender às expectativas de outros",
+                "Incongruência cultural",
+                "Insegurança em público",
+                "Membro de uma subcultura",
+                "Preocupação com os próprios pensamentos",
+                "Retraimento",
+                "Sentir-se diferente dos outros",
+                "Solidão imposta por outros",
+                "Valores incoerentes com as normas culturais"
+              ],
+              "fatores_Relacionados": [
+                "Comportamento social incoerente com as normas",
+                "Dificuldade para estabelecer relacionamentos",
+                "Incapacidade de engajar-se em relacionamentos pessoais satisfatórios",
+                "Interesses inadequados para o nível de desenvolvimento",
+                "Recursos pessoais insuficientes",
+                "Valores incoerentes com as normas culturais"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na aparência física",
+                "Alteração no bem-estar",
+                "Alteração no estado mental"
+              ],
+              "populacoes_Em_Risco": [
+                "Atraso no desenvolvimento"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de solidão",
+              "definicao_Diagnostico": "Suscetibilidade a desconforto associado a desejo ou necessidade de ter mais contato com os outros que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00054",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Isolamento físico",
+                "Isolamento social",
+                "Privação afetiva",
+                "Privação emocional"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        }
+      ]
+    }
+  ]

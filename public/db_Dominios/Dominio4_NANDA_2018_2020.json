@@ -1,0 +1,1215 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 4",
+          "descricaoDominio": "Atividade/repouso",
+          "totalClasses": 5
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Sono/repouso",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Insônia",
+              "definicao_Diagnostico": "Distúrbio na quantidade e qualidade do sono que prejudica o desempenho normal das funções da vida diária.",
+              "codigo_Diagnostico": "00095",
+              "caracteristicas_Definidoras": [
+                "Acordar cedo demais",
+                "Alteração na concentração",
+                "Alteração no afeto",
+                "Alteração no humor",
+                "Alteração no padrão de sono",
+                "Aumento de acidentes",
+                "Aumento do absenteísmo",
+                "Dificuldade para iniciar o sono",
+                "Dificuldade para manter o sono",
+                "Distúrbio do sono que produz consequências no dia seguinte",
+                "Energia insuficiente",
+                "Estado de saúde comprometido",
+                "Insatisfação com o sono",
+                "Padrão de sono não restaurador",
+                "Redução na qualidade de vida"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Barreira ambiental",
+                "Cochilos frequentes durante o dia",
+                "Consumo de álcool",
+                "Depressão",
+                "Desconforto físico",
+                "Estressores",
+                "Higiene do sono inadequada",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Medo",
+                "Pesar"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração hormonal"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Distúrbio no padrão de sono",
+              "definicao_Diagnostico": "Despertares com tempo limitado em razão de fatores externos.",
+              "codigo_Diagnostico": "00198",
+              "caracteristicas_Definidoras": [
+                "Despertar não intencional",
+                "Dificuldade no desempenho das funções diárias",
+                "Dificuldade para iniciar o sono",
+                "Dificuldade para manter o sono",
+                "Insatisfação com o sono",
+                "Não se sentir descansado"
+              ],
+              "fatores_Relacionados": [
+                "Barreira ambiental",
+                "Interrupção causada pelo parceiro de sono",
+                "Padrão de sono não restaurador",
+                "Privacidade insuficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Imobilização"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Privação de sono",
+              "definicao_Diagnostico": "Períodos prolongados de tempo sem suspensão sustentada natural e periódica do estado de consciência relativa que proporciona o descanso.",
+              "codigo_Diagnostico": "00096",
+              "caracteristicas_Definidoras": [
+                "Agitação",
+                "Alteração na concentração",
+                "Alucinações",
+                "Ansiedade",
+                "Apatia",
+                "Capacidade funcional diminuída",
+                "Combatividade",
+                "Confusão",
+                "Estado de sonolência",
+                "Fadiga",
+                "Inquietação",
+                "Irritabilidade",
+                "Letargia",
+                "Mal-estar",
+                "Nistagmo passageiro",
+                "Paranoia transitória",
+                "Sensibilidade aumentada à dor",
+                "Tempo de resposta prolongado",
+                "Transtornos perceptivos",
+                "Tremores nas mãos"
+              ],
+              "fatores_Relacionados": [
+                "Ambiente excessivamente estimulante",
+                "Assincronia circadiana prolongada",
+                "Barreira ambiental",
+                "Confusão no final do dia",
+                "Desconforto prolongado",
+                "Higiene do sono inadequada por tempo prolongado",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Mudanças de estágios de sono relacionadas à idade",
+                "Padrão de sono não restaurador",
+                "Sonambulismo",
+                "Terror noturno"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Apneia do sono",
+                "Condições com movimento periódico de membros",
+                "Demência",
+                "Enurese relacionada ao sono",
+                "Ereções dolorosas relacionadas ao sono",
+                "Hipersonolência idiopática do sistema nervoso central",
+                "Narcolepsia",
+                "Pesadelos",
+                "Regime de tratamento"
+              ],
+              "populacoes_Em_Risco": [
+                "Paralisia do sono familiar"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para sono melhorado",
+              "definicao_Diagnostico": "Padrão de suspensão natural e periódica da consciência relativa para propiciar o descanso, sustentando um estilo de vida desejável, que pode ser melhorado.",
+              "codigo_Diagnostico": "00165",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de melhorar o sono"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Atividade/exercício",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Capacidade de transferência prejudicada",
+              "definicao_Diagnostico": "Limitação de movimento independente entre duas superfícies próximas.",
+              "codigo_Diagnostico": "00090",
+              "caracteristicas_Definidoras": [
+                "Capacidade prejudicada de transferir-se entre a cadeira e a posição em pé",
+                "Capacidade prejudicada de transferir-se entre a cadeira e o chão",
+                "Capacidade prejudicada de transferir-se entre a cama e a cadeira",
+                "Capacidade prejudicada de transferir-se entre a cama e a posição em pé",
+                "Capacidade prejudicada de transferir-se entre o carro e a cadeira",
+                "Capacidade prejudicada de transferir-se entre o chão e a posição em pé",
+                "Capacidade prejudicada de transferir-se entre superfícies de níveis diferentes",
+                "Capacidade prejudicada de transferir-se para dentro ou para fora da banheira",
+                "Capacidade prejudicada de transferir-se para dentro ou para fora do local do chuveiro",
+                "Capacidade prejudicada de transferir-se para ou da cadeira higiênica",
+                "Capacidade prejudicada de transferir-se para ou do vaso sanitário"
+              ],
+              "fatores_Relacionados": [
+                "Barreira ambiental",
+                "Conhecimento insuficiente sobre as técnicas de transferência",
+                "Dor",
+                "Equilíbrio prejudicado",
+                "Falta de condicionamento físico",
+                "Força muscular insuficiente",
+                "Obesidade"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Prejuízo musculoesquelético",
+                "Prejuízo neuromuscular",
+                "Visão prejudicada"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Deambulação prejudicada",
+              "definicao_Diagnostico": "Limitação do movimento de andar no ambiente de forma independente.",
+              "codigo_Diagnostico": "00088",
+              "caracteristicas_Definidoras": [
+                "Capacidade prejudicada de andar em aclive",
+                "Capacidade prejudicada de andar em declive",
+                "Capacidade prejudicada de andar sobre superfícies irregulares",
+                "Capacidade prejudicada de andar uma distância necessária",
+                "Capacidade prejudicada de subir e descer de calçadas (meio-fio)",
+                "Capacidade prejudicada de subir escadas"
+              ],
+              "fatores_Relacionados": [
+                "Alteração no humor",
+                "Barreira ambiental",
+                "Conhecimento insuficiente sobre estratégias de mobilidade",
+                "Dor",
+                "Falta de condicionamento físico",
+                "Força muscular insuficiente",
+                "Medo de quedas",
+                "Obesidade",
+                "Resistência diminuída"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Equilíbrio prejudicado",
+                "Prejuízo musculoesquelético",
+                "Prejuízo neuromuscular",
+                "Visão prejudicada"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Levantar-se prejudicado",
+              "definicao_Diagnostico": "Limitação da capacidade para, de maneira independente e intencional, atingir e/ou manter o corpo em posição ereta, dos pés à cabeça.",
+              "codigo_Diagnostico": "00238",
+              "caracteristicas_Definidoras": [
+                "Capacidade prejudicada de adaptar a posição de um ou ambos os membros inferiores sobre superfície irregular",
+                "Capacidade prejudicada de conseguir uma posição de equilíbrio do torso",
+                "Capacidade prejudicada de estender um ou ambos os joelhos",
+                "Capacidade prejudicada de estender um ou ambos os quadris",
+                "Capacidade prejudicada de flexionar um ou ambos os joelhos",
+                "Capacidade prejudicada de flexionar um ou ambos os quadris",
+                "Capacidade prejudicada de manter o torso em posição equilibrada",
+                "Capacidade prejudicada de tensionar o torso com o peso do corpo"
+              ],
+              "fatores_Relacionados": [
+                "Desnutrição",
+                "Dor",
+                "Energia insuficiente",
+                "Força muscular insuficiente",
+                "Obesidade",
+                "Postura de alívio autoimposta",
+                "Resistência insuficiente",
+                "Transtorno emocional"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Distúrbio da perfusão circulatória",
+                "Distúrbio neurológico",
+                "Função metabólica prejudicada",
+                "Lesão em extremidade inferior",
+                "Postura recomendada",
+                "Procedimento cirúrgico",
+                "Sarcopenia"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Mobilidade com cadeira de rodas prejudicada",
+              "definicao_Diagnostico": "Limitação de operar uma cadeira de rodas de forma independente pelo ambiente.",
+              "codigo_Diagnostico": "00089",
+              "caracteristicas_Definidoras": [
+                "Capacidade prejudicada de operar cadeira de rodas manual em aclive",
+                "Capacidade prejudicada de operar cadeira de rodas manual em declive",
+                "Capacidade prejudicada de operar cadeira de rodas manual em superfície regular",
+                "Capacidade prejudicada de operar cadeira de rodas manual em superfície irregular",
+                "Capacidade prejudicada de operar cadeira de rodas manual no meio-fio",
+                "Capacidade prejudicada de operar cadeira de rodas motorizada em aclive",
+                "Capacidade prejudicada de operar cadeira de rodas motorizada em declive",
+                "Capacidade prejudicada de operar cadeira de rodas motorizada em superfície regular",
+                "Capacidade prejudicada de operar cadeira de rodas motorizada em superfície irregular",
+                "Capacidade prejudicada de operar cadeira de rodas motorizada no meio-fio"
+              ],
+              "fatores_Relacionados": [
+                "Alteração no humor",
+                "Barreira ambiental",
+                "Conhecimento insuficiente sobre o uso da cadeira de rodas",
+                "Dor",
+                "Falta de condicionamento físico",
+                "Força muscular insuficiente",
+                "Obesidade",
+                "Resistência diminuída"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Prejuízo musculoesquelético",
+                "Prejuízo neuromuscular",
+                "Visão prejudicada"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Mobilidade física prejudicada",
+              "definicao_Diagnostico": "Limitação no movimento independente e voluntário do corpo ou de uma ou mais extremidades.",
+              "codigo_Diagnostico": "00085",
+              "caracteristicas_Definidoras": [
+                "Alteração na marcha",
+                "Desconforto",
+                "Dificuldade para virar-se",
+                "Dispneia ao esforço",
+                "Envolvimento em substituições do movimento",
+                "Instabilidade postural",
+                "Movimentos descoordenados",
+                "Movimentos espásticos",
+                "Movimentos lentos",
+                "Redução na amplitude de movimentos",
+                "Redução nas habilidades motoras finas",
+                "Redução nas habilidades motoras grossas",
+                "Tempo de resposta prolongado",
+                "Tremor induzido pelo movimento"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Apoio ambiental insuficiente",
+                "Conhecimento insuficiente sobre o valor da atividade física",
+                "Controle muscular diminuído",
+                "Crenças culturais em relação às atividades aceitáveis",
+                "Depressão",
+                "Desnutrição",
+                "Desuso",
+                "Dor",
+                "Estilo de vida sedentário",
+                "Falta de condicionamento físico",
+                "Força muscular diminuída",
+                "Intolerância à atividade",
+                "Massa muscular diminuída",
+                "Percentil de índice de massa corporal (IMC) > 75 adequado à idade e ao sexo",
+                "Relutância em iniciar movimentos",
+                "Resistência diminuída",
+                "Rigidez articular"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração na função cognitiva",
+                "Alteração na integridade de estruturas ósseas",
+                "Alteração no metabolismo",
+                "Atraso no desenvolvimento",
+                "Contraturas",
+                "Prejuízo musculoesquelético",
+                "Prejuízo neuromuscular",
+                "Prejuízo sensório-perceptivo",
+                "Restrições prescritas de movimento"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Mobilidade no leito prejudicada",
+              "definicao_Diagnostico": "Limitação de movimento independente de uma posição para outra no leito.",
+              "codigo_Diagnostico": "00091",
+              "caracteristicas_Definidoras": [
+                "Capacidade prejudicada de mover-se entre a posição prona e a supina",
+                "Capacidade prejudicada de mover-se entre a posição sentada e a supina",
+                "Capacidade prejudicada de mover-se entre a posição sentada prolongada e a supina",
+                "Capacidade prejudicada de reposicionar-se na cama",
+                "Capacidade prejudicada para virar-se de um lado para o outro"
+              ],
+              "fatores_Relacionados": [
+                "Barreira ambiental",
+                "Conhecimento insuficiente sobre estratégias de mobilidade",
+                "Dor",
+                "Falta de condicionamento físico",
+                "Força muscular insuficiente",
+                "Obesidade"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração na função cognitiva",
+                "Prejuízo musculoesquelético",
+                "Prejuízo neuromuscular"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Sentar-se prejudicado",
+              "definicao_Diagnostico": "Limitação da capacidade para, de maneira independente e intencional, atingir e/ou manter uma posição de descanso apoiada pelas nádegas e coxas, e com o torso ereto.",
+              "codigo_Diagnostico": "00237",
+              "caracteristicas_Definidoras": [
+                "Capacidade prejudicada de adaptar a posição de um ou ambos os membros inferiores sobre superfície irregular",
+                "Capacidade prejudicada de conseguir uma posição de equilíbrio do torso",
+                "Capacidade prejudicada de flexionar ou movimentar os dois joelhos",
+                "Capacidade prejudicada de flexionar ou movimentar os quadris",
+                "Capacidade prejudicada de manter o torso em posição equilibrada",
+                "Capacidade prejudicada de tensionar o torso com o peso do corpo"
+              ],
+              "fatores_Relacionados": [
+                "Desnutrição",
+                "Dor",
+                "Energia insuficiente",
+                "Força muscular insuficiente",
+                "Postura de alívio autoimposta",
+                "Resistência insuficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Cirurgia ortopédica",
+                "Distúrbio neurológico",
+                "Função metabólica prejudicada",
+                "Postura recomendada",
+                "Sarcopenia",
+                "Transtorno psicológico"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de síndrome do desuso",
+              "definicao_Diagnostico": "Suscetibilidade à deterioração de sistemas do corpo como resultado de inatividade musculoesquelética prescrita ou inevitável que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00040",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Dor"
+              ],
+              "condicoes_Associadas": [
+                "Alteração no nível de consciência",
+                "Imobilidade mecânica",
+                "Imobilidade prescrita",
+                "Paralisia"
+              ],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Equilíbrio de energia",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Campo de energia desequilibrado",
+              "definicao_Diagnostico": "Ruptura no fluxo vital de energia humana que costuma ser um todo contínuo único, dinâmico, criativo e não linear.",
+              "codigo_Diagnostico": "00273",
+              "caracteristicas_Definidoras": [
+                "Bloqueio do fluxo energético",
+                "Congestionamento do fluxo energético",
+                "Déficit de energia do fluxo energético",
+                "Diferenciais de temperatura fria no fluxo energético",
+                "Diferenciais de temperatura quente no fluxo energético",
+                "Empuxo magnético para uma área do campo de energia",
+                "Expressão da necessidade de recuperar a experiência do todo",
+                "Frequência de pulsação para uma frequência de batimentos dos padrões do campo de energia",
+                "Hiperatividade do fluxo energético",
+                "Padrões aleatórios do campo de energia",
+                "Padrões arrítmicos do campo de energia",
+                "Padrões congestionados do campo de energia",
+                "Padrões fortes do campo de energia",
+                "Padrões fracos do campo de energia",
+                "Padrões irregulares do campo de energia",
+                "Padrões lentos do campo de energia",
+                "Padrões rápidos do campo de energia",
+                "Padrões tumultuados do campo de energia",
+                "Pulsações sentidas no fluxo energético",
+                "Ritmos assincrônicos sentidos no fluxo energético",
+                "Ritmos dissonantes dos padrões do campo de energia",
+                "Sensação de formigamento no fluxo energético"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Desconforto",
+                "Dor",
+                "Estresse excessivo",
+                "Intervenções que perturbam o padrão ou o fluxo energético"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Doença",
+                "Lesão"
+              ],
+              "populacoes_Em_Risco": [
+                "Estados de crise",
+                "Transição de vida"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Fadiga",
+              "definicao_Diagnostico": "Sensação opressiva e prolongada de exaustão e capacidade diminuída de realizar trabalho físico e mental no nível habitual.",
+              "codigo_Diagnostico": "00093",
+              "caracteristicas_Definidoras": [
+                "Alteração na concentração",
+                "Alteração na libido",
+                "Apatia",
+                "Aumento da necessidade de descanso",
+                "Aumento dos sintomas físicos",
+                "Cansaço",
+                "Capacidade prejudicada para manter as rotinas habituais",
+                "Capacidade prejudicada para manter o nível habitual de atividade física",
+                "Culpa devido à dificuldade para cumprir com suas responsabilidades",
+                "Desempenho de papel ineficaz",
+                "Desinteresse quanto ao ambiente que o cerca",
+                "Energia insuficiente",
+                "Estado de sonolência",
+                "Introspecção",
+                "Letargia",
+                "Padrão de sono não restaurador"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Aumento no esforço físico",
+                "Barreira ambiental",
+                "Depressão",
+                "Desnutrição",
+                "Estilo de vida não estimulante",
+                "Estressores",
+                "Falta de condicionamento físico",
+                "Privação do sono"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Anemia",
+                "Doença",
+                "Gravidez"
+              ],
+              "populacoes_Em_Risco": [
+                "Exposição a evento de vida negativo",
+                "Profissão exigente"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Perambulação",
+              "definicao_Diagnostico": "Vagar a esmo, ou locomoção repetitiva, que expõe o indivíduo a danos; frequentemente incongruente com divisas, limites ou obstáculos.",
+              "codigo_Diagnostico": "00154",
+              "caracteristicas_Definidoras": [
+                "Age como se examinasse o ambiente",
+                "Andar de um lado para o outro",
+                "Capacidade prejudicada de localizar marcos em ambiente familiar",
+                "Comportamento de busca",
+                "Comportamento de fuga",
+                "Entrar em local proibido",
+                "Hiperatividade",
+                "Imitar movimentos de locomoção do cuidador",
+                "Locomoção agitada",
+                "Locomoção ao acaso",
+                "Locomoção persistente em busca de alguma coisa",
+                "Locomoção por espaços não autorizados",
+                "Locomoção que não pode ser facilmente desencorajada",
+                "Locomoção que resulta em perder-se",
+                "Longos períodos de locomoção sem destino aparente",
+                "Movimento contínuo de um lugar a outro",
+                "Movimento frequente de um lugar a outro",
+                "Períodos de locomoção intercalados com períodos de não locomoção"
+              ],
+              "fatores_Relacionados": [
+                "Alteração no ciclo sono-vigília",
+                "Ambiente excessivamente estimulante",
+                "Desejo de ir para casa",
+                "Estado fisiológico",
+                "Separação de ambiente familiar"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Atrofia cortical",
+                "Sedação",
+                "Transtorno psicológico"
+              ],
+              "populacoes_Em_Risco": [
+                "Comportamento pré-morbidade"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Respostas cardiovasculares/pulmonares",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Débito cardíaco diminuído",
+              "definicao_Diagnostico": "Volume de sangue bombeado pelo coração inadequado para atender às demandas metabólicas do organismo.",
+              "codigo_Diagnostico": "00029",
+              "caracteristicas_Definidoras": [
+                "Frequência/ritmo cardíaco alterado",
+                "Alteração no eletrocardiograma (ECG)",
+                "Bradicardia",
+                "Palpitações cardíacas",
+                "Taquicardia",
+                "Pré-carga alterada",
+                "Aumento da pressão de oclusão da artéria pulmonar (POAP) (pressão capilar)",
+                "Aumento da pressão venosa central (PVC)",
+                "Diminuição da pressão de oclusão da artéria pulmonar (POAP) (pressão capilar)",
+                "Diminuição da pressão venosa central (PVC)",
+                "Distensão da veia jugular",
+                "Edema",
+                "Fadiga",
+                "Ganho de peso",
+                "Sopro cardíaco",
+                "Pós-carga alterada",
+                "Alteração na pressão arterial",
+                "Cor da pele anormal",
+                "Dispneia",
+                "Oligúria",
+                "Pele pegajosa",
+                "Pulsos periféricos diminuídos",
+                "Resistência vascular pulmonar (RVP) aumentada",
+                "Resistência vascular pulmonar (RVP) diminuída",
+                "Resistência vascular sistêmica (RVS) aumentada",
+                "Resistência vascular sistêmica (RVS) diminuída",
+                "Tempo de preenchimento capilar prolongado",
+                "Contratilidade alterada",
+                "Dispneia paroxística noturna",
+                "Fração de ejeção diminuída",
+                "Índice cardíaco diminuído",
+                "Índice de volume sistólico (IVS) diminuído",
+                "Índice do trabalho sistólico do ventrículo esquerdo (ITSVE) diminuído",
+                "Ortopneia",
+                "Presença de 3ª bulha cardíaca (B3)",
+                "Presença de 4ª bulha cardíaca (B4)",
+                "Ruídos adventícios respiratórios",
+                "Tosse",
+                "Comportamentais/emocionais",
+                "Ansiedade",
+                "Inquietação"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na contratilidade",
+                "Alteração na frequência cardíaca",
+                "Alteração na pós-carga",
+                "Alteração na pré-carga",
+                "Alteração no ritmo cardíaco",
+                "Alteração no volume sistólico"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de débito cardíaco diminuído",
+              "definicao_Diagnostico": "Suscetibilidade a volume de sangue bombeado pelo coração inadequado para atender às demandas metabólicas do organismo que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00240",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "A serem desenvolvidos"
+              ],
+              "condicoes_Associadas": [
+                "Alteração na contratilidade",
+                "Alteração na frequência cardíaca",
+                "Alteração na pós-carga",
+                "Alteração na pré-carga",
+                "Alteração no ritmo cardíaco",
+                "Alteração no volume sistólico"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Padrão respiratório ineficaz",
+              "definicao_Diagnostico": "Inspiração e/ou expiração que não proporciona ventilação adequada.",
+              "codigo_Diagnostico": "00032",
+              "caracteristicas_Definidoras": [
+                "Assumir posição de três pontos",
+                "Batimento de asa do nariz",
+                "Bradipneia",
+                "Capacidade vital diminuída",
+                "Diâmetro anteroposterior do tórax aumentado",
+                "Diminuição da pressão expiratória",
+                "Diminuição da pressão inspiratória",
+                "Dispneia",
+                "Excursão torácica alterada",
+                "Fase de expiração prolongada",
+                "Ortopneia",
+                "Padrão respiratório anormal",
+                "Respiração com os lábios franzidos",
+                "Taquipneia",
+                "Uso da musculatura acessória para respirar",
+                "Ventilação-minuto diminuída"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Dor",
+                "Fadiga",
+                "Fadiga da musculatura respiratória",
+                "Hiperventilação",
+                "Obesidade",
+                "Posição do corpo que inibe a expansão pulmonar"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Deformidade da parede do tórax",
+                "Deformidade óssea",
+                "Imaturidade neurológica",
+                "Lesão da medula espinal",
+                "Prejuízo musculoesquelético",
+                "Prejuízo neurológico",
+                "Prejuízo neuromuscular",
+                "Síndrome da hipoventilação"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de perfusão tissular cardíaca diminuída",
+              "definicao_Diagnostico": "Suscetibilidade a uma redução na circulação cardíaca (coronariana) que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00200",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de substâncias",
+                "Conhecimento insuficiente sobre os fatores modificáveis"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Cirurgia cardiovascular",
+                "Diabetes melito",
+                "Espasmo da artéria coronária",
+                "Hiperlipidemia",
+                "Hipertensão",
+                "Hipovolemia",
+                "Hipoxemia",
+                "Hipóxia",
+                "Proteína C-reativa elevada",
+                "Tamponamento cardíaco"
+              ],
+              "populacoes_Em_Risco": [
+                "História familiar de doença cardiovascular"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de perfusão tissular cerebral ineficaz",
+              "definicao_Diagnostico": "Suscetibilidade a uma redução na circulação do tecido cerebral que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00201",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de substâncias"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Aneurisma cerebral",
+                "Aterosclerose aórtica",
+                "Coagulação intravascular disseminada",
+                "Coagulopatia",
+                "Dissecção arterial",
+                "Embolia",
+                "Endocardite infecciosa",
+                "Estenose da carótida",
+                "Estenose mitral",
+                "Fibrilação atrial",
+                "Hipercolesterolemia",
+                "Hipertensão",
+                "Lesão encefálica",
+                "Miocardiopatia dilatada",
+                "Mixoma atrial",
+                "Neoplasia encefálica",
+                "Prótese valvar mecânica",
+                "Regime de tratamento",
+                "Segmento acinético da parede do ventrículo esquerdo",
+                "Síndrome do nó sinusal",
+                "Tempo de protrombina (TP) anormal",
+                "Tempo de tromboplastina parcial (TTP) anormal"
+              ],
+              "populacoes_Em_Risco": [
+                "Infarto do miocárdio recente"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Perfusão tissular periférica ineficaz",
+              "definicao_Diagnostico": "Redução da circulação sanguínea para a periferia que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00204",
+              "caracteristicas_Definidoras": [
+                "A cor não volta à perna quando esta é baixada após 1 minuto de sua elevação",
+                "Alteração em característica da pele",
+                "Alteração na função motora",
+                "Ausência de pulsos periféricos",
+                "Claudicação intermitente",
+                "Cor da pele pálida na elevação de membro",
+                "Diminuição da pressão arterial nas extremidades",
+                "Distância em teste de caminhada de 6 minutos abaixo da faixa normal",
+                "Dor em extremidade",
+                "Edema",
+                "Índice tornozelo-braquial < 0,90",
+                "Parestesia",
+                "Percorre menores distâncias livre de dor no teste de caminhada de 6 minutos",
+                "Pulsos periféricos diminuídos",
+                "Retardo na cicatrização de ferida periférica",
+                "Sopro femoral",
+                "Tempo de enchimento capilar > 3 segundos"
+              ],
+              "fatores_Relacionados": [
+                "Conhecimento insuficiente sobre o processo da doença",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Entrada excessiva de sódio",
+                "Estilo de vida sedentário",
+                "Tabagismo"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Diabetes melito",
+                "Hipertensão",
+                "Procedimento intravascular",
+                "Trauma"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de perfusão tissular periférica ineficaz",
+              "definicao_Diagnostico": "Suscetibilidade a uma redução da circulação sanguínea para a periferia que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00228",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Conhecimento insuficiente sobre o processo da doença",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Entrada excessiva de sódio",
+                "Estilo de vida sedentário",
+                "Tabagismo"
+              ],
+              "condicoes_Associadas": [
+                "Diabetes melito",
+                "Hipertensão",
+                "Procedimento intravascular",
+                "Trauma"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de pressão arterial instável",
+              "definicao_Diagnostico": "Suscetibilidade a forças oscilantes do fluxo sanguíneo pelos vasos arteriais que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00267",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Inconsistência com o regime medicamentoso",
+                "Ortostasia"
+              ],
+              "condicoes_Associadas": [
+                "Absorção e distribuição rápida de agente antiarrítmico",
+                "Absorção e distribuição rápida de agente diurético",
+                "Absorção e distribuição rápida de agentes vasodilatadores",
+                "Alteração hormonal",
+                "Arritmia cardíaca",
+                "Desequilíbrio eletrolítico",
+                "Efeitos adversos da cocaína",
+                "Efeitos adversos de esteroides",
+                "Efeitos adversos de medicamentos anti-inflamatórios não esteroides (AINEs)",
+                "Hiperparatireoidismo",
+                "Hipertireoidismo",
+                "Hipotireoidismo",
+                "Pressão intracraniana elevada",
+                "Reações simpáticas",
+                "Retenção de líquidos",
+                "Síndrome de Cushing",
+                "Soluções hiperosmolares",
+                "Troca de líquidos",
+                "Uso de agentes antidepressivos"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Resposta disfuncional ao desmame ventilatório",
+              "definicao_Diagnostico": "Incapacidade de ajustar-se a níveis diminuídos de suporte ventilatório mecânico que interrompe e prolonga o processo de desmame.",
+              "codigo_Diagnostico": "00034",
+              "caracteristicas_Definidoras": [
+                "Leves",
+                "Aumento da concentração na respiração",
+                "Aumento leve da frequência respiratória acima dos valores basais",
+                "Desconforto respiratório",
+                "Fadiga",
+                "Inquietação",
+                "Medo de mau funcionamento do aparelho",
+                "Percepção da necessidade aumentada de oxigênio",
+                "Sensação de calor",
+                "Moderadas",
+                "Apreensão",
+                "Aumento da frequência cardíaca em relação aos parâmetros basais (< 20 bpm)",
+                "Aumento da pressão arterial em relação aos parâmetros basais (< 20 mmHg)",
+                "Aumento moderado da frequência respiratória acima dos valores basais",
+                "Capacidade prejudicada para cooperar",
+                "Capacidade prejudicada para responder a orientações",
+                "Cor da pele anormal",
+                "Diaforese",
+                "Diminuição da entrada de ar à ausculta",
+                "Expressão facial de medo",
+                "Foco exagerado nas atividades",
+                "Uso mínimo da musculatura acessória respiratória",
+                "Graves",
+                "Agitação",
+                "Aumento da frequência cardíaca em relação aos parâmetros basais (≥ 20 bpm)",
+                "Aumento da pressão arterial em relação aos parâmetros basais (≥ 20 mmHg)",
+                "Aumento significativo da frequência respiratória em relação aos parâmetros basais",
+                "Cor da pele anormal",
+                "Deterioração na gasometria arterial em relação aos valores basais",
+                "Diaforese profusa",
+                "Nível de consciência diminuído",
+                "Respiração abdominal paradoxal",
+                "Respiração agônica (tipo gasp ing)",
+                "Respiração sem sincronia com o ventilador",
+                "Respiração superficial",
+                "Ruídos adventícios respiratórios",
+                "Uso de musculatura acessória respiratória importante"
+              ],
+              "fatores_Relacionados": [
+                "Fisiológicos",
+                "Alteração no padrão de sono",
+                "Desobstrução ineficaz das vias aéreas",
+                "Dor",
+                "Nutrição inadequada",
+                "Psicológicos",
+                "Ansiedade",
+                "Baixa autoestima",
+                "Confiança insuficiente nos profissionais da saúde",
+                "Conhecimento insuficiente sobre o processo de desmame",
+                "Desesperança",
+                "Incerteza quanto à capacidade de desmame",
+                "Medo",
+                "Motivação diminuída",
+                "Sentimento de impotência",
+                "Situacionais",
+                "Apoio social insuficiente",
+                "Barreira ambiental",
+                "Episódios não controlados de demanda energética",
+                "Ritmo inapropriado do processo de desmame ventilatório"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "História de dependência do ventilador por > 4 dias",
+                "História de tentativas de desmame malsucedidas"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Intolerância à atividade",
+              "definicao_Diagnostico": "Energia fisiológica ou psicológica insuficiente para suportar ou completar as atividades diárias requeridas ou desejadas.",
+              "codigo_Diagnostico": "00092",
+              "caracteristicas_Definidoras": [
+                "Alteração no eletrocardiograma (ECG)",
+                "Desconforto ao esforço",
+                "Dispneia ao esforço",
+                "Fadiga",
+                "Fraqueza generalizada",
+                "Resposta anormal da frequência cardíaca à atividade",
+                "Resposta anormal da pressão arterial à atividade"
+              ],
+              "fatores_Relacionados": [
+                "Desequilíbrio entre a oferta e a demanda de oxigênio",
+                "Estilo de vida sedentário",
+                "Falta de condicionamento físico",
+                "Imobilidade",
+                "Inexperiência com uma atividade"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Condição respiratória",
+                "Problema circulatório"
+              ],
+              "populacoes_Em_Risco": [
+                "História anterior de intolerância à atividade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de Intolerância à atividade",
+              "definicao_Diagnostico": "Suscetibilidade a energia fisiológica ou psicológica insuficiente para suportar ou completar as atividades diárias requeridas ou desejadas que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00094",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Desequilíbrio entre a oferta e a demanda de oxigênio",
+                "Estilo de vida sedentário",
+                "Falta de condicionamento físico",
+                "Imobilidade",
+                "Inexperiência com uma atividade"
+              ],
+              "condicoes_Associadas": [
+                "Condição respiratória",
+                "Problema circulatório"
+              ],
+              "populacoes_Em_Risco": [
+                "História anterior de intolerância à atividade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Ventilação espontânea prejudicada",
+              "definicao_Diagnostico": "Incapacidade de iniciar e/ou manter respiração independente que seja adequada para sustentação da vida.",
+              "codigo_Diagnostico": "00033",
+              "caracteristicas_Definidoras": [
+                "Apreensão",
+                "Aumento da frequência cardíaca",
+                "Aumento da pressão parcial de dióxido de carbono (PCO2)",
+                "Aumento da taxa metabólica",
+                "Cooperação diminuída",
+                "Diminuição da pressão parcial de oxigênio (PO2)",
+                "Diminuição na saturação arterial de oxigênio (SaO2)",
+                "Dispneia",
+                "Inquietação",
+                "Uso aumentado da musculatura acessória",
+                "Volume corrente diminuído"
+              ],
+              "fatores_Relacionados": [
+                "Fadiga da musculatura respiratória"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração no metabolismo"
+              ],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Autocuidado",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Déficit no autocuidado para alimentação",
+              "definicao_Diagnostico": "Incapacidade de alimentar-se de forma independente.",
+              "codigo_Diagnostico": "00102",
+              "caracteristicas_Definidoras": [
+                "Capacidade prejudicada de abrir recipientes",
+                "Capacidade prejudicada de alimentar-se de forma aceitável",
+                "Capacidade prejudicada de alimentar-se de uma refeição inteira",
+                "Capacidade prejudicada de engolir alimentos em quantidade suficiente",
+                "Capacidade prejudicada de engolir o alimento",
+                "Capacidade prejudicada de levar os alimentos à boca",
+                "Capacidade prejudicada de manipular os alimentos na boca",
+                "Capacidade prejudicada de manusear os utensílios",
+                "Capacidade prejudicada de mastigar os alimentos",
+                "Capacidade prejudicada de pegar a xícara",
+                "Capacidade prejudicada de pegar os alimentos com os utensílios",
+                "Capacidade prejudicada de preparar alimentos",
+                "Capacidade prejudicada para usar dispositivos auxiliares"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Barreira ambiental",
+                "Desconforto",
+                "Dor",
+                "Fadiga",
+                "Fraqueza",
+                "Motivação diminuída"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Prejuízo musculoesquelético",
+                "Prejuízo neuromuscular",
+                "Transtornos perceptivos"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Déficit no autocuidado para banho",
+              "definicao_Diagnostico": "Incapacidade de completar as atividades de limpeza do corpo de forma independente.",
+              "codigo_Diagnostico": "00108",
+              "caracteristicas_Definidoras": [
+                "Capacidade prejudicada de acessar a fonte de água",
+                "Capacidade prejudicada de acessar o banheiro",
+                "Capacidade prejudicada de lavar o corpo",
+                "Capacidade prejudicada de pegar os artigos para o banho",
+                "Capacidade prejudicada de regular a água do banho",
+                "Capacidade prejudicada de secar o corpo"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Barreira ambiental",
+                "Dor",
+                "Fraqueza",
+                "Motivação diminuída"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Capacidade prejudicada de perceber uma parte do corpo",
+                "Capacidade prejudicada de perceber relações espaciais",
+                "Prejuízo musculoesquelético",
+                "Prejuízo neuromuscular",
+                "Transtornos perceptivos"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Déficit no autocuidado para higiene íntima",
+              "definicao_Diagnostico": "Incapacidade de realizar tarefas associadas à eliminação vesical e intestinal de forma independente.",
+              "codigo_Diagnostico": "00110",
+              "caracteristicas_Definidoras": [
+                "Capacidade prejudicada de chegar ao vaso sanitário",
+                "Capacidade prejudicada de dar descarga no vaso sanitário",
+                "Capacidade prejudicada de levantar-se do vaso sanitário",
+                "Capacidade prejudicada de manipular as roupas para realizar a higiene íntima",
+                "Capacidade prejudicada de realizar a higiene íntima",
+                "Capacidade prejudicada de sentar-se no vaso sanitário"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Barreira ambiental",
+                "Capacidade de transferência prejudicada",
+                "Dor",
+                "Fadiga",
+                "Fraqueza",
+                "Mobilidade prejudicada",
+                "Motivação diminuída"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Prejuízo musculoesquelético",
+                "Prejuízo neuromuscular",
+                "Transtornos perceptivos"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Déficit no autocuidado para vestir-se",
+              "definicao_Diagnostico": "Incapacidade de vestir e retirar as roupas de forma independente.",
+              "codigo_Diagnostico": "00109",
+              "caracteristicas_Definidoras": [
+                "Capacidade prejudicada de colocar roupas na parte inferior do corpo",
+                "Capacidade prejudicada de colocar roupas na parte superior do corpo",
+                "Capacidade prejudicada de despir cada item de vestuário",
+                "Capacidade prejudicada de escolher as roupas",
+                "Capacidade prejudicada de fechar as roupas",
+                "Capacidade prejudicada de manter a aparência",
+                "Capacidade prejudicada de reunir os artigos de vestuário",
+                "Capacidade prejudicada de vestir cada um dos itens do vestuário",
+                "Capacidade prejudicada para pegar os itens do vestuário",
+                "Capacidade prejudicada para usar dispositivos auxiliares",
+                "Capacidade prejudicada para usar zíperes"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Barreira ambiental",
+                "Desconforto",
+                "Dor",
+                "Fadiga",
+                "Fraqueza",
+                "Motivação diminuída"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Prejuízo musculoesquelético",
+                "Prejuízo neuromuscular",
+                "Transtornos perceptivos"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Disposição para melhora do autocuidado",
+              "definicao_Diagnostico": "Padrão de realização de atividades para si mesmo para atingir as metas relativas à saúde que pode ser melhorado.",
+              "codigo_Diagnostico": "00182",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a independência na saúde",
+                "Expressa desejo de aumentar a independência na vida",
+                "Expressa desejo de aumentar a independência no bem-estar",
+                "Expressa desejo de aumentar a independência no desenvolvimento pessoal",
+                "Expressa desejo de aumentar o conhecimento sobre estratégias de autocuidado",
+                "Expressa desejo de melhorar o autocuidado"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Autonegligência",
+              "definicao_Diagnostico": "Conjunto de comportamentos culturalmente estruturados que envolvem uma ou mais atividades de autocuidado em que há falha em manter um padrão de saúde e bem-estar socialmente aceito (Gibbons, Lauder e Ludwick, 2006).",
+              "codigo_Diagnostico": "00193",
+              "caracteristicas_Definidoras": [
+                "Falta de adesão a atividades de saúde",
+                "Higiene ambiental insuficiente",
+                "Higiene pessoal insuficiente"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Escolha do estilo de vida",
+                "Estressores",
+                "Função executiva deficiente",
+                "Incapacidade para manter o controle",
+                "Medo de internação ou institucionalização"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Dificuldades de aprendizagem",
+                "Disfunção do lobo frontal",
+                "Fingimento de doença",
+                "Prejuízo funcional",
+                "Síndrome de Capgras",
+                "Transtorno psicótico",
+                "Transtorno psiquiátrico"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Manutenção do lar prejudicada",
+              "definicao_Diagnostico": "Incapacidade de manter, de forma independente, um ambiente seguro para promoção do crescimento.",
+              "codigo_Diagnostico": "00098",
+              "caracteristicas_Definidoras": [
+                "Ambiente sem condições sanitárias",
+                "Capacidade prejudicada de manter a moradia",
+                "Dificuldade para manter um ambiente confortável",
+                "Equipamento de cozinha insuficiente",
+                "Equipamento insuficiente para a manutenção da casa",
+                "Excesso de responsabilidades familiares",
+                "Falta de roupas de cama",
+                "Padrão de doenças causadas por condições não higiênicas",
+                "Padrão de infecções causadas por condições não higiênicas",
+                "Roupas insuficientes",
+                "Solicitação de ajuda para a manutenção da casa"
+              ],
+              "fatores_Relacionados": [
+                "Conhecimento insuficiente sobre manutenção da casa",
+                "Conhecimento insuficiente sobre os recursos do bairro",
+                "Modelo inadequado",
+                "Organização familiar insuficiente",
+                "Planejamento familiar insuficiente",
+                "Sistema de apoio insuficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva"
+              ],
+              "populacoes_Em_Risco": [
+                "Crise financeira"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

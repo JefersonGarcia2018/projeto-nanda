@@ -1,0 +1,2023 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 11",
+          "descricaoDominio": "Segurança/proteção",
+          "totalClasses": 6
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Infecção",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Risco de infecção",
+              "definicao_Diagnostico": "Suscetibilidade a invasão e multiplicação de organismos patogênicos que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00004",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Alteração na integridade da pele",
+                "Alteração no peristaltismo",
+                "Conhecimento insuficiente para evitar exposição a patógenos",
+                "Desnutrição",
+                "Estase de líquidos orgânicos",
+                "Obesidade",
+                "Tabagismo",
+                "Vacinação inadequada"
+              ],
+              "condicoes_Associadas": [
+                "Alteração no pH das secreções",
+                "Diminuição da ação ciliar",
+                "Doença crônica",
+                "Hemoglobina diminuída",
+                "Imunossupressão",
+                "Leucopenia",
+                "Procedimento invasivo",
+                "Resposta inflamatória suprimida",
+                "Ruptura prematura de membrana amniótica",
+                "Ruptura prolongada de membrana amniótica"
+              ],
+              "populacoes_Em_Risco": [
+                "Exposição a surto de doença"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de infecção no sítio cirúrgico",
+              "definicao_Diagnostico": "Suscetibilidade à invasão de organismos patogênicos no sítio cirúrgico que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00266",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Alcoolismo",
+                "Obesidade",
+                "Tabagismo"
+              ],
+              "condicoes_Associadas": [
+                "Artrite reumatoide",
+                "Comorbidade",
+                "Diabetes melito",
+                "Duração da cirurgia",
+                "Hipertensão",
+                "Imunossupressão",
+                "Infecções em outros sítios cirúrgicos",
+                "Osteoartrite pós-traumática",
+                "Procedimento invasivo",
+                "Profilaxia antibiótica inadequada",
+                "Profilaxia antibiótica ineficaz",
+                "Tipo de anestesia",
+                "Tipo de procedimento cirúrgico",
+                "Uso de implantes e/ou próteses"
+              ],
+              "populacoes_Em_Risco": [
+                "Aumento da exposição ambiental a patógenos",
+                "Contaminação de ferida cirúrgica",
+                "Escore de classificação do estado físico da American Society of Anesthesiologists (ASA) ≥ 2",
+                "Quantidade excessiva de profissionais de saúde durante procedimento cirúrgico",
+                "Temperatura fria na sala de cirurgia"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Lesão física",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Risco de aspiração",
+              "definicao_Diagnostico": "Suscetibilidade à entrada de secreções gastrintestinais, secreções orofaríngeas, sólidos ou líquidos nas vias traqueobrônquicas que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00039",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Barreira à elevação da porção superior do corpo",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Motilidade gastrintestinal diminuída",
+                "Tosse ineficaz"
+              ],
+              "condicoes_Associadas": [
+                "Alimentação enteral",
+                "Capacidade prejudicada para deglutir",
+                "Cirurgia do pescoço",
+                "Cirurgia facial",
+                "Cirurgia oral",
+                "Esfincter esofágico inferior incompetente",
+                "Esvaziamento gástrico retardado",
+                "Fixação cirúrgica dos maxilares",
+                "Nível de consciência diminuído",
+                "Presença de sonda oral/nasal",
+                "Pressão intragástrica aumentada",
+                "Reflexo de engasgo deprimido",
+                "Regime de tratamento",
+                "Resíduo gástrico aumentado",
+                "Trauma facial",
+                "Trauma no pescoço",
+                "Trauma oral"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de boca seca",
+              "definicao_Diagnostico": "Suscetibilidade a desconforto ou dano à mucosa oral devido à quantidade reduzida ou à qualidade da saliva para hidratar a mucosa que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00261",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Depressão",
+                "Desidratação",
+                "Estresse excessivo",
+                "Inquietude",
+                "Tabagismo"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Doenças sistêmicas",
+                "Gravidez",
+                "Incapacidade de alimentar-se por via oral",
+                "Oxigenoterapia",
+                "Quimioterapia",
+                "Radioterapia na cabeça e pescoço",
+                "Restrição hídrica"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de choque",
+              "definicao_Diagnostico": "Suscetibilidade a fluxo sanguíneo inadequado para os tecidos do corpo, que pode levar a disfunção celular que ameaça a vida, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00205",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "A serem desenvolvidos"
+              ],
+              "condicoes_Associadas": [
+                "Hipotensão",
+                "Hipovolemia",
+                "Hipoxemia",
+                "Hipóxia",
+                "Infecção",
+                "Sepse",
+                "Síndrome da resposta inflamatória sistêmica (SRIS)"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Dentição prejudicada",
+              "definicao_Diagnostico": "Ruptura nos padrões de desenvolvimento/erupção dentários ou na integridade estrutural de cada dente.",
+              "codigo_Diagnostico": "00048",
+              "caracteristicas_Definidoras": [
+                "Assimetria facial",
+                "Ausência de dentes",
+                "Cáries dentais",
+                "Cáries na raiz do dente",
+                "Dentes desgastados",
+                "Dentes frouxos",
+                "Descoloração do esmalte",
+                "Dor de dente",
+                "Erosão do esmalte",
+                "Erupção incompleta dos dentes para a idade",
+                "Excesso de placa",
+                "Excesso de tártaro",
+                "Fratura de dente",
+                "Halitose",
+                "Má oclusão",
+                "Mau alinhamento dos dentes",
+                "Perda prematura de dentes primários"
+              ],
+              "fatores_Relacionados": [
+                "Barreira ao autocuidado",
+                "Conhecimento insuficiente sobre saúde dental",
+                "Desnutrição",
+                "Dificuldade de acesso a cuidados dentários",
+                "Hábitos alimentares inadequados",
+                "Higiene oral inadequada",
+                "Ingestão excessiva de flúor",
+                "Uso excessivo de agentes de limpeza oral abrasivos",
+                "Uso habitual de substância que mancha"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Bruxismo",
+                "Sensibilidade oral à temperatura",
+                "Vômito crônico"
+              ],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente",
+                "Predisposição genética"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Desobstrução ineficaz das vias aéreas",
+              "definicao_Diagnostico": "Incapacidade de eliminar secreções ou obstruções do trato respiratório para manter a via aérea desobstruída.",
+              "codigo_Diagnostico": "00031",
+              "caracteristicas_Definidoras": [
+                "Alteração na frequência respiratória",
+                "Alteração no padrão respiratório",
+                "Ausência de tosse",
+                "Cianose",
+                "Dificuldade para verbalizar",
+                "Dispneia",
+                "Escarro em excesso",
+                "Inquietação",
+                "Olhos arregalados",
+                "Ortopneia",
+                "Ruídos adventícios respiratórios",
+                "Sons respiratórios diminuídos",
+                "Tosse ineficaz"
+              ],
+              "fatores_Relacionados": [
+                "Corpo estranho na via aérea",
+                "Exposição à fumaça",
+                "Fumo passivo",
+                "Muco excessivo",
+                "Secreções retidas",
+                "Tabagismo"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alergia em via aérea",
+                "Asma",
+                "Doença pulmonar obstrutiva crônica",
+                "Espasmo de via aérea",
+                "Exsudato nos alvéolos",
+                "Hiperplasia das paredes dos brônquios",
+                "Infecção",
+                "Prejuízo neuromuscular",
+                "Presença de via aérea artificial"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de Disfunção neurovascular periférica",
+              "definicao_Diagnostico": "Suscetibilidade a interrupção na circulação, na sensibilidade e no movimento de uma extremidade que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00086",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "A serem desenvolvidos"
+              ],
+              "condicoes_Associadas": [
+                "Cirurgia ortopédica",
+                "Compressão mecânica",
+                "Fratura",
+                "Imobilização",
+                "Lesão por queimadura",
+                "Obstrução vascular",
+                "Trauma"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Integridade da membrana mucosa oral prejudicada",
+              "definicao_Diagnostico": "Lesão em lábios, tecidos moles, cavidade oral e/ou orofaringe.",
+              "codigo_Diagnostico": "00045",
+              "caracteristicas_Definidoras": [
+                "Bolsas gengivais mais profundas do que 4 mm",
+                "Capacidade prejudicada para deglutir",
+                "Descamação",
+                "Desconforto oral",
+                "Desprendimento da mucosa",
+                "Dificuldade para comer",
+                "Dificuldade para falar",
+                "Dor oral",
+                "Drenagem oronasal purulenta",
+                "Edema oral",
+                "Estomatite",
+                "Exposição a patógeno",
+                "Exsudato oral esbranquiçado como leite talhado",
+                "Exsudatos oronasais purulentos",
+                "Fissura oral",
+                "Gosto ruim na boca",
+                "Halitose",
+                "Hiperemia",
+                "Hiperplasia gengival",
+                "Lesão oral",
+                "Língua atrófica lisa",
+                "Língua geográfica",
+                "Língua saburrosa",
+                "Macroplasia",
+                "Manchas brancas na boca",
+                "Manchas esponjosas na boca",
+                "Nódulo oral",
+                "Paladar diminuído",
+                "Palidez da mucosa oral",
+                "Palidez gengival",
+                "Pápula oral",
+                "Placa esbranquiçada na boca",
+                "Presença de massa",
+                "Queilite",
+                "Recessão gengival",
+                "Sangramento",
+                "Tonsilas aumentadas",
+                "Úlcera oral",
+                "Vesículas orais",
+                "Xerostomia"
+              ],
+              "fatores_Relacionados": [
+                "Agente químico lesivo",
+                "Barreira ao autocuidado oral",
+                "Barreira ao cuidado dos dentes",
+                "Conhecimento insuficiente sobre higiene oral",
+                "Consumo de álcool",
+                "Depressão",
+                "Desidratação",
+                "Desnutrição",
+                "Estressores",
+                "Higiene oral inadequada",
+                "Nutrição inadequada",
+                "Redução da salivação",
+                "Respiração pela boca",
+                "Tabagismo"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alergia",
+                "Alteração na função cognitiva",
+                "Distúrbio autossômico",
+                "Doença autoimune",
+                "Estado de jejum oral (NPO, do latim nil p er os) > 24 horas",
+                "Fator mecânico",
+                "Fenda labial",
+                "Fenda palatina",
+                "Imunodeficiência",
+                "Imunossupressão",
+                "Infecção",
+                "Perda da estrutura de apoio oral",
+                "Procedimento cirúrgico",
+                "Quimioterapia",
+                "Radioterapia",
+                "Redução do nível hormonal nas mulheres",
+                "Redução nas plaquetas",
+                "Regime de tratamento",
+                "Síndrome de Sjögren",
+                "Transtorno de comportamento",
+                "Trauma",
+                "Trauma oral"
+              ],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de integridade da membrana mucosa oral prejudicada",
+              "definicao_Diagnostico": "Suscetibilidade a lesão em lábios, tecidos moles, cavidade oral e/ou orofaringe que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00247",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Agente químico lesivo",
+                "Barreira ao autocuidado oral",
+                "Barreira ao cuidado dos dentes",
+                "Conhecimento insuficiente sobre higiene oral",
+                "Consumo de álcool",
+                "Depressão",
+                "Desidratação",
+                "Desnutrição",
+                "Estressores",
+                "Higiene oral inadequada",
+                "Nutrição inadequada",
+                "Redução da salivação",
+                "Respiração pela boca",
+                "Tabagismo"
+              ],
+              "condicoes_Associadas": [
+                "Alergia",
+                "Alteração na função cognitiva",
+                "Distúrbio autossômico",
+                "Doença autoimune",
+                "Estado de jejum oral (NPO, do latim nil p er os) > 24 horas",
+                "Fator mecânico",
+                "Fenda labial",
+                "Fenda palatina",
+                "Imunodeficiência",
+                "Imunossupressão",
+                "Infecção",
+                "Perda da estrutura de apoio oral",
+                "Procedimento cirúrgico",
+                "Quimioterapia",
+                "Radioterapia",
+                "Redução do nível hormonal nas mulheres",
+                "Redução nas plaquetas",
+                "Regime de tratamento",
+                "Síndrome de Sjögren",
+                "Transtorno de comportamento",
+                "Trauma",
+                "Trauma oral"
+              ],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Integridade da pele prejudicada",
+              "definicao_Diagnostico": "Epiderme e/ou derme alterada.",
+              "codigo_Diagnostico": "00046",
+              "caracteristicas_Definidoras": [
+                "Alteração na integridade da pele",
+                "Área localizada quente ao toque",
+                "Dor aguda",
+                "Hematoma",
+                "Matéria estranha perfurando a pele",
+                "Sangramento",
+                "Vermelhidão"
+              ],
+              "fatores_Relacionados": [
+                "Externos",
+                "Agente químico lesivo",
+                "Excreções",
+                "Hidratação",
+                "Hipertermia",
+                "Hipotermia",
+                "Pressão sobre saliência óssea",
+                "Secreções",
+                "Umidade",
+                "Internos",
+                "Alteração no volume de líquidos",
+                "Fator psicogênico",
+                "Nutrição inadequada"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração hormonal",
+                "Alteração na pigmentação",
+                "Alteração na sensibilidade",
+                "Alteração no metabolismo",
+                "Alterações no turgor da pele",
+                "Circulação prejudicada",
+                "Imunodeficiência",
+                "Punção arterial",
+                "Radioterapia",
+                "Trauma vascular"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de integridade da pele prejudicada",
+              "definicao_Diagnostico": "Suscetibilidade a alteração na epiderme e/ou derme que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00047",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Externos",
+                "Agente químico lesivo",
+                "Excreções",
+                "Hidratação",
+                "Hipertermia",
+                "Hipotermia",
+                "Pressão sobre saliência óssea",
+                "Secreções",
+                "Umidade",
+                "Internos",
+                "Alteração no volume de líquidos",
+                "Fator psicogênico",
+                "Nutrição inadequada"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração hormonal",
+                "Alteração na pigmentação",
+                "Alteração na sensibilidade",
+                "Alteração no metabolismo",
+                "Alterações no turgor da pele",
+                "Circulação prejudicada",
+                "Imunodeficiência",
+                "Punção arterial",
+                "Radioterapia",
+                "Trauma vascular"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Integridade tissular prejudicada",
+              "definicao_Diagnostico": "Dano em membrana mucosa, córnea, sistema tegumentar, fáscia muscular, músculo, tendão, osso, cartilagem, cápsula articular e/ou ligamento.",
+              "codigo_Diagnostico": "00044",
+              "caracteristicas_Definidoras": [
+                "Área localizada quente ao toque",
+                "Dano tecidual",
+                "Dor aguda",
+                "Hematoma",
+                "Sangramento",
+                "Tecido destruído",
+                "Vermelhidão"
+              ],
+              "fatores_Relacionados": [
+                "Agente químico lesivo",
+                "Conhecimento insuficiente sobre manutenção da integridade tissular",
+                "Conhecimento insuficiente sobre proteção da integridade tissular",
+                "Estado nutricional desequilibrado",
+                "Umidade",
+                "Volume de líquidos deficiente",
+                "Volume de líquidos excessivo"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração na sensibilidade",
+                "Alteração no metabolismo",
+                "Circulação prejudicada",
+                "Mobilidade prejudicada",
+                "Neuropatia periférica",
+                "Procedimento cirúrgico",
+                "Punção arterial",
+                "Radioterapia",
+                "Trauma vascular"
+              ],
+              "populacoes_Em_Risco": [
+                "Exposição à rede elétrica de alta voltagem",
+                "Extremos de idade",
+                "Extremos de temperatura ambiental"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de integridade tissular prejudicada",
+              "definicao_Diagnostico": "Suscetibilidade a dano em membrana mucosa, córnea, sistema tegumentar, fáscia muscular, músculo, tendão, osso, cartilagem, cápsula articular e/ou ligamento que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00248",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Agente químico lesivo",
+                "Conhecimento insuficiente sobre manutenção da integridade tissular",
+                "Conhecimento insuficiente sobre proteção da integridade tissular",
+                "Estado nutricional desequilibrado",
+                "Umidade",
+                "Volume de líquidos deficiente",
+                "Volume de líquidos excessivo"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração na sensibilidade",
+                "Alteração no metabolismo",
+                "Circulação prejudicada",
+                "Mobilidade prejudicada",
+                "Neuropatia periférica",
+                "Procedimento cirúrgico",
+                "Punção arterial",
+                "Radioterapia",
+                "Trauma vascular"
+              ],
+              "populacoes_Em_Risco": [
+                "Exposição à rede elétrica de alta voltagem",
+                "Extremos de idade",
+                "Extremos de temperatura ambiental"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de lesão",
+              "definicao_Diagnostico": "Suscetibilidade a lesão física por condições ambientais que interagem com os recursos adaptativos e defensivos do indivíduo que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00035",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Agente nosocomial",
+                "Barreira física",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Desnutrição",
+                "Exposição a patógeno",
+                "Exposição a substância química tóxica",
+                "Fonte nutricional comprometida",
+                "Modo inseguro de transporte",
+                "Nível de imunização na comunidade"
+              ],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Alteração na função psicomotora",
+                "Alteração na sensibilidade",
+                "Disfunção autoimune",
+                "Disfunção bioquímica",
+                "Disfunção de integração sensorial",
+                "Disfunção dos efetores",
+                "Disfunção imune",
+                "Hipóxia tissular",
+                "Perfil sanguíneo anormal"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade",
+                "Mecanismos de defesa primários prejudicados"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de lesão do trato urinário",
+              "definicao_Diagnostico": "Suscetibilidade a dano às estruturas do trato urinário em decorrência de uso de cateteres que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00250",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Confusão",
+                "Conhecimento deficiente do paciente ou cuidador em relação a cuidados com o cateter urinário",
+                "Obesidade"
+              ],
+              "condicoes_Associadas": [
+                "Alergia ao látex",
+                "Balão de retenção inflado a ≥ 30 mL",
+                "Cognição prejudicada",
+                "Condição que previne a capacidade de fixar o cateter",
+                "Dissinergia do esfincter detrusor",
+                "Lesão medular",
+                "Múltiplas cateterizações",
+                "Uso de cateter urinário de grande calibre",
+                "Uso prolongado de cateter urinário",
+                "Variação anatômica em órgãos pélvicos"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de lesão na córnea",
+              "definicao_Diagnostico": "Suscetibilidade a infecção ou lesão inflamatória no tecido da córnea que pode afetar camadas superficiais ou profundas e que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00245",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Exposição do globo ocular"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Edema periorbital",
+                "Escore < 6 na Escala de Coma de Glasgow",
+                "Intubação",
+                "Oxigenoterapia",
+                "Pisca < 5 vezes por minuto",
+                "Traqueostomia",
+                "Ventilação mecânica"
+              ],
+              "populacoes_Em_Risco": [
+                "Hospitalização prolongada"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de lesão por posicionamento perioperatório",
+              "definicao_Diagnostico": "Suscetibilidade a mudanças físicas e anatômicas inadvertidas em consequência de postura ou equipamento usado durante procedimento invasivo/cirúrgico que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00087",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "A serem desenvolvidos"
+              ],
+              "condicoes_Associadas": [
+                "Desorientação",
+                "Edema",
+                "Emaciação",
+                "Fraqueza muscular",
+                "Imobilização",
+                "Obesidade",
+                "Transtornos sensoriais/perceptivos decorrentes de anestesia",
+                "Em razão da quantidade limitada do contato com o paciente no pré-operatório, os enfermeiros podem não conseguir intervir em várias dessas condições associadas."
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de lesão por pressão",
+              "definicao_Diagnostico": "Suscetibilidade a lesão localizada da pele e/ou tecido subjacente, normalmente sobre saliência óssea, em consequência de pressão, ou pressão combinada com forças de cisalhamento (NPUAP, 2007).",
+              "codigo_Diagnostico": "00249",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Atrito em superfície",
+                "Conhecimento insuficiente do cuidador sobre prevenção de lesão por pressão",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Déficit no autocuidado",
+                "Desidratação",
+                "Forças de cisalhamento",
+                "Hidratação da pele",
+                "Hipertermia",
+                "Incontinência",
+                "Nutrição inadequada",
+                "Pele com descamação",
+                "Pele ressecada",
+                "Período prolongado de imobilidade em superfície rija",
+                "Pressão sobre saliência óssea",
+                "Redução na mobilidade",
+                "Sobrepeso",
+                "Tabagismo",
+                "Uso de lençóis com propriedade de redução da umidade insuficiente"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração na função cognitiva",
+                "Alteração na sensibilidade",
+                "Anemia",
+                "Circulação prejudicada",
+                "Doença cardiovascular",
+                "Edema",
+                "Espessura reduzida da dobra de pele do tríceps",
+                "Fratura de quadril",
+                "Imobilização física",
+                "Linfopenia",
+                "Redução na oxigenação tissular",
+                "Redução na perfusão tissular",
+                "Redução no nível de albumina sérica",
+                "Temperatura da pele elevada em torno de 1 a 2°C"
+              ],
+              "populacoes_Em_Risco": [
+                "ADULTO: escore na Escala Braden < 17",
+                "CRIANÇA: Escala de Braden Q ≤ 16",
+                "Escore baixo na escala Risk Assessment Pressure Sore (RAPS)",
+                "Escore de classificação do estado físico da American Society of Anesthesiologists (ASA) ≥ 2",
+                "Escore na classificação funcional da New York Heart Association (NYHA) ≥ 1",
+                "Extremos de idade",
+                "Extremos de peso",
+                "História de acidente vascular encefálico",
+                "História de lesão por pressão",
+                "História de trauma",
+                "Sexo feminino"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de lesão térmica",
+              "definicao_Diagnostico": "Suscetibilidade a danos à pele e às membranas mucosas devido a temperaturas extremas que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00220",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Ambiente inseguro",
+                "Conhecimento insuficiente do cuidador sobre precauções de segurança",
+                "Conhecimento insuficiente sobre precauções de segurança",
+                "Fadiga",
+                "Falta de atenção",
+                "Roupas de proteção inadequadas",
+                "Supervisão inadequada",
+                "Tabagismo"
+              ],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Intoxicação alcoólica",
+                "Intoxicação por drogas ou fármacos",
+                "Neuropatia",
+                "Prejuízo neuromuscular",
+                "Regime de tratamento"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade",
+                "Extremos de temperatura ambiental"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de morte súbita do lactente",
+              "definicao_Diagnostico": "Suscetibilidade de um lactente à morte imprevisível.",
+              "codigo_Diagnostico": "00156",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Atraso no início do cuidado pré-natal",
+                "Cuidado pré-natal insuficiente",
+                "Excesso de roupas no lactente",
+                "Exposição como fumante passivo",
+                "Lactente colocado para dormir de bruços",
+                "Lactente colocado para dormir de lado",
+                "Lactente com menos de 4 meses colocado em dispositivos para sentar em sono de rotina",
+                "Objetos macios e soltos colocados perto do lactente",
+                "Superaquecimento do lactente",
+                "Superfície macia para dormir"
+              ],
+              "condicoes_Associadas": [
+                "Condição atmosférica fria"
+              ],
+              "populacoes_Em_Risco": [
+                "Baixo peso ao nascer",
+                "Etnia afro-americana",
+                "Etnia indígena norte-americana",
+                "Exposição pós-natal a droga ilícita",
+                "Exposição pós-natal ao álcool",
+                "Exposição pré-natal a droga ilícita",
+                "Exposição pré-natal ao álcool",
+                "Idade de pico entre 2 e 4 meses",
+                "Lactente com aleitamento não exclusivo ou alimentado exclusivamente com leite retirado das mamas",
+                "Pais muito jovens",
+                "Prematuridade",
+                "Sexo masculino",
+                "Tabagismo materno durante a gestação"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de quedas",
+              "definicao_Diagnostico": "Suscetibilidade aumentada a quedas que pode causar dano físico e comprometer a saúde.",
+              "codigo_Diagnostico": "00155",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Em crianças",
+                "Ausência de portão em escadas",
+                "Ausência de protetor de janela",
+                "Equipamento de contenção em automóvel insuficiente",
+                "Supervisão inadequada",
+                "Ambientais",
+                "Ambiente cheio de objetos",
+                "Cenário pouco conhecido",
+                "Exposição a condições atmosféricas inseguras",
+                "Iluminação insuficiente",
+                "Material antiderrapante insuficiente nos banheiros",
+                "Uso de imobilizadores",
+                "Uso de tapetes soltos",
+                "Fisiológicos",
+                "Alteração na glicemia sanguínea",
+                "Ausência de sono",
+                "Desmaio ao estender o pescoço",
+                "Desmaio ao virar o pescoço",
+                "Diarreia",
+                "Dificuldades na marcha",
+                "Incontinência",
+                "Mobilidade prejudicada",
+                "Redução da força em extremidade inferior",
+                "Urgência urinária",
+                "Outros",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Consumo de álcool"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração na função cognitiva",
+                "Anemia",
+                "Artrite",
+                "Condição que afeta os pés",
+                "Déficit proprioceptivo",
+                "Doença aguda",
+                "Doença vascular",
+                "Equilíbrio prejudicado",
+                "Hipotensão ortostática",
+                "Neoplasia",
+                "Neuropatia",
+                "Período de recuperação pós-operatória",
+                "Prejuízo da audição",
+                "Prótese de membro inferior",
+                "Uso de dispositivo auxiliar",
+                "Visão prejudicada"
+              ],
+              "populacoes_Em_Risco": [
+                "História de quedas",
+                "Idade ≤ 2 anos",
+                "Idade ≥ 65 anos",
+                "Morar só",
+                "Sexo masculino quando < 1 ano de idade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Recuperação cirúrgica retardada",
+              "definicao_Diagnostico": "Extensão do número de dias de pós-operatório necessários para iniciar e desempenhar atividades que mantêm a vida, a saúde e o bem-estar.",
+              "codigo_Diagnostico": "00100",
+              "caracteristicas_Definidoras": [
+                "Adia o retorno ao trabalho",
+                "Desconforto",
+                "Evidência de interrupção na cicatrização da área cirúrgica",
+                "Incapacidade de retornar ao emprego",
+                "Mobilidade prejudicada",
+                "Necessita de ajuda para o autocuidado",
+                "Perda do apetite",
+                "Tempo excessivo necessário à recuperação"
+              ],
+              "fatores_Relacionados": [
+                "Desnutrição",
+                "Dor",
+                "Obesidade",
+                "Reação emocional pós-operatória"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Contaminação do sítio cirúrgico",
+                "Diabetes melito",
+                "Edema no sítio cirúrgico",
+                "Escore de classificação do estado físico da American Society of Anesthesiologists (ASA) ≥ 3",
+                "Infecção perioperatória no sítio cirúrgico",
+                "Mobilidade prejudicada",
+                "Náusea persistente",
+                "Procedimento cirúrgico extenso",
+                "Procedimento cirúrgico prolongado",
+                "Transtorno psicológico no período pós-operatório",
+                "Trauma no sítio cirúrgico",
+                "Vômito persistente"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade",
+                "História de atraso em cicatrização de ferida"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de recuperação cirúrgica retardada",
+              "definicao_Diagnostico": "Suscetibilidade a uma extensão do número de dias de pós-operatório necessários para iniciar e desempenhar atividades que mantêm a vida, a saúde e o bem-estar que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00246",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Desnutrição",
+                "Dor",
+                "Obesidade",
+                "Reação emocional pós-operatória"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Contaminação do sítio cirúrgico",
+                "Diabetes melito",
+                "Edema no sítio cirúrgico",
+                "Escore de classificação do estado físico da American Society of Anesthesiologists (ASA) ≥ 3",
+                "Infecção perioperatória no sítio cirúrgico",
+                "Mobilidade prejudicada",
+                "Náusea persistente",
+                "Procedimento cirúrgico extenso",
+                "Procedimento cirúrgico prolongado",
+                "Transtorno psicológico no período pós-operatório",
+                "Trauma no sítio cirúrgico",
+                "Vômito persistente"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade",
+                "História de atraso em cicatrização de ferida"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de ressecamento ocular",
+              "definicao_Diagnostico": "Suscetibilidade a desconforto ocular ou dano à córnea e à conjuntiva devido à quantidade reduzida ou à qualidade das lágrimas para hidratar o olho que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00219",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Ar condicionado",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Deficiência de vitamina A",
+                "Excesso de vento",
+                "Exposição ao sol",
+                "Ingestão de cafeína",
+                "Leitura prolongada",
+                "Poluição do ar",
+                "Tabagismo",
+                "Umidade baixa"
+              ],
+              "condicoes_Associadas": [
+                "Alteração hormonal",
+                "Dano à superfície ocular",
+                "Doença autoimune",
+                "Lesão neurológica com perda de reflexo sensorial ou motor",
+                "Regime de tratamento",
+                "Ventilação mecânica"
+              ],
+              "populacoes_Em_Risco": [
+                "Envelhecimento",
+                "História de alergia",
+                "Sexo feminino",
+                "Usuário de lentes de contato"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de sangramento",
+              "definicao_Diagnostico": "Suscetibilidade à redução no volume de sangue que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00206",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Conhecimento insuficiente sobre precauções de sangramento"
+              ],
+              "condicoes_Associadas": [
+                "Aneurisma",
+                "Circuncisão",
+                "Coagulação intravascular disseminada",
+                "Coagulopatia inerente",
+                "Complicação gestacional",
+                "Complicação pós-parto",
+                "Condição gastrintestinal",
+                "Função hepática prejudicada",
+                "Regime de tratamento",
+                "Trauma"
+              ],
+              "populacoes_Em_Risco": [
+                "História de quedas"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de sufocação",
+              "definicao_Diagnostico": "Suscetibilidade a disponibilidade inadequada de ar para inalação que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00036",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Acesso a refrigerador/congelador vazios",
+                "Aquecedor a combustível em local sem ventilação",
+                "Brincar com saco plástico",
+                "Brincar desacompanhado na água",
+                "Chupeta pendurada no pescoço do lactente",
+                "Colocar grande quantidade de comida na boca",
+                "Conhecimento insuficiente sobre precauções de segurança",
+                "Fumar na cama",
+                "Mamadeira apoiada no berço do lactente",
+                "Objeto pequeno na via aérea",
+                "Superfície macia para dormir",
+                "Transtorno emocional",
+                "Varal de roupas esticado em altura baixa",
+                "Vazamento de gás",
+                "Veículo ligado em garagem fechada"
+              ],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Alteração na função olfativa",
+                "Doença no rosto/pescoço",
+                "Função motora prejudicada",
+                "Lesão no rosto/pescoço"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de trauma vascular",
+              "definicao_Diagnostico": "Suscetibilidade a dano em veia e tecidos ao redor relacionado à presença de cateter e/ou soluções infundidas que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00213",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Local de inserção disponível inadequado",
+                "Tempo prolongado em que o cateter está no local"
+              ],
+              "condicoes_Associadas": [
+                "Solução irritante",
+                "Taxa de infusão rápida"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de trauma físico",
+              "definicao_Diagnostico": "Suscetibilidade a lesão física de início e gravidade súbitos que exige atenção imediata.",
+              "codigo_Diagnostico": "00038",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Externos",
+                "Acesso a armas",
+                "Aparelhos com defeito",
+                "Ausência de dispositivo para pedir socorro",
+                "Ausência de portão em escadas",
+                "Ausência de protetor de janela",
+                "Banho em água muito quente",
+                "Brincar com explosivo",
+                "Brincar com objetos perigosos",
+                "Cabos de panelas virados para fora do fogão",
+                "Calçadas inseguras",
+                "Cama em posição alta",
+                "Chão escorregadio",
+                "Combustível armazenado de forma inadequada",
+                "Corrimão de escada inadequado",
+                "Crianças viajando no banco da frente do carro",
+                "Dispositivo para pedir socorro com defeito",
+                "Estradas inseguras",
+                "Exposição a maquinário perigoso",
+                "Exposição a produto corrosivo",
+                "Exposição à radiação",
+                "Exposição a substância química tóxica",
+                "Falta de uso de cintos de segurança",
+                "Fiação elétrica sem fixação",
+                "Fumar na cama",
+                "Fumar perto de oxigênio",
+                "Gordura derramada em fogão",
+                "Iluminação insuficiente",
+                "Material antiderrapante insuficiente nos banheiros",
+                "Objeto inflamável",
+                "Perigo elétrico",
+                "Pontas de gelo pendentes do teto",
+                "Proteção insuficiente contra fonte de calor",
+                "Proximidade de acesso de veículos",
+                "Retardo no acendimento de aparelhos a gás",
+                "Substância corrosiva armazenada de forma inadequada",
+                "Tentar se livrar de imobilizadores",
+                "Uso de cadeira instável",
+                "Uso de escada instável",
+                "Uso de louça rachada",
+                "Uso de roupas largas perto de chamas",
+                "Uso de tapetes soltos",
+                "Uso errado de cinto de segurança",
+                "Uso incorreto de equipamentos de proteção para a cabeça",
+                "Uso inseguro de equipamento pesado",
+                "Vias de acesso obstruídas",
+                "Internos",
+                "Conhecimento insuficiente sobre precauções de segurança",
+                "Equilíbrio prejudicado",
+                "Fraqueza",
+                "Transtorno emocional",
+                "Visão insuficiente"
+              ],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Alteração na sensibilidade",
+                "Redução na coordenação muscular",
+                "Redução na coordenação olhos-mãos"
+              ],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente",
+                "Extremos de temperatura ambiental",
+                "História de trauma",
+                "Vazamento de gás",
+                "Vizinhança com alta taxa de criminalidade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de tromboembolismo venoso",
+              "definicao_Diagnostico": "Suscetibilidade ao desenvolvimento de coágulo sanguíneo em veia profunda, geralmente na coxa, panturrilha ou extremidade superior, que pode se romper e alojar-se em outro vaso, o que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00268",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Desidratação",
+                "Mobilidade prejudicada",
+                "Obesidade"
+              ],
+              "condicoes_Associadas": [
+                "Acidente vascular encefálico",
+                "Cirurgia e tempo total de anestesia > 90 minutos",
+                "Comorbidade médica significativa",
+                "Diagnóstico atual de câncer",
+                "Pós-operatório de cirurgia importante",
+                "Pós-operatório de cirurgia ortopédica",
+                "Trauma abaixo da cintura",
+                "Trauma de extremidade superior",
+                "Trombofilia",
+                "Uso de contraceptivos contendo estrogênio",
+                "Uso de terapia de reposição hormonal",
+                "Veias varicosas"
+              ],
+              "populacoes_Em_Risco": [
+                "Admissão em unidade de terapia intensiva",
+                "Fumante atual",
+                "História anterior de tromboembolismo venoso",
+                "História de acidente vascular encefálico",
+                "Idade > 60 anos",
+                "Menos de 6 semanas pós-parto",
+                "Parente de primeiro grau com história de tromboembolismo venoso"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Violência",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Automutilação",
+              "definicao_Diagnostico": "Comportamento autolesivo deliberado, causando dano tissular, com a intenção de provocar lesão não fatal para obter alívio de tensão.",
+              "codigo_Diagnostico": "00151",
+              "caracteristicas_Definidoras": [
+                "Arranhões no corpo",
+                "Compressão de parte do corpo",
+                "Corte de parte do corpo",
+                "Cortes no corpo",
+                "Cutucar feridas",
+                "Esfolar-se",
+                "Golpear-se",
+                "Inalação de substâncias prejudiciais",
+                "Ingestão de substâncias prejudiciais",
+                "Inserção de objetos em orifícios do corpo",
+                "Morder-se",
+                "Queimadura autoinfligida"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Alteração da imagem corporal",
+                "Ausência de confidente na família",
+                "Autoestima prejudicada",
+                "Baixa autoestima",
+                "Comportamento instável",
+                "Comunicação ineficaz entre pai/mãe e adolescente",
+                "Dissociação",
+                "Estratégias de enfrentamento ineficazes",
+                "Impulsividade",
+                "Incapacidade de expressar tensão verbalmente",
+                "Isolamento dos colegas",
+                "Necessita de redução rápida do estresse",
+                "Padrão de incapacidade para enxergar consequências no longo prazo",
+                "Padrão de incapacidade para planejar soluções",
+                "Perda de controle sobre situação de solução de problemas",
+                "Perfeccionismo",
+                "Perturbação nos relacionamentos interpessoais",
+                "Sentimento negativo",
+                "Sentir-se ameaçado com a perda de relacionamento significativo",
+                "Tensão crescente intolerável",
+                "Transtorno alimentar",
+                "Transtorno emocional",
+                "Urgência irresistível de cortar-se",
+                "Urgência irresistível de violência direcionada a si mesmo",
+                "Uso de manipulação para obter relacionamento de apoio com outros"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Autismo",
+                "Despersonalização",
+                "Transtorno da personalidade borderline",
+                "Transtorno de caráter",
+                "Transtorno psicótico"
+              ],
+              "populacoes_Em_Risco": [
+                "Abuso de substâncias na família",
+                "Adolescência",
+                "Atraso de desenvolvimento",
+                "Cirurgia na infância",
+                "Colegas que se automutilam",
+                "Criança maltratada",
+                "Crise de identidade sexual",
+                "Divórcio na família",
+                "Doença na infância",
+                "Encarceramento",
+                "História de abuso na infância",
+                "História de violência direcionada a si mesmo",
+                "História familiar de comportamento autodestrutivo",
+                "Violência entre figuras paterna/materna",
+                "Viver em local não tradicional"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de automutilação",
+              "definicao_Diagnostico": "Suscetibilidade a comportamento autolesivo deliberado, causando dano tissular, com a intenção de provocar lesão não fatal para obter alívio de tensão.",
+              "codigo_Diagnostico": "00139",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de substâncias",
+                "Alteração da imagem corporal",
+                "Ausência de confidente na família",
+                "Autoestima prejudicada",
+                "Baixa autoestima",
+                "Comportamento instável",
+                "Comunicação ineficaz entre pai/mãe e adolescente",
+                "Dissociação",
+                "Estratégias de enfrentamento ineficazes",
+                "Impulsividade",
+                "Incapacidade de expressar tensão verbalmente",
+                "Isolamento dos colegas",
+                "Necessita de redução rápida do estresse",
+                "Padrão de incapacidade para enxergar consequências no longo prazo",
+                "Padrão de incapacidade para planejar soluções",
+                "Perda de controle sobre situação de solução de problema",
+                "Perfeccionismo",
+                "Perturbação nos relacionamentos interpessoais",
+                "Sentimento negativo",
+                "Sentir-se ameaçado com a perda de relacionamento significativo",
+                "Tensão crescente intolerável",
+                "Transtorno alimentar",
+                "Transtorno emocional",
+                "Urgência irresistível de cortar-se",
+                "Urgência irresistível de violência direcionada a si mesmo",
+                "Uso de manipulação para obter relacionamento de apoio com outros"
+              ],
+              "condicoes_Associadas": [
+                "Autismo",
+                "Despersonalização",
+                "Transtorno da personalidade borderline",
+                "Transtorno de caráter",
+                "Transtorno psicótico"
+              ],
+              "populacoes_Em_Risco": [
+                "Abuso de substâncias na família",
+                "Adolescência",
+                "Atraso de desenvolvimento",
+                "Cirurgia na infância",
+                "Colegas que se automutilam",
+                "Criança maltratada",
+                "Crise de identidade sexual",
+                "Divórcio na família",
+                "Doença na infância",
+                "Encarceramento",
+                "História de abuso na infância",
+                "História de violência direcionada a si mesmo",
+                "História familiar de comportamento autodestrutivo",
+                "Perda de relacionamento significativo",
+                "Violência entre figuras paterna/materna",
+                "Viver em local não tradicional"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de mutilação genital feminina",
+              "definicao_Diagnostico": "Suscetibilidade a ablação total ou parcial da genitália externa feminina e outras lesões da genitália, seja por razão cultural, religiosa ou qualquer outra razão não terapêutica, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00272",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Falta de conhecimento da família sobre o impacto da prática na saúde física",
+                "Falta de conhecimento da família sobre o impacto da prática na saúde reprodutiva",
+                "Falta de conhecimento da família sobre o impacto da prática na saúde psicossocial"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Atitude familiar favorável à prática",
+                "Lideranças familiares pertencem a grupo étnico em que a prática é aceita",
+                "Plano de visita a país de origem da família",
+                "Ser moradora de país onde a prática é aceita",
+                "Ser parte de família em que uma mulher foi submetida à prática",
+                "Ser parte de grupo étnico em que a prática é aceita",
+                "Sexo feminino"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de suicídio",
+              "definicao_Diagnostico": "Suscetibilidade a lesão autoinfligida que ameaça a vida.",
+              "codigo_Diagnostico": "00150",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Comportamentais",
+                "Acúmulo de medicamentos armazenados",
+                "Compra de uma arma",
+                "Distribuir suas posses",
+                "Fazer um testamento",
+                "Impulsividade",
+                "Mudança acentuada de comportamento",
+                "Mudança acentuada na atitude",
+                "Mudança acentuada no desempenho escolar",
+                "Mudar um testamento",
+                "Recuperação eufórica repentina de depressão profunda",
+                "Psicológicos",
+                "Abuso de substâncias",
+                "Culpa",
+                "Situacionais",
+                "Acesso a armas",
+                "Perda de autonomia",
+                "Perda de independência",
+                "Sociais",
+                "Apoio social insuficiente",
+                "Desamparo",
+                "Desesperança",
+                "Dificuldades legais",
+                "Isolamento social",
+                "Perda de relacionamento significativo",
+                "Pesar",
+                "Problemas disciplinares",
+                "Solidão",
+                "Suicídios em grupo",
+                "Vida familiar problemática",
+                "Verbais",
+                "Ameaça matar-se",
+                "Relata desejo de morrer",
+                "Outros",
+                "Dor crônica"
+              ],
+              "condicoes_Associadas": [
+                "Doença física",
+                "Doença terminal",
+                "Transtorno psiquiátrico"
+              ],
+              "populacoes_Em_Risco": [
+                "Adolescência",
+                "Adolescentes que vivem em locais não tradicionais",
+                "Aposentadoria",
+                "Desfavorecido economicamente",
+                "Divorciado",
+                "Etnia caucasiana",
+                "Etnia indígena norte-americana",
+                "História de abuso na infância",
+                "História de tentativa de suicídio",
+                "História familiar de suicídio",
+                "Homens na vida adulta jovem",
+                "Institucionalização",
+                "Jovens homossexuais",
+                "Morar só",
+                "Mudança de endereço",
+                "Pessoas idosas",
+                "Sexo masculino",
+                "Viuvez"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de violência direcionada a outros",
+              "definicao_Diagnostico": "Suscetibilidade a comportamentos nos quais um indivíduo demonstra que pode ser física, emocional e/ou sexualmente nocivo a outros.",
+              "codigo_Diagnostico": "00138",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Acesso a armas",
+                "Comportamento suicida",
+                "Impulsividade",
+                "Linguagem corporal negativa",
+                "Padrão de ameaças de violência",
+                "Padrão de comportamento antissocial violento",
+                "Padrão de violência direcionada a outros",
+                "Padrão de violência indireta"
+              ],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Complicações perinatais",
+                "Complicações pré-natais",
+                "Intoxicação patológica",
+                "Prejuízo neurológico",
+                "Transtorno psicótico"
+              ],
+              "populacoes_Em_Risco": [
+                "História de abuso de substâncias",
+                "História de abuso na infância",
+                "História de crueldade com os animais",
+                "História de desrespeito à legislação de veículos automotivos",
+                "História de provocação de incêndio",
+                "História de testemunhar violência familiar"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de violência direcionada a si mesmo",
+              "definicao_Diagnostico": "Suscetibilidade a comportamentos nos quais um indivíduo demonstra que pode ser física, emocional e/ou sexualmente nocivo a si mesmo.",
+              "codigo_Diagnostico": "00140",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Conflito em relação(ões) interpessoal(is)",
+                "Conflito sobre orientação sexual",
+                "Envolvimento em atos sexuais autoeróticos",
+                "Ideação suicida",
+                "Indicadores comportamentais de intenção suicida",
+                "Indicadores verbais de intenção suicida",
+                "Isolamento social",
+                "Plano suicida",
+                "Preocupação com emprego",
+                "Recursos pessoais insuficientes"
+              ],
+              "condicoes_Associadas": [
+                "Problema de saúde física",
+                "Problema de saúde mental",
+                "Transtorno psicológico"
+              ],
+              "populacoes_Em_Risco": [
+                "Estado civil",
+                "História de múltiplas tentativas de suicídio",
+                "Idade ≥ 45 anos",
+                "Idade entre 15 e 19 anos",
+                "Ocupação",
+                "Padrão de dificuldades nos antecedentes familiares"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Riscos ambientais",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Contaminação",
+              "definicao_Diagnostico": "Exposição a contaminantes ambientais em doses suficientes para causar efeitos adversos à saúde.",
+              "codigo_Diagnostico": "00181",
+              "caracteristicas_Definidoras": [
+                "Pesticidas",
+                "Efeitos dermatológicos da exposição a pesticidas",
+                "Efeitos gastrintestinais da exposição a pesticidas",
+                "Efeitos neurológicos da exposição a pesticidas",
+                "Efeitos pulmonares da exposição a pesticidas",
+                "Efeitos renais da exposição a pesticidas",
+                "Produtos químicos",
+                "Efeitos dermatológicos da exposição a produtos químicos",
+                "Efeitos gastrintestinais da exposição a produtos químicos",
+                "Efeitos imunológicos da exposição a produtos químicos",
+                "Efeitos neurológicos da exposição a produtos químicos",
+                "Efeitos pulmonares da exposição a produtos químicos",
+                "Efeitos renais da exposição a produtos químicos",
+                "Agentes biológicos",
+                "Efeitos dermatológicos da exposição a agentes biológicos",
+                "Efeitos gastrintestinais da exposição a agentes biológicos",
+                "Efeitos neurológicos da exposição a agentes biológicos",
+                "Efeitos pulmonares da exposição a agentes biológicos",
+                "Efeitos renais da exposição a agentes biológicos",
+                "Poluição",
+                "Efeitos neurológicos da exposição à poluição",
+                "Efeitos pulmonares da exposição à poluição",
+                "Resíduos",
+                "Efeitos dermatológicos da exposição a resíduos",
+                "Efeitos gastrintestinais da exposição a resíduos",
+                "Efeitos hepáticos da exposição a resíduos",
+                "Efeitos pulmonares da exposição a resíduos",
+                "Radioatividade",
+                "Efeitos genéticos da exposição à radiação",
+                "Efeitos imunológicos da exposição à radiação",
+                "Efeitos neurológicos da exposição à radiação",
+                "Efeitos oncológicos da exposição à radiação"
+              ],
+              "fatores_Relacionados": [
+                "Externos",
+                "Brincar onde são usados contaminantes ambientais",
+                "Contaminação química da água",
+                "Contaminação química de alimentos",
+                "Degradação inadequada de contaminante",
+                "Exposição sem proteção a material radioativo",
+                "Exposição sem proteção a metais pesados",
+                "Exposição sem proteção a substâncias químicas",
+                "Ingestão de material contaminado",
+                "Piso acarpetado",
+                "Práticas inadequadas de higiene da casa",
+                "Práticas inadequadas de higiene pessoal",
+                "Roupas de proteção inadequadas",
+                "Serviços municipais inadequados",
+                "Superfície descascando na presença de crianças pequenas",
+                "Uso de contaminante ambiental em casa",
+                "Uso de material intoxicante em área com ventilação insuficiente",
+                "Uso de material intoxicante sem proteção eficaz",
+                "Uso inadequado de roupas de proteção",
+                "Internos",
+                "Exposição concomitante",
+                "Nutrição inadequada",
+                "Tabagismo"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Doença preexistente",
+                "Gravidez"
+              ],
+              "populacoes_Em_Risco": [
+                "Crianças < 5 anos",
+                "Desfavorecido economicamente",
+                "Exposição a áreas com alto nível de contaminantes",
+                "Exposição a bioterrorismo",
+                "Exposição a desastre",
+                "Exposição a poluentes atmosféricos",
+                "Exposição à radiação",
+                "Exposição anterior a contaminante",
+                "Idade gestacional durante a exposição",
+                "Pessoas idosas",
+                "Sexo feminino"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de contaminação",
+              "definicao_Diagnostico": "Suscetibilidade à exposição a contaminantes ambientais que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00180",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Externos",
+                "Brincar onde são usados contaminantes ambientais",
+                "Contaminação química da água",
+                "Contaminação química de alimentos",
+                "Degradação inadequada de contaminante",
+                "Exposição sem proteção a material radioativo",
+                "Exposição sem proteção a metais pesados",
+                "Exposição sem proteção a substâncias químicas",
+                "Ingestão de material contaminado",
+                "Piso acarpetado",
+                "Práticas inadequadas de higiene da casa",
+                "Práticas inadequadas de higiene pessoal",
+                "Roupas de proteção inadequadas",
+                "Serviços municipais inadequados",
+                "Superfície descascando na presença de crianças pequenas",
+                "Uso de contaminante ambiental em casa",
+                "Uso de material intoxicante em área com ventilação insuficiente",
+                "Uso de material intoxicante sem proteção eficaz",
+                "Uso inadequado de roupas de proteção",
+                "Internos",
+                "Exposição concomitante",
+                "Nutrição inadequada",
+                "Tabagismo"
+              ],
+              "condicoes_Associadas": [
+                "Doença preexistente",
+                "Gravidez"
+              ],
+              "populacoes_Em_Risco": [
+                "Crianças < 5 anos",
+                "Desfavorecido economicamente",
+                "Exposição a áreas com alto nível de contaminantes",
+                "Exposição a bioterrorismo",
+                "Exposição a desastre",
+                "Exposição a poluentes atmosféricos",
+                "Exposição à radiação",
+                "Exposição anterior a contaminante",
+                "Idade gestacional durante a exposição",
+                "Pessoas idosas",
+                "Sexo feminino"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de envenenamento",
+              "definicao_Diagnostico": "Suscetibilidade a exposição acidental ou ingestão de substâncias ou produtos perigosos em doses suficientes que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00037",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Externos",
+                "Acesso a agente farmacêutico",
+                "Acesso a drogas ilícitas potencialmente contaminadas por aditivos venenosos",
+                "Acesso a produto perigoso",
+                "Ambiente de trabalho sem medidas de proteção adequadas",
+                "Internos",
+                "Conhecimento insuficiente sobre agente farmacêutico",
+                "Conhecimento insuficiente sobre prevenção de envenenamento",
+                "Precauções inadequadas contra envenenamento",
+                "Transtorno emocional",
+                "Visão insuficiente"
+              ],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de lesão ocupacional",
+              "definicao_Diagnostico": "Suscetibilidade a acidente ou doença relacionados ao trabalho que podem comprometer a saúde.",
+              "codigo_Diagnostico": "00265",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Individuais",
+                "Atos inseguros por excesso de confiança",
+                "Atos inseguros por hábitos negativos não saudáveis",
+                "Conhecimento insuficiente",
+                "Controle do tempo inadequado",
+                "Desempenho de papel inadequado",
+                "Estratégias de enfrentamento ineficazes",
+                "Estresse excessivo",
+                "Interpretação incorreta de informações",
+                "Sofrimento psicológico",
+                "Uso inadequado de equipamento de proteção individual",
+                "Ambientais",
+                "Ambiente físico inadequado",
+                "Distração em relação a relacionamentos sociais",
+                "Estado de esgotamento físico e mental (burnout) relacionado à ocupação",
+                "Exposição a agentes biológicos",
+                "Exposição a agentes químicos",
+                "Exposição a agentes teratogênicos",
+                "Exposição a extremos de temperatura",
+                "Exposição à radiação",
+                "Exposição a ruído",
+                "Exposição a vibrações",
+                "Falta de equipamento de proteção individual",
+                "Relações no trabalho",
+                "Rotatividade de trabalho noturno e diurno",
+                "Sobrecarga física",
+                "Trabalho em turnos"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Processos defensivos",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Risco de reação adversa a meio de contraste iodado",
+              "definicao_Diagnostico": "Suscetibilidade a uma reação nociva ou não intencional associada a uso de meio de contraste iodado que pode ocorrer dentro de sete dias após injeção do meio de contraste e que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00218",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Desidratação",
+                "Fraqueza generalizada"
+              ],
+              "condicoes_Associadas": [
+                "Doença crônica",
+                "Inconsciência",
+                "Meio de contraste precipita evento adverso",
+                "Uso concomitante de agentes farmacêuticos",
+                "Veia fragilizada"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade",
+                "História anterior de efeito adverso por meio de contraste iodado",
+                "História de alergia"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de reação alérgica",
+              "definicao_Diagnostico": "Suscetibilidade a uma reação ou resposta imunológica exagerada a substâncias que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00217",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Exposição a alérgeno",
+                "Exposição a alérgeno ambiental",
+                "Exposição a substância química tóxica"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Exposição repetida a substâncias ambientais que produzem alérgenos",
+                "História de alergia a picada de inseto",
+                "História de alergia alimentar"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Reação alérgica ao látex",
+              "definicao_Diagnostico": "Reação de hipersensibilidade a produtos de borracha de látex natural.",
+              "codigo_Diagnostico": "00041",
+              "caracteristicas_Definidoras": [
+                "Reações com risco de morte que ocorrem < 1 hora após exposição",
+                "Aperto no peito",
+                "Broncospasmo",
+                "Dispneia",
+                "Edema",
+                "Hipotensão",
+                "Infarto do miocárdio",
+                "Parada respiratória",
+                "Sibilos",
+                "Síncope",
+                "Urticária de contato, progredindo para sintomas generalizados",
+                "Reações do tipo IV que ocorrem ≥ 1 hora após a exposição",
+                "Eczema",
+                "Eritema da pele",
+                "Irritação da pele",
+                "Reação de desconforto a aditivos",
+                "Características generalizadas",
+                "Desconforto generalizado",
+                "Edema generalizado",
+                "Inquietação",
+                "Relata calor em todo o corpo",
+                "Rubor",
+                "Características gastrintestinais",
+                "Dor abdominal",
+                "Náusea",
+                "Características orofaciais",
+                "Congestão nasal",
+                "Edema periorbital",
+                "Eritema",
+                "Lacrimejamento",
+                "Prurido",
+                "Rinorreia"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Hipersensibilidade às proteínas da borracha do látex natural",
+                "Múltiplos procedimentos cirúrgicos"
+              ],
+              "populacoes_Em_Risco": [
+                "Exposição frequente a produtos com látex",
+                "História de alergia",
+                "História de alergia à planta poinsétia (bico-de-papagaio, flor-do-natal)",
+                "História de alergia alimentar",
+                "História de asma",
+                "História de cirurgia durante a lactância",
+                "História de reação ao látex"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de reação alérgica ao látex",
+              "definicao_Diagnostico": "Suscetibilidade a uma reação de hipersensibilidade a produtos de borracha de látex natural que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00042",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "A serem desenvolvidos"
+              ],
+              "condicoes_Associadas": [
+                "Hipersensibilidade às proteínas da borracha do látex natural",
+                "Múltiplos procedimentos cirúrgicos"
+              ],
+              "populacoes_Em_Risco": [
+                "Exposição frequente a produtos com látex",
+                "História de alergia",
+                "História de alergia à planta poinsétia (bico-de-papagaio, flor-do-natal)",
+                "História de alergia alimentar",
+                "História de asma",
+                "História de cirurgia durante a lactância",
+                "História de reação ao látex"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Termorregulação",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Hipertermia",
+              "definicao_Diagnostico": "Temperatura corporal central acima dos parâmetros diurnos normais devido a falha na termorregulação.",
+              "codigo_Diagnostico": "00007",
+              "caracteristicas_Definidoras": [
+                "Apneia",
+                "Coma",
+                "Convulsão",
+                "Estupor",
+                "Hipotensão",
+                "Irritabilidade",
+                "Lactente não consegue manter a sucção",
+                "Letargia",
+                "Pele quente ao toque",
+                "Postura anormal",
+                "Pele ruborizada",
+                "Taquicardia",
+                "Taquipneia",
+                "Vasodilatação"
+              ],
+              "fatores_Relacionados": [
+                "Atividade vigorosa",
+                "Desidratação",
+                "Roupas inadequadas"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Aumento da taxa metabólica",
+                "Doença",
+                "Isquemia",
+                "Redução na reação de transpiração",
+                "Sepse",
+                "Trauma",
+                "Consultar critérios de estadiamento."
+              ],
+              "populacoes_Em_Risco": [
+                "Exposição a temperatura ambiental elevada"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Hipotermia",
+              "definicao_Diagnostico": "Temperatura corporal central abaixo dos parâmetros diurnos normais devido a falha na termorregulação.",
+              "codigo_Diagnostico": "00006",
+              "caracteristicas_Definidoras": [
+                "Acrocianose",
+                "Aumento da taxa metabólica",
+                "Aumento no consumo de oxigênio",
+                "Bradicardia",
+                "Hipertensão",
+                "Hipoglicemia",
+                "Hipóxia",
+                "Leitos ungueais cianóticos",
+                "Pele fria ao toque",
+                "Piloereção",
+                "Preenchimento capilar lento",
+                "Redução na glicemia sanguínea",
+                "Redução na ventilação",
+                "Taquicardia",
+                "Tremor pelo frio",
+                "Vasoconstrição periférica",
+                "Neonatos",
+                "Acidose metabólica",
+                "Icterícia",
+                "Irritabilidade",
+                "Lactente com aumento de peso insuficiente (< 30 g/dia)",
+                "Lactente com energia insuficiente para manter a sucção",
+                "Palidez",
+                "Sofrimento respiratório"
+              ],
+              "fatores_Relacionados": [
+                "Baixa temperatura ambiental",
+                "Conhecimento insuficiente do cuidador sobre prevenção da hipotermia",
+                "Consumo de álcool",
+                "Desnutrição",
+                "Inatividade",
+                "Roupas insuficientes",
+                "Transferência excessiva de calor por condução",
+                "Transferência excessiva de calor por convexão",
+                "Transferência excessiva de calor por evaporação",
+                "Transferência excessiva de calor por radiação",
+                "Neonatos",
+                "Atraso na amamentação",
+                "Aumento na demanda de oxigênio",
+                "Banho antecipado do recém-nascido"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Camada da córnea imatura",
+                "Controle vascular ineficaz",
+                "Dano ao hipotálamo",
+                "Diminuição da taxa metabólica",
+                "Radioterapia",
+                "Resistência vascular pulmonar (RVP) aumentada",
+                "Termogênese sem tremores ineficiente",
+                "Trauma",
+                "Consultar critérios de estadiamento adequados e validados."
+              ],
+              "populacoes_Em_Risco": [
+                "Aumento da área da superfície corporal em relação ao peso",
+                "Desfavorecido economicamente",
+                "Extremos de idade",
+                "Extremos de peso",
+                "Nascimento de alto risco fora do hospital",
+                "Nascimento não planejado fora do hospital",
+                "Suprimento insuficiente de gordura subcutânea"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de hipotermia",
+              "definicao_Diagnostico": "Suscetibilidade a falha na termorregulação que pode resultar em temperatura corporal central abaixo dos parâmetros diurnos normais, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00253",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Baixa temperatura ambiental",
+                "Conhecimento insuficiente do cuidador sobre prevenção da hipotermia",
+                "Consumo de álcool",
+                "Desnutrição",
+                "Inatividade",
+                "Roupas insuficientes",
+                "Transferência excessiva de calor por condução",
+                "Transferência excessiva de calor por convexão",
+                "Transferência excessiva de calor por evaporação",
+                "Transferência excessiva de calor por radiação",
+                "Neonatos",
+                "Atraso na amamentação",
+                "Aumento na demanda de oxigênio",
+                "Banho antecipado do recém-nascido"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Camada da córnea imatura",
+                "Controle vascular ineficaz",
+                "Dano ao hipotálamo",
+                "Diminuição da taxa metabólica",
+                "Radioterapia",
+                "Resistência vascular pulmonar (RVP) aumentada",
+                "Termogênese sem tremores ineficiente",
+                "Trauma",
+                "Consultar critérios de estadiamento adequados e validados."
+              ],
+              "populacoes_Em_Risco": [
+                "Aumento da área da superfície corporal em relação ao peso",
+                "Desfavorecido economicamente",
+                "Extremos de idade",
+                "Extremos de peso",
+                "Nascimento de alto risco fora do hospital",
+                "Nascimento não planejado fora do hospital",
+                "Suprimento insuficiente de gordura subcutânea"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de hipotermia perioperatória",
+              "definicao_Diagnostico": "Suscetibilidade a uma queda inadvertida na temperatura corporal central abaixo de 36°C, que ocorre no período entre 1 hora antes até 24 horas após cirurgia, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00254",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Baixa temperatura ambiental",
+                "Transferência excessiva de calor por condução",
+                "Transferência excessiva de calor por convexão",
+                "Transferência excessiva de calor por radiação"
+              ],
+              "condicoes_Associadas": [
+                "Anestesia local e geral combinadas",
+                "Complicações cardiovasculares",
+                "Neuropatia diabética",
+                "Procedimento cirúrgico"
+              ],
+              "populacoes_Em_Risco": [
+                "Baixa temperatura no pré-operatório (< 36°C)",
+                "Baixo peso corporal",
+                "Escore de classificação do estado físico da American Society of Anesthesiologists (ASA) > 1"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Termorregulação ineficaz",
+              "definicao_Diagnostico": "Oscilação da temperatura entre hipotermia e hipertermia.",
+              "codigo_Diagnostico": "00008",
+              "caracteristicas_Definidoras": [
+                "Aumento da frequência respiratória",
+                "Aumento da temperatura corporal acima dos parâmetros normais",
+                "Convulsão",
+                "Hipertensão",
+                "Leitos ungueais cianóticos",
+                "Palidez moderada",
+                "Pele fria ao toque",
+                "Pele quente ao toque",
+                "Pele ruborizada",
+                "Piloereção",
+                "Preenchimento capilar lento",
+                "Redução da temperatura corporal abaixo dos parâmetros normais",
+                "Taquicardia",
+                "Tremor leve"
+              ],
+              "fatores_Relacionados": [
+                "Atividade vigorosa",
+                "Aumento na demanda de oxigênio",
+                "Desidratação",
+                "Inatividade",
+                "Oscilação na temperatura ambiental",
+                "Roupas inadequadas para a temperatura ambiental"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração na taxa metabólica",
+                "Condição que afeta a regulação da temperatura",
+                "Doença",
+                "Lesão encefálica",
+                "Redução na reação de transpiração",
+                "Sedação",
+                "Sepse",
+                "Termogênese sem tremores ineficiente",
+                "Trauma"
+              ],
+              "populacoes_Em_Risco": [
+                "Aumento da área da superfície corporal em relação ao peso",
+                "Extremos de idade",
+                "Extremos de peso",
+                "Extremos de temperatura ambiental",
+                "Suprimento insuficiente de gordura subcutânea"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de termorregulação ineficaz",
+              "definicao_Diagnostico": "Suscetibilidade à oscilação da temperatura entre hipotermia e hipertermia que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00274",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Atividade vigorosa",
+                "Aumento na demanda de oxigênio",
+                "Desidratação",
+                "Inatividade",
+                "Oscilação na temperatura ambiental",
+                "Roupas inadequadas para a temperatura ambiental"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Aumento da área da superfície corporal em relação ao peso",
+                "Extremos de idade",
+                "Extremos de peso",
+                "Extremos de temperatura ambiental",
+                "Suprimento insuficiente de gordura subcutânea"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

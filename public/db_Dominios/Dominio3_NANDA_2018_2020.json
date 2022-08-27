@@ -1,0 +1,723 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 3",
+          "descricaoDominio": "Eliminação e troca",
+          "totalClasses": 4
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Função urinária",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Eliminação urinária prejudicada",
+              "definicao_Diagnostico": "Disfunção na eliminação de urina.",
+              "codigo_Diagnostico": "00016",
+              "caracteristicas_Definidoras": [
+                "Disúria",
+                "Hesitação",
+                "Incontinência urinária",
+                "Noctúria",
+                "Retenção urinária",
+                "Urgência urinária",
+                "Urinar com frequência"
+              ],
+              "fatores_Relacionados": [
+                "Múltiplas causas"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Dano sensório-motor",
+                "Infecção do trato urinário",
+                "Obstrução anatômica"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Incontinência urinária de esforço",
+              "definicao_Diagnostico": "Perda repentina de urina com atividades que aumentam a pressão intra- abdominal.",
+              "codigo_Diagnostico": "00017",
+              "caracteristicas_Definidoras": [
+                "Perda involuntária de pequeno volume de urina na ausência de contração do detrusor",
+                "Perda involuntária de pequeno volume de urina na ausência de distensão excessiva da bexiga",
+                "Perda involuntária de pequenos volumes de urina"
+              ],
+              "fatores_Relacionados": [
+                "Enfraquecimento da musculatura do assoalho pélvico"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Aumento da pressão intra-abdominal",
+                "Deficiência intrínseca do esfincter uretral",
+                "Mudanças degenerativas da musculatura do assoalho pélvico"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Incontinência urinária de urgência",
+              "definicao_Diagnostico": "Perda involuntária de urina que ocorre imediatamente após uma forte sensação de urgência para urinar.",
+              "codigo_Diagnostico": "00019",
+              "caracteristicas_Definidoras": [
+                "Incapacidade de chegar ao banheiro a tempo de evitar perda de urina",
+                "Perda involuntária de urina com contrações da bexiga",
+                "Perda involuntária de urina com espasmos da bexiga",
+                "Urgência urinária"
+              ],
+              "fatores_Relacionados": [
+                "Consumo de álcool",
+                "Hábitos de higiene íntima ineficazes",
+                "Impactação fecal",
+                "Ingestão de cafeína",
+                "Relaxamento involuntário do esfincter"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Capacidade vesical diminuída",
+                "Contratilidade da bexiga prejudicada",
+                "Hiperatividade do detrusor com contratilidade da bexiga prejudicada",
+                "Infecção da bexiga",
+                "Regime de tratamento",
+                "Uretrite atrófica",
+                "Vaginite atrófica"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de incontinência urinária de urgência",
+              "definicao_Diagnostico": "Suscetibilidade à perda involuntária de urina que ocorre imediatamente após uma forte sensação de urgência para urinar e que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00022",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Consumo de álcool",
+                "Hábitos de higiene íntima ineficazes",
+                "Impactação fecal",
+                "Ingestão de cafeína",
+                "Relaxamento involuntário do esfincter"
+              ],
+              "condicoes_Associadas": [
+                "Capacidade vesical diminuída",
+                "Contratilidade da bexiga prejudicada",
+                "Hiperatividade do detrusor com contratilidade da bexiga prejudicada",
+                "Infecção da bexiga",
+                "Regime de tratamento",
+                "Uretrite atrófica",
+                "Vaginite atrófica"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Incontinência urinária funcional",
+              "definicao_Diagnostico": "Incapacidade da pessoa que é geralmente continente de alcançar o banheiro a tempo de evitar perda não intencional de urina.",
+              "codigo_Diagnostico": "00020",
+              "caracteristicas_Definidoras": [
+                "Esvaziamento completo da bexiga",
+                "Incontinência urinária no início da manhã",
+                "Perda de urina antes de chegar ao banheiro",
+                "Sensação de necessidade de urinar",
+                "Tempo necessário para chegar ao banheiro é longo demais após sensação de urgência"
+              ],
+              "fatores_Relacionados": [
+                "Alteração em fator ambiental",
+                "Enfraquecimento das estruturas de suporte pélvico"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Prejuízo neuromuscular",
+                "Transtorno psicológico",
+                "Visão prejudicada"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Incontinência urinária por transbordamento",
+              "definicao_Diagnostico": "Perda involuntária de urina associada à distensão excessiva da bexiga.",
+              "codigo_Diagnostico": "00176",
+              "caracteristicas_Definidoras": [
+                "Distensão da bexiga",
+                "Elevado volume residual após micção",
+                "Noctúria",
+                "Perda involuntária de pequenos volumes de urina"
+              ],
+              "fatores_Relacionados": [
+                "Impactação fecal"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Dissinergia detrusor/esfincter externo",
+                "Hipocontratilidade do detrusor",
+                "Obstrução da uretra",
+                "Obstrução do colo da bexiga",
+                "Prolapso pélvico grave",
+                "Regime de tratamento"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Incontinência urinária reflexa",
+              "definicao_Diagnostico": "Perda involuntária de urina a intervalos de certa forma previsíveis, quando um determinado volume na bexiga é atingido.",
+              "codigo_Diagnostico": "00018",
+              "caracteristicas_Definidoras": [
+                "Ausência de sensação para esvaziar a bexiga",
+                "Ausência de urgência para urinar",
+                "Esvaziamento incompleto da bexiga, com lesão acima do centro pontino da micção",
+                "Incapacidade de inibir voluntariamente o esvaziamento da bexiga",
+                "Incapacidade de iniciar voluntariamente o esvaziamento da bexiga",
+                "Padrão previsível de esvaziamento da bexiga",
+                "Sensação de urgência para urinar sem inibição voluntária de contração vesical",
+                "Sensações associadas à bexiga cheia"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Dano tecidual",
+                "Prejuízo neurológico acima do nível do centro da micção sacral",
+                "Prejuízo neurológico acima do nível do centro pontino da micção"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Retenção urinária",
+              "definicao_Diagnostico": "Incapacidade de esvaziar completamente a bexiga.",
+              "codigo_Diagnostico": "00023",
+              "caracteristicas_Definidoras": [
+                "Ausência de eliminação de urina",
+                "Distensão da bexiga",
+                "Disúria",
+                "Eliminação urinária em pequena quantidade",
+                "Gotejamento",
+                "Incontinência por transbordamento",
+                "Sensação de enchimento da bexiga",
+                "Urina residual",
+                "Urinar com frequência"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Bloqueio do trato urinário",
+                "Esfincter uretral muito potente",
+                "Inibição do arco reflexo",
+                "Pressão uretral alta"
+              ],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Função gastrintestinal",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Constipação",
+              "definicao_Diagnostico": "Diminuição na frequência normal de evacuação, acompanhada por eliminação difícil ou incompleta de fezes e/ou eliminação de fezes excessivamente duras e secas.",
+              "codigo_Diagnostico": "00011",
+              "caracteristicas_Definidoras": [
+                "Abdome distendido",
+                "Anorexia",
+                "Apresentações incomuns em pessoas idosas",
+                "Aumento da pressão intra-abdominal",
+                "Borborigmo",
+                "Cefaleia",
+                "Dor abdominal",
+                "Dor ao evacuar",
+                "Esforço para evacuar",
+                "Fadiga",
+                "Fezes formadas endurecidas",
+                "Fezes líquidas",
+                "Flatulência excessiva",
+                "Incapacidade de defecar",
+                "Indigestão",
+                "Macicez à percussão abdominal",
+                "Massa abdominal palpável",
+                "Massa retal palpável",
+                "Mudança no padrão intestinal",
+                "Presença de fezes macias e pastosas no reto",
+                "Redução na frequência das fezes",
+                "Redução no volume das fezes",
+                "Ruídos intestinais hiperativos",
+                "Ruídos intestinais hipoativos",
+                "Sangue vermelho-vivo nas fezes",
+                "Sensação de preenchimento retal",
+                "Sensação de pressão retal",
+                "Sensibilidade abdominal com resistência muscular palpável",
+                "Sensibilidade abdominal sem resistência muscular palpável",
+                "Vômito"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de laxantes",
+                "Alteração nos hábitos alimentares",
+                "Confusão",
+                "Costume de ignorar a urgência para defecar",
+                "Depressão",
+                "Desidratação",
+                "Fraqueza dos músculos abdominais",
+                "Hábitos alimentares inadequados",
+                "Hábitos de evacuação irregulares",
+                "Hábitos de higiene íntima inadequados",
+                "Higiene oral inadequada",
+                "Ingestão de fibras insuficiente",
+                "Ingestão de líquidos insuficiente",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Motilidade gastrintestinal diminuída",
+                "Mudança ambiental recente",
+                "Obesidade",
+                "Transtorno emocional"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Abscesso retal",
+                "Aumento da próstata",
+                "Dentição inadequada",
+                "Desequilíbrio eletrolítico",
+                "Doença de Hirschprung",
+                "Estenose anorretal",
+                "Fissura anorretal",
+                "Gravidez",
+                "Hemorroidas",
+                "Obstrução intestinal pós-operatória",
+                "Prejuízo neurológico",
+                "Prolapso retal",
+                "Retocele",
+                "Sais de ferro",
+                "Tumor",
+                "Úlcera retal"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de constipação",
+              "definicao_Diagnostico": "Suscetibilidade à diminuição na frequência normal de evacuação, acompanhada por eliminação difícil ou incompleta de fezes, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00015",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de laxantes",
+                "Alteração nos hábitos alimentares",
+                "Confusão",
+                "Costume de ignorar a urgência para defecar",
+                "Depressão",
+                "Desidratação",
+                "Fraqueza dos músculos abdominais",
+                "Hábitos alimentares inadequados",
+                "Hábitos de evacuação irregulares",
+                "Hábitos de higiene íntima inadequados",
+                "Higiene oral inadequada",
+                "Ingestão de fibras insuficiente",
+                "Ingestão de líquidos insuficiente",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Motilidade gastrintestinal diminuída",
+                "Mudança ambiental recente",
+                "Obesidade",
+                "Transtorno emocional"
+              ],
+              "condicoes_Associadas": [
+                "Abscesso retal",
+                "Aumento da próstata",
+                "Dentição inadequada",
+                "Desequilíbrio eletrolítico",
+                "Doença de Hirschprung",
+                "Estenose anorretal",
+                "Fissura anorretal",
+                "Gravidez",
+                "Hemorroidas",
+                "Obstrução intestinal pós-operatória",
+                "Prejuízo neurológico",
+                "Prolapso retal",
+                "Retocele",
+                "Sais de ferro",
+                "Tumor",
+                "Úlcera retal"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Constipação percebida",
+              "definicao_Diagnostico": "Autodiagnóstico de constipação combinado com abuso de laxantes, enemas e/ou supositórios para garantir uma evacuação diária.",
+              "codigo_Diagnostico": "00012",
+              "caracteristicas_Definidoras": [
+                "Abuso de enemas",
+                "Abuso de laxantes",
+                "Abuso de supositórios",
+                "Expectativa de evacuação diária",
+                "Expectativa de evacuação no mesmo horário todos os dias"
+              ],
+              "fatores_Relacionados": [
+                "Crenças culturais de saúde",
+                "Crenças familiares de saúde",
+                "Processo de pensamento prejudicado"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Constipação funcional crônica",
+              "definicao_Diagnostico": "Evacuação de fezes infrequente ou difícil, presente há pelo menos 3 dos 12 meses anteriores.",
+              "codigo_Diagnostico": "00235",
+              "caracteristicas_Definidoras": [
+                "Adulto: presença de ≥ 2 critérios no sistema de classificação de Roma III:",
+                "≤ 3 evacuações por semana",
+                "Esforço durante ≥ 25% das evacuações",
+                "Fezes granulosas ou duras em ≥ 25% das evacuações",
+                "Manobras manuais para facilitar ≥ 25% das evacuações (manipulação digital, apoio ao assoalho pélvico)",
+                "Sensação de evacuação incompleta em ≥ 25% das evacuações",
+                "Sensação de obstrução/bloqueio anorretal em ≥ 25% das evacuações",
+                "Criança > 4 anos de idade: presença de ≥ 2 critérios no sistema de classificação de Roma III pediátrico, durante ≥ 2 meses:",
+                "≤ 2 evacuações por semana",
+                "≥ 1 episódio de incontinência fecal por semana",
+                "Evacuações dolorosas ou difíceis",
+                "Fezes com diâmetro grande que podem obstruir o vaso sanitário",
+                "Postura de retenção de fezes",
+                "Presença de grande massa fecal no reto",
+                "Criança ≤ 4 anos de idade: presença de ≥ 2 critérios no sistema de classificação de Roma III pediátrico, durante ≥ 1 mês:",
+                "≤ 2 evacuações por semana",
+                "≥ 1 episódio de incontinência fecal por semana",
+                "Evacuações dolorosas ou difíceis",
+                "Fezes com diâmetro grande que podem obstruir o vaso sanitário",
+                "Postura de retenção de fezes",
+                "Presença de grande massa fecal no reto",
+                "Gerais",
+                "Abdome distendido",
+                "Dor ao evacuar",
+                "Esforço prolongado",
+                "Impactação fecal",
+                "Massa abdominal palpável",
+                "Saída de fezes com estimulação digital",
+                "Teste positivo para sangue oculto nas fezes",
+                "Tipo 1 ou 2 na Escala de Bristol"
+              ],
+              "fatores_Relacionados": [
+                "Baixa ingestão calórica",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Costume de ignorar a urgência para defecar",
+                "Depressão",
+                "Desidratação",
+                "Dieta com baixo teor de fibras",
+                "Dieta desproporcionalmente rica em gorduras",
+                "Dieta desproporcionalmente rica em proteínas",
+                "Estilo de vida sedentário",
+                "Ingestão alimentar insuficiente",
+                "Ingestão alimentar reduzida",
+                "Ingestão de líquidos insuficiente",
+                "Mobilidade prejudicada",
+                "Síndrome do idoso frágil"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Acidente vascular encefálico",
+                "Agente farmacêutico",
+                "Amiloidose",
+                "Câncer colorretal",
+                "Dano ao períneo",
+                "Demência",
+                "Dermatomiosite",
+                "Diabetes melito",
+                "Disfunção do assoalho pélvico",
+                "Distrofia miotônica",
+                "Doença de Hirschprung",
+                "Doença de Parkinson",
+                "Doença intestinal inflamatória",
+                "Escleroderma",
+                "Esclerose múltipla",
+                "Estenose anal",
+                "Estenose cirúrgica",
+                "Estenose isquêmica",
+                "Estenose pós-inflamatória",
+                "Fissura anal",
+                "Gravidez",
+                "Hemorroidas",
+                "Hipercalcemia",
+                "Hipotireoidismo",
+                "Insuficiência renal crônica",
+                "Lesão da medula espinal",
+                "Massa extraintestinal",
+                "Neuropatia autonômica",
+                "Pan-hipopituitarismo",
+                "Paraplegia",
+                "Polifarmácia",
+                "Porfiria",
+                "Proctite",
+                "Pseudo-obstrução intestinal crônica",
+                "Tempo de trânsito colônico lento"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Risco de constipação funcional crônica",
+              "definicao_Diagnostico": "Suscetibilidade à evacuação de fezes infrequente ou difícil, presente em quase 3 dos 12 meses anteriores, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00236",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Baixa ingestão calórica",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Costume de ignorar a urgência para defecar",
+                "Depressão",
+                "Desidratação",
+                "Dieta com baixo teor de fibras",
+                "Dieta desproporcionalmente rica em gorduras",
+                "Dieta desproporcionalmente rica em proteínas",
+                "Estilo de vida sedentário",
+                "Ingestão alimentar insuficiente",
+                "Ingestão alimentar reduzida",
+                "Ingestão de líquidos insuficiente",
+                "Mobilidade prejudicada",
+                "Síndrome do idoso frágil"
+              ],
+              "condicoes_Associadas": [
+                "Acidente vascular encefálico",
+                "Agente farmacêutico",
+                "Amiloidose",
+                "Câncer colorretal",
+                "Dano ao períneo",
+                "Demência",
+                "Dermatomiosite",
+                "Diabetes melito",
+                "Disfunção do assoalho pélvico",
+                "Distrofia miotônica",
+                "Doença de Hirschprung",
+                "Doença de Parkinson",
+                "Doença intestinal inflamatória",
+                "Escleroderma",
+                "Esclerose múltipla",
+                "Estenose anal",
+                "Estenose cirúrgica",
+                "Estenose isquêmica",
+                "Estenose pós-inflamatória",
+                "Fissura anal",
+                "Gravidez",
+                "Hemorroidas",
+                "Hipercalcemia",
+                "Hipotireoidismo",
+                "Insuficiência renal crônica",
+                "Lesão da medula espinal",
+                "Massa extraintestinal",
+                "Neuropatia autonômica",
+                "Pan-hipopituitarismo",
+                "Paraplegia",
+                "Polifarmácia",
+                "Porfiria",
+                "Proctite",
+                "Pseudo-obstrução intestinal crônica",
+                "Tempo de trânsito colônico lento"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Diarreia",
+              "definicao_Diagnostico": "Eliminação de fezes soltas e não formadas.",
+              "codigo_Diagnostico": "00013",
+              "caracteristicas_Definidoras": [
+                "Cólicas",
+                "Dor abdominal",
+                "Evacuações de fezes líquidas, > 3 em 24 horas",
+                "Ruídos intestinais hiperativos",
+                "Urgência intestinal"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de laxantes",
+                "Abuso de substâncias",
+                "Altos níveis de estresse",
+                "Ansiedade"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alimentação enteral",
+                "Infecção",
+                "Inflamação gastrintestinal",
+                "Irritação gastrintestinal",
+                "Má absorção",
+                "Parasita",
+                "Regime de tratamento"
+              ],
+              "populacoes_Em_Risco": [
+                "Exposição a contaminantes",
+                "Exposição a preparo de alimentos sem cuidados higiênicos",
+                "Exposição a toxinas"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Incontinência intestinal",
+              "definicao_Diagnostico": "Eliminação involuntária de fezes.",
+              "codigo_Diagnostico": "00014",
+              "caracteristicas_Definidoras": [
+                "Desatento à urgência para evacuar",
+                "Eliminação constante de fezes amolecidas",
+                "Incapacidade de expelir fezes formadas, apesar de reconhecer que o reto está preenchido",
+                "Incapacidade de reconhecer o preenchimento retal",
+                "Incapacidade de retardar a evacuação",
+                "Manchas de fezes",
+                "Não reconhece a urgência para evacuar",
+                "Urgência intestinal"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de laxantes",
+                "Dificuldade no autocuidado para higiene íntima",
+                "Diminuição geral no tônus muscular",
+                "Estressores",
+                "Esvaziamento intestinal incompleto",
+                "Fator ambiental",
+                "Hábitos alimentares inadequados",
+                "Imobilidade"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração na função cognitiva",
+                "Anormalidade do esfincter retal",
+                "Aumento anormal da pressão abdominal",
+                "Aumento anormal da pressão intestinal",
+                "Capacidade do reservatório prejudicada",
+                "Diarreia crônica",
+                "Esfincter retal disfuncional",
+                "Impactação",
+                "Lesão colorretal",
+                "Lesão em nervo motor inferior",
+                "Lesão em nervo motor superior"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Motilidade gastrintestinal disfuncional",
+              "definicao_Diagnostico": "Atividade peristáltica aumentada, diminuída, ineficaz ou ausente no sistema gastrintestinal.",
+              "codigo_Diagnostico": "00196",
+              "caracteristicas_Definidoras": [
+                "Abdome distendido",
+                "Aceleração do esvaziamento gástrico",
+                "Ausência de flatos",
+                "Cólica abdominal",
+                "Diarreia",
+                "Dificuldade para defecar",
+                "Dor abdominal",
+                "Fezes formadas endurecidas",
+                "Mudança nos ruídos intestinais",
+                "Náusea",
+                "Regurgitação",
+                "Resíduo gástrico aumentado",
+                "Resíduo gástrico cor de bílis",
+                "Vômito"
+              ],
+              "fatores_Relacionados": [
+                "Alteração na fonte de água",
+                "Alteração nos hábitos alimentares",
+                "Ansiedade",
+                "Desnutrição",
+                "Estilo de vida sedentário",
+                "Estressores",
+                "Imobilidade",
+                "Preparo de alimentos sem cuidados higiênicos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alimentação enteral",
+                "Circulação gastrintestinal diminuída",
+                "Diabetes melito",
+                "Doença do refluxo gastresofágico",
+                "Infecção",
+                "Intolerância alimentar",
+                "Regime de tratamento"
+              ],
+              "populacoes_Em_Risco": [
+                "Envelhecimento",
+                "Ingestão de material contaminado",
+                "Prematuridade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de motilidade gastrintestinal disfuncional",
+              "definicao_Diagnostico": "Suscetibilidade a atividade peristáltica aumentada, diminuída, ineficaz ou ausente no sistema gastrintestinal, a qual pode comprometer a saúde.",
+              "codigo_Diagnostico": "00197",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Alteração na fonte de água",
+                "Alteração nos hábitos alimentares",
+                "Ansiedade",
+                "Desnutrição",
+                "Estilo de vida sedentário",
+                "Estressores",
+                "Imobilidade",
+                "Preparo de alimentos sem cuidados higiênicos"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alimentação enteral",
+                "Circulação gastrintestinal diminuída",
+                "Diabetes melito",
+                "Doença do refluxo gastresofágico",
+                "Infecção",
+                "Intolerância alimentar",
+                "Regime de tratamento"
+              ],
+              "populacoes_Em_Risco": [
+                "Envelhecimento",
+                "Ingestão de material contaminado",
+                "Prematuridade"
+              ]
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Função tegumentar",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "",
+              "definicao_Diagnostico": "",
+              "codigo_Diagnostico": "",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Função respiratória",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Troca de gases prejudicada",
+              "definicao_Diagnostico": "Excesso ou déficit na oxigenação e/ou na eliminação de dióxido de carbono na membrana alveolocapilar.",
+              "codigo_Diagnostico": "00030",
+              "caracteristicas_Definidoras": [
+                "Batimento de asa do nariz",
+                "Cefaleia ao acordar",
+                "Confusão",
+                "Cor da pele anormal",
+                "Diaforese",
+                "Diminuição do nível de dióxido de carbono (CO2)",
+                "Dispneia",
+                "Gasometria arterial anormal",
+                "Hipercapnia",
+                "Hipoxemia",
+                "Hipóxia",
+                "Inquietação",
+                "Irritabilidade",
+                "Padrão respiratório anormal",
+                "Perturbação visual",
+                "pH arterial anormal",
+                "Sonolência",
+                "Taquicardia"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alterações na membrana alveolocapilar",
+                "Desequilíbrio na relação ventilação-perfusão"
+              ],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        }
+      ]
+    }
+  ]

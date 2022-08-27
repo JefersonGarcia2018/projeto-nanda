@@ -1,0 +1,421 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 1",
+          "descricaoDominio": "Promoção da saúde",
+          "totalClasses": 2
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Percepção da saúde",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Envolvimento em atividades de recreação diminuído",
+              "definicao_Diagnostico": "Estimulação, interesse ou participação reduzidos em atividades recreativas ou de lazer.",
+              "codigo_Diagnostico": "00097",
+              "caracteristicas_Definidoras": [
+                "Afeto superficial",
+                "Alteração no humor",
+                "Cochilos frequentes durante o dia",
+                "Descontentamento com a situação",
+                "Falta de condicionamento físico",
+                "Tédio"
+              ],
+              "fatores_Relacionados": [
+                "Atividade de recreação insuficiente",
+                "Barreira ambiental",
+                "Desconforto físico",
+                "Energia insuficiente",
+                "Mobilidade prejudicada",
+                "Motivação insuficiente",
+                "O local atual não possibilita envolvimento em atividades",
+                "Sofrimento psicológico"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Imobilidade prescrita",
+                "Isolamento terapêutico"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade",
+                "Hospitalização prolongada",
+                "Institucionalização prolongada"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Estilo de vida sedentário",
+              "definicao_Diagnostico": "Um hábito de vida que se caracteriza por baixo nível de atividade física.",
+              "codigo_Diagnostico": "00168",
+              "caracteristicas_Definidoras": [
+                "Falta de condicionamento físico",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Preferência por atividades com pouca atividade física"
+              ],
+              "fatores_Relacionados": [
+                "Conhecimento insuficiente sobre os benefícios à saúde associados ao exercício físico",
+                "Interesse insuficiente em atividades físicas",
+                "Motivação insuficiente para a atividade física",
+                "Recursos insuficientes para a atividade física",
+                "Treinamento insuficiente para fazer exercício físico"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Disposição para letramento em saúde melhorado",
+              "definicao_Diagnostico": "Um padrão de uso e desenvolvimento de um conjunto de habilidades e competências (letramento, conhecimento, motivação, cultura e linguagem) para encontrar, entender, avaliar e usar conceitos e informações em saúde para a tomada de decisões diária, a promoção e manutenção da saúde, a redução dos riscos à saúde e a melhora da qualidade de vida geral, que pode ser melhorado.",
+              "codigo_Diagnostico": "00262",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a compreensão de costumes e crenças para a tomada de decisões em saúde",
+                "Expressa desejo de aumentar a compreensão de informações de saúde para fazer escolhas de cuidados de saúde",
+                "Expressa desejo de aumentar a conscientização sobre processos cívicos e/ou governamentais que impactam a saúde pública",
+                "Expressa desejo de aumentar o conhecimento sobre os determinantes de saúde atuais em ambientes sociais e físicos",
+                "Expressa desejo de melhorar a capacidade de ler, escrever, falar e interpretar números para as necessidades de saúde cotidianas",
+                "Expressa desejo de melhorar a comunicação sobre saúde com os profissionais",
+                "Expressa desejo de melhorar o apoio social à saúde",
+                "Expressa desejo de melhorar o processo pessoal de tomada de decisão",
+                "Expressa desejo de obter informações suficientes para transitar no sistema de saúde"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Controle da saúde",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Comportamento de saúde propenso a risco",
+              "definicao_Diagnostico": "Capacidade prejudicada de modificar o estilo de vida e/ou as ações de forma a melhorar o nível de bem-estar.",
+              "codigo_Diagnostico": "00188",
+              "caracteristicas_Definidoras": [
+                "Abuso de substâncias",
+                "Falha em agir de forma a prevenir problemas de saúde",
+                "Falha em alcançar um senso de controle ideal",
+                "Minimiza mudanças no estado de saúde",
+                "Não aceitação da mudança no estado de saúde",
+                "Tabagismo"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade social",
+                "Apoio social insuficiente",
+                "Baixa autoeficácia",
+                "Compreensão inadequada",
+                "Estressores",
+                "Percepção negativa da estratégia recomendada de cuidados de saúde",
+                "Percepção negativa do provedor de cuidados de saúde"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente",
+                "História familiar de alcoolismo"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Controle ineficaz da saúde",
+              "definicao_Diagnostico": "Padrão de regulação e integração à vida diária de um regime terapêutico para tratamento de doenças e suas sequelas que é insatisfatório para alcançar metas específicas de saúde.",
+              "codigo_Diagnostico": "00078",
+              "caracteristicas_Definidoras": [
+                "Dificuldade com o regime prescrito",
+                "Escolhas na vida diária ineficazes para atingir as metas de saúde",
+                "Falha em agir para reduzir fatores de risco",
+                "Falha em incluir o regime de tratamento na vida diária"
+              ],
+              "fatores_Relacionados": [
+                "Apoio social insuficiente",
+                "Barreira percebida",
+                "Benefício percebido",
+                "Conflito de decisão",
+                "Conflito familiar",
+                "Conhecimento insuficiente sobre o regime terapêutico",
+                "Demandas excessivas",
+                "Dificuldade de controlar um regime de tratamento complexo",
+                "Dificuldade de transitar por sistemas complexos de cuidados de saúde",
+                "Gravidade da condição percebida",
+                "Número inadequado de indícios de ação",
+                "Padrão familiar de cuidados de saúde",
+                "Sentimento de impotência",
+                "Suscetibilidade percebida"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para controle da saúde melhorado",
+              "definicao_Diagnostico": "Padrão de regulação e integração à vida diária de um regime terapêutico para o tratamento de doenças e suas sequelas que pode ser melhorado.",
+              "codigo_Diagnostico": "00162",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de melhorar a condição de vacinação/imunização",
+                "Expressa desejo de melhorar as escolhas da vida diária para alcançar metas",
+                "Expressa desejo de melhorar o controle de doenças",
+                "Expressa desejo de melhorar o controle de fatores de risco",
+                "Expressa desejo de melhorar o controle de regimes prescritos",
+                "Expressa desejo de melhorar o controle de sintomas"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Controle da saúde familiar ineficaz",
+              "definicao_Diagnostico": "Padrão de regulação e integração aos processos familiares de um programa de tratamento de doenças e suas sequelas que é insatisfatório para alcançar metas específicas de saúde da unidade familiar.",
+              "codigo_Diagnostico": "00080",
+              "caracteristicas_Definidoras": [
+                "Aceleração dos sintomas da doença de um membro da família",
+                "Atividades familiares inadequadas para atingir as metas de saúde",
+                "Dificuldade com o regime prescrito",
+                "Falha em agir para reduzir fatores de risco",
+                "Redução da atenção à doença"
+              ],
+              "fatores_Relacionados": [
+                "Conflito de decisão",
+                "Conflito familiar",
+                "Dificuldade de controlar um regime de tratamento complexo",
+                "Dificuldade de transitar por sistemas complexos de cuidados de saúde"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Desfavorecido economicamente"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Manutenção ineficaz da saúde",
+              "definicao_Diagnostico": "Incapacidade de identificar, controlar e/ou buscar ajuda para manter o bem-estar.",
+              "codigo_Diagnostico": "00099",
+              "caracteristicas_Definidoras": [
+                "Apoio social insuficiente",
+                "Ausência de comportamentos de adaptação a mudanças ambientais",
+                "Ausência de interesse em melhorar comportamentos de saúde",
+                "Conhecimento insuficiente sobre práticas básicas de saúde",
+                "Incapacidade de assumir a responsabilidade de atender a práticas básicas de saúde",
+                "Padrão de ausência de comportamento de busca de saúde"
+              ],
+              "fatores_Relacionados": [
+                "Estratégias de enfrentamento ineficazes",
+                "Habilidades de comunicação ineficazes",
+                "Pesar complicado",
+                "Recursos insuficientes",
+                "Sofrimento espiritual",
+                "Tomada de decisões prejudicada"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Redução nas habilidades motoras finas",
+                "Redução nas habilidades motoras grossas",
+                "Transtornos perceptivos"
+              ],
+              "populacoes_Em_Risco": [
+                "Atraso no desenvolvimento"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Proteção ineficaz",
+              "definicao_Diagnostico": "Diminuição na capacidade de se proteger de ameaças internas ou externas, como doenças ou lesões.",
+              "codigo_Diagnostico": "00043",
+              "caracteristicas_Definidoras": [
+                "Alteração na coagulação",
+                "Alteração na transpiração",
+                "Anorexia",
+                "Calafrios",
+                "Deficiência na imunidade",
+                "Desorientação",
+                "Dispneia",
+                "Fadiga",
+                "Fraqueza",
+                "Imobilidade",
+                "Inquietação",
+                "Insônia",
+                "Lesão por pressão",
+                "Prejuízo neurossensorial",
+                "Prurido",
+                "Resposta mal-adaptada ao estresse",
+                "Tosse"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Nutrição inadequada"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Câncer",
+                "Distúrbio imunológico",
+                "Perfil sanguíneo anormal",
+                "Regime de tratamento"
+              ],
+              "populacoes_Em_Risco": [
+                "Extremos de idade"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Saúde deficiente da comunidade",
+              "definicao_Diagnostico": "Presença de um ou mais problemas de saúde ou fatores que impedem o bem-estar ou aumentam o risco de problemas de saúde vivenciados por um grupo.",
+              "codigo_Diagnostico": "00215",
+              "caracteristicas_Definidoras": [
+                "Ausência de programa para eliminar problema(s) de saúde de um grupo ou população",
+                "Ausência de programa para melhorar o bem-estar de um grupo ou população",
+                "Ausência de programa para prevenir problema(s) de saúde de um grupo ou população",
+                "Ausência de programa para reduzir problema(s) de saúde de um grupo ou população",
+                "Problema de saúde vivenciado por grupos ou populações",
+                "Risco de estados fisiológicos vivenciados por grupos ou populações",
+                "Risco de estados psicológicos vivenciados por grupos ou populações",
+                "Risco de hospitalização vivenciado por grupos ou populações"
+              ],
+              "fatores_Relacionados": [
+                "Acesso insuficiente a provedores de cuidados de saúde",
+                "Falta de especialistas na comunidade",
+                "Programa aborda o problema de saúde de forma incompleta",
+                "Programa com apoio social inadequado",
+                "Programa com dados de resultados inadequados",
+                "Programa com orçamento inadequado",
+                "Programa com plano de avaliação inadequado",
+                "Recursos insuficientes",
+                "Satisfação inadequada do consumidor com o programa"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Síndrome do idoso frágil",
+              "definicao_Diagnostico": "Estado dinâmico de equilíbrio instável que afeta o idoso que passa por deterioração em um ou mais domínios de saúde (físico, funcional, psicológico ou social) e leva ao aumento da suscetibilidade a efeitos de saúde adversos, em particular a incapacidade.",
+              "codigo_Diagnostico": "00257",
+              "caracteristicas_Definidoras": [
+                "Deambulação prejudicada (00088)",
+                "Débito cardíaco diminuído (00029)",
+                "Déficit no autocuidado para alimentação (00102)",
+                "Déficit no autocuidado para banho (00108)",
+                "Déficit no autocuidado para higiene íntima (00110)",
+                "Déficit no autocuidado para vestir-se (00109)",
+                "Desesperança (00124)",
+                "Fadiga (00093)",
+                "Intolerância à atividade (00092)",
+                "Isolamento social (00053)",
+                "Memória prejudicada (00131)",
+                "Mobilidade física prejudicada (00085)",
+                "Nutrição desequilibrada: menor do que as necessidades corporais (00002)"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Apoio social insuficiente",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Depressão",
+                "Desnutrição",
+                "Equilíbrio prejudicado",
+                "Estilo de vida sedentário",
+                "Exaustão",
+                "Força muscular diminuída",
+                "Fraqueza muscular",
+                "Imobilidade",
+                "Intolerância à atividade",
+                "Isolamento social",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Medo de quedas",
+                "Mobilidade prejudicada",
+                "Obesidade",
+                "Redução da energia",
+                "Tristeza"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Anorexia",
+                "Caminhada de 4 metros requer > 5 segundos",
+                "Déficit sensorial",
+                "Disfunção da regulação endócrina",
+                "Doença crônica",
+                "Obesidade sarcopênica",
+                "Perda não intencional de > 4,5 kg em 1 ano",
+                "Perda não intencional de 25% do peso corporal em 1 ano",
+                "Processo de coagulação alterado",
+                "Redução da concentração sérica de 25-hidroxivitamina D",
+                "Resposta inflamatória suprimida",
+                "Sarcopenia",
+                "Transtorno psiquiátrico"
+              ],
+              "populacoes_Em_Risco": [
+                "Baixo nível educacional",
+                "Desfavorecido economicamente",
+                "Etnia diferente da caucasiana",
+                "História de quedas",
+                "Hospitalização prolongada",
+                "Idade > 70 anos",
+                "Morar só",
+                "Sexo feminino",
+                "Viver em espaço limitado",
+                "Vulnerabilidade social"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de síndrome do idoso frágil",
+              "definicao_Diagnostico": "Suscetibilidade a estado dinâmico de equilíbrio instável que afeta o idoso que passa por deterioração em um ou mais domínios de saúde (físico, funcional, psicológico ou social) e leva ao aumento da suscetibilidade a efeitos de saúde adversos, em particular a incapacidade.",
+              "codigo_Diagnostico": "00231",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Ansiedade",
+                "Apoio social insuficiente",
+                "Conhecimento insuficiente sobre os fatores modificáveis",
+                "Depressão",
+                "Desnutrição",
+                "Equilíbrio prejudicado",
+                "Estilo de vida sedentário",
+                "Exaustão",
+                "Força muscular diminuída",
+                "Fraqueza muscular",
+                "Imobilidade",
+                "Intolerância à atividade",
+                "Isolamento social",
+                "Média de atividade física diária inferior à recomendada para idade e sexo",
+                "Medo de quedas",
+                "Mobilidade prejudicada",
+                "Obesidade",
+                "Redução da energia",
+                "Tristeza"
+              ],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Anorexia",
+                "Caminhada de 4 metros requer > 5 segundos",
+                "Déficit sensorial",
+                "Disfunção da regulação endócrina",
+                "Doença crônica",
+                "Obesidade sarcopênica",
+                "Perda não intencional de > 4,5 kg em 1 ano",
+                "Perda não intencional de 25% do peso corporal em 1 ano",
+                "Processo de coagulação alterado",
+                "Redução da concentração sérica de 25-hidroxivitamina D",
+                "Reposta inflamatória suprimida",
+                "Sarcopenia",
+                "Transtorno psiquiátrico"
+              ],
+              "populacoes_Em_Risco": [
+                "Baixo nível educacional",
+                "Desfavorecido economicamente",
+                "Etnia diferente da caucasiana",
+                "História de quedas",
+                "Hospitalização prolongada",
+                "Idade > 70 anos",
+                "Morar só",
+                "Sexo feminino",
+                "Viver em espaço limitado",
+                "Vulnerabilidade social"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

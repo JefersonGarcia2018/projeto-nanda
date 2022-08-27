@@ -1,0 +1,82 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 13",
+          "descricaoDominio": "Crescimento/desenvolvimento",
+          "totalClasses": 2
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Crescimento",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "",
+              "definicao_Diagnostico": "",
+              "codigo_Diagnostico": "",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Desenvolvimento",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Risco de desenvolvimento atrasado",
+              "definicao_Diagnostico": "Suscetibilidade a atraso de 25% ou mais em uma ou mais áreas do comportamento social ou autorregulador, ou em habilidades cognitivas, de linguagem e motoras grossas ou finas, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00112",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de substâncias",
+                "Nutrição inadequada",
+                "Presença de abuso"
+              ],
+              "condicoes_Associadas": [
+                "Deficiência de aprendizagem do cuidador",
+                "Dependência da tecnologia",
+                "Distúrbio congênito",
+                "Distúrbio convulsivo",
+                "Distúrbio endócrino",
+                "Distúrbio genético",
+                "Doença crônica",
+                "Envenenamento por chumbo",
+                "Falha em desenvolver-se",
+                "Infecção pré-natal",
+                "Lesão encefálica",
+                "Otite média recorrente",
+                "Prejuízo da audição",
+                "Problema de saúde mental do cuidador",
+                "Regime de tratamento",
+                "Visão prejudicada"
+              ],
+              "populacoes_Em_Risco": [
+                "Abuso de substâncias pela mãe",
+                "Cuidado pré-natal insuficiente",
+                "Cuidado pré-natal tardio",
+                "Desfavorecido economicamente",
+                "Envolvimento com sistemas de acolhimento/adoção de crianças",
+                "Exposição a desastre natural",
+                "Exposição à violência",
+                "Falta de letramento funcional da mãe",
+                "Gravidez não desejada",
+                "Gravidez não planejada",
+                "História de adoção",
+                "Idade materna ≤ 15 anos",
+                "Idade materna ≥ 35 anos",
+                "Nutrição materna inadequada",
+                "Prematuridade",
+                "Teste de detecção de substâncias positivo",
+                "Transtorno de comportamento"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

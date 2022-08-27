@@ -1,0 +1,465 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 10",
+          "descricaoDominio": "Princípios da vida",
+          "totalClasses": 3
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Valores",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "",
+              "definicao_Diagnostico": "",
+              "codigo_Diagnostico": "",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Crenças",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Disposição para bem-estar espiritual melhorado",
+              "definicao_Diagnostico": "Padrão de experimentar e integrar significado e objetivo à vida, por meio de uma conexão consigo mesmo, com os outros, com a arte, a música, a literatura, a natureza e/ou com um poder maior que si mesmo, que pode ser melhorado.",
+              "codigo_Diagnostico": "00068",
+              "caracteristicas_Definidoras": [
+                "Conexões consigo mesmo",
+                "Expressa desejo de aumentar a aceitação",
+                "Expressa desejo de aumentar a alegria",
+                "Expressa desejo de aumentar a coragem",
+                "Expressa desejo de aumentar a entrega",
+                "Expressa desejo de aumentar a esperança",
+                "Expressa desejo de aumentar a prática da meditação",
+                "Expressa desejo de aumentar a satisfação com a filosofia de vida",
+                "Expressa desejo de aumentar a serenidade",
+                "Expressa desejo de aumentar o amor",
+                "Expressa desejo de aumentar o enfrentamento",
+                "Expressa desejo de aumentar o perdão a si mesmo",
+                "Expressa desejo de aumentar o propósito na vida",
+                "Expressa desejo de aumentar o sentido da vida",
+                "Conexões com outros",
+                "Expressa desejo de aumentar os serviços aos outros",
+                "Expressa desejo de melhorar a interação com líderes espirituais",
+                "Expressa desejo de melhorar a interação com pessoa significativa",
+                "Expressa desejo de melhorar o perdão pelos outros",
+                "Conexões com a arte, a música, a literatura e a natureza",
+                "Expressa desejo de aumentar o tempo ao ar livre",
+                "Expressa desejo de melhorar a energia criativa",
+                "Expressa desejo de melhorar a leitura espiritual",
+                "Conexões com um poder maior",
+                "Expressa desejo de aumentar a oração",
+                "Expressa desejo de aumentar a participação em atividades religiosas",
+                "Expressa desejo de aumentar a reverência",
+                "Expressa desejo de melhorar as experiências místicas"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Coerência entre valores/crenças/atos",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Religiosidade prejudicada",
+              "definicao_Diagnostico": "Capacidade prejudicada de confiar em crenças e/ou participar de rituais de alguma fé religiosa.",
+              "codigo_Diagnostico": "00169",
+              "caracteristicas_Definidoras": [
+                "Angústia por separação de uma comunidade religiosa",
+                "Desejo de reconectar-se com costumes anteriores",
+                "Desejo de reconectar-se com padrão anterior de crença",
+                "Dificuldade em aderir a crenças religiosas prescritas",
+                "Dificuldade em aderir a rituais religiosos prescritos",
+                "Questionamento de costumes religiosos",
+                "Questionamento de padrões de crenças religiosas"
+              ],
+              "fatores_Relacionados": [
+                "Ansiedade",
+                "Apoio social insuficiente",
+                "Barreira ambiental à prática da religião",
+                "Barreira cultural à prática da religião",
+                "Cuidado ineficaz",
+                "Depressão",
+                "Dor",
+                "Estratégias de enfrentamento ineficazes",
+                "Insegurança",
+                "Interação sociocultural insuficiente",
+                "Medo da morte",
+                "Sofrimento espiritual",
+                "Transporte insuficiente"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Doença"
+              ],
+              "populacoes_Em_Risco": [
+                "Crise espiritual",
+                "Crise pessoal",
+                "Crises do estágio final da vida",
+                "Envelhecimento",
+                "História de manipulação religiosa",
+                "Hospitalização",
+                "Transição de vida"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de religiosidade prejudicada",
+              "definicao_Diagnostico": "Suscetibilidade à capacidade prejudicada de confiar em crenças e/ou de participar de rituais de alguma fé religiosa, o que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00170",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Ansiedade",
+                "Apoio social insuficiente",
+                "Barreira ambiental à prática da religião",
+                "Barreira cultural à prática da religião",
+                "Cuidado ineficaz",
+                "Depressão",
+                "Dor",
+                "Estratégias de enfrentamento ineficazes",
+                "Insegurança",
+                "Interação sociocultural insuficiente",
+                "Medo da morte",
+                "Sofrimento espiritual",
+                "Transporte insuficiente"
+              ],
+              "condicoes_Associadas": [
+                "Doença"
+              ],
+              "populacoes_Em_Risco": [
+                "Crise espiritual",
+                "Crise pessoal",
+                "Crises do estágio final da vida",
+                "Envelhecimento",
+                "História de manipulação religiosa",
+                "Hospitalização",
+                "Transição de vida"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para religiosidade melhorada",
+              "definicao_Diagnostico": "Padrão de confiança em crenças e/ou participação em rituais de alguma fé religiosa que pode ser melhorado.",
+              "codigo_Diagnostico": "00171",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a conexão com um líder religioso",
+                "Expressa desejo de aumentar a participação em experiências religiosas",
+                "Expressa desejo de aumentar a participação em práticas religiosas",
+                "Expressa desejo de aumentar as opções religiosas",
+                "Expressa desejo de aumentar o perdão",
+                "Expressa desejo de aumentar o uso de material religioso",
+                "Expressa desejo de reforçar costumes religiosos usados no passado",
+                "Expressa desejo de reforçar padrões de crenças usados no passado"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Sofrimento espiritual",
+              "definicao_Diagnostico": "Estado de sofrimento relacionado à capacidade prejudicada de experimentar significado na vida por meio de conexões consigo mesmo, com os outros, com o mundo ou com um poder maior.",
+              "codigo_Diagnostico": "00066",
+              "caracteristicas_Definidoras": [
+                "Ansiedade",
+                "Choro",
+                "Fadiga",
+                "Insônia",
+                "Medo",
+                "Questionamento da identidade",
+                "Questionamento do sentido da vida",
+                "Questionamento do sentido do sofrimento",
+                "Conexões consigo mesmo",
+                "Aceitação inadequada",
+                "Coragem insuficiente",
+                "Culpa",
+                "Estratégias de enfrentamento ineficazes",
+                "Falta percebida de sentido na vida",
+                "Raiva",
+                "Redução na serenidade",
+                "Sentir que não é amado",
+                "Conexões com outros",
+                "Alienação",
+                "Recusa de interação com líderes espirituais",
+                "Recusa de interação com pessoa significativa",
+                "Separação do sistema de apoio",
+                "Conexões com a arte, a música, a literatura e a natureza",
+                "Falta de interesse na literatura espiritual",
+                "Falta de interesse na natureza",
+                "Redução na expressão do padrão anterior de criatividade",
+                "Conexões com um poder maior",
+                "Desesperança",
+                "Incapacidade de introspecção",
+                "Incapacidade de participar de atividades religiosas",
+                "Incapacidade de rezar",
+                "Incapacidade de vivenciar o transcendente",
+                "Mudança repentina em prática religiosa",
+                "Raiva direcionada a poder maior que o próprio",
+                "Sentimento de abandono",
+                "Sofrimento percebido",
+                "Solicitação de líder espiritual"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Alienação social",
+                "Ansiedade",
+                "Aumento da dependência de outro",
+                "Autoalienação",
+                "Baixa autoestima",
+                "Barreira para experimentar o amor",
+                "Conflito cultural",
+                "Depressão",
+                "Dor",
+                "Estressores",
+                "Incapacidade de perdoar",
+                "Mudança ambiental",
+                "Mudança em ritual religioso",
+                "Mudança na prática espiritual",
+                "Percepção de ter negócios inacabados",
+                "Privação sociocultural",
+                "Relações ineficazes",
+                "Separação do sistema de apoio",
+                "Solidão"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Doença",
+                "Doença crônica",
+                "Doença física",
+                "Morte iminente",
+                "Perda de função de parte do corpo",
+                "Perda de parte do corpo",
+                "Processo de morte ativo",
+                "Regime de tratamento"
+              ],
+              "populacoes_Em_Risco": [
+                "Conflito racial",
+                "Envelhecimento",
+                "Evento de vida inesperado",
+                "Exposição a desastre natural",
+                "Exposição à morte",
+                "Morte de pessoa significativa",
+                "Nascimento de criança",
+                "Perda",
+                "Recebimento de notícia ruim",
+                "Transição de vida"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de sofrimento espiritual",
+              "definicao_Diagnostico": "Suscetibilidade à capacidade prejudicada de experimentar e integrar significado e objetivo à vida por meio de conexões consigo mesmo, com a literatura, a natureza e/ou com um poder maior que si mesmo, que pode comprometer a saúde.",
+              "codigo_Diagnostico": "00067",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de substâncias",
+                "Alienação social",
+                "Ansiedade",
+                "Aumento da dependência de outro",
+                "Autoalienação",
+                "Baixa autoestima",
+                "Barreira para experimentar o amor",
+                "Conflito cultural",
+                "Depressão",
+                "Dor",
+                "Estressores",
+                "Incapacidade de perdoar",
+                "Mudança ambiental",
+                "Mudança em ritual religioso",
+                "Mudança na prática espiritual",
+                "Percepção de ter negócios inacabados",
+                "Privação sociocultural",
+                "Relações ineficazes",
+                "Separação do sistema de apoio",
+                "Solidão"
+              ],
+              "condicoes_Associadas": [
+                "Doença",
+                "Doença crônica",
+                "Doença física",
+                "Morte iminente",
+                "Perda de função de parte do corpo",
+                "Perda de parte do corpo",
+                "Processo de morte ativo",
+                "Regime de tratamento"
+              ],
+              "populacoes_Em_Risco": [
+                "Conflito racial",
+                "Envelhecimento",
+                "Evento de vida inesperado",
+                "Exposição a desastre natural",
+                "Exposição à morte",
+                "Morte de pessoa significativa",
+                "Nascimento de criança",
+                "Perda",
+                "Recebimento de notícia ruim",
+                "Transição de vida"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Sofrimento moral",
+              "definicao_Diagnostico": "Resposta à incapacidade de pôr em prática as decisões e/ou ações éticas ou morais escolhidas.",
+              "codigo_Diagnostico": "00175",
+              "caracteristicas_Definidoras": [
+                "Angústia acerca de agir conforme a escolha moral"
+              ],
+              "fatores_Relacionados": [
+                "Conflito entre os tomadores de decisão",
+                "Dificuldade de chegar a decisões de final de vida",
+                "Dificuldade de chegar a uma decisão sobre tratamento",
+                "Incongruência cultural",
+                "Informações conflitantes disponíveis para a tomada de decisões éticas",
+                "Informações conflitantes disponíveis para a tomada de decisões morais",
+                "Tempo limitado para tomada de decisão"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Distância física do tomador de decisão",
+                "Perda de autonomia"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Conflito de decisão",
+              "definicao_Diagnostico": "Incerteza sobre o curso de ação a ser tomado quando a escolha entre ações conflitantes envolve risco, perda ou desafio a valores e crenças.",
+              "codigo_Diagnostico": "00083",
+              "caracteristicas_Definidoras": [
+                "Atraso na tomada de decisão",
+                "Foco em si próprio",
+                "Incerteza quanto a escolhas",
+                "Indecisão ao fazer escolhas",
+                "Questionamento de crenças pessoais ao tentar chegar a uma decisão",
+                "Questionamento de princípios morais ao tentar chegar a uma decisão",
+                "Questionamento de regras morais ao tentar chegar a uma decisão",
+                "Questionamento de valores morais ao tentar chegar a uma decisão",
+                "Questionamento de valores pessoais ao tentar chegar a uma decisão",
+                "Reconhecimento das consequências indesejadas das ações consideradas",
+                "Sinal físico de sofrimento",
+                "Sinal físico de tensão",
+                "Sofrimento ao tentar chegar a uma decisão"
+              ],
+              "fatores_Relacionados": [
+                "Ameaça percebida ao sistema de valores",
+                "Conflito com fontes de informação",
+                "Conflito com obrigação moral",
+                "Crenças pessoais não esclarecidas",
+                "Inexperiência com tomada de decisões",
+                "Informações insuficientes",
+                "Interferência na tomada de decisão",
+                "Princípio moral apoia ações mutuamente inconsistentes",
+                "Regra moral apoia ações mutuamente inconsistentes",
+                "Sistema de apoio insuficiente",
+                "Valor moral apoia ações mutuamente inconsistentes",
+                "Valores pessoais não esclarecidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Disposição para tomada de decisão melhorada",
+              "definicao_Diagnostico": "Padrão de escolha de um curso de ação para atingir metas de saúde de curto e longo prazos que pode ser melhorado.",
+              "codigo_Diagnostico": "00184",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a coerência das decisões com a meta",
+                "Expressa desejo de aumentar a coerência das decisões com meta sociocultural",
+                "Expressa desejo de aumentar a coerência das decisões com valores",
+                "Expressa desejo de aumentar a coerência das decisões com valores socioculturais",
+                "Expressa desejo de aumentar a compreensão das escolhas na tomada de decisão",
+                "Expressa desejo de aumentar a compreensão do significado das escolhas",
+                "Expressa desejo de aumentar o uso de evidências confiáveis para as decisões",
+                "Expressa desejo de melhorar a análise de riscos-benefícios das decisões",
+                "Expressa desejo de melhorar a tomada de decisões"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Tomada de decisão emancipada prejudicada",
+              "definicao_Diagnostico": "Processo de escolha de uma decisão sobre cuidados de saúde que não inclui conhecimento pessoal e/ou consideração de normas sociais, ou que não ocorre em ambiente flexível, resultando em insatisfação com a decisão.",
+              "codigo_Diagnostico": "00242",
+              "caracteristicas_Definidoras": [
+                "Atraso na implementação da opção de cuidados de saúde escolhida",
+                "Incapacidade de descrever como a opção combinará com o estilo de vida atual",
+                "Incapacidade de escolha de uma opção de cuidados de saúde que combine melhor com o atual estilo de vida",
+                "Medo excessivo do que os outros pensam sobre a decisão",
+                "Preocupação excessiva acerca do que os outros acreditam ser a melhor decisão",
+                "Sentir-se restringido ao descrever a própria opinião",
+                "Sofrimento ao escutar a opinião de outros",
+                "Verbalização limitada sobre a opção de cuidados de saúde na presença de outros"
+              ],
+              "fatores_Relacionados": [
+                "Autoconfiança insuficiente na tomada de decisão",
+                "Confiança insuficiente para discutir abertamente as opções de cuidados de saúde",
+                "Incapacidade de expressar adequadamente as percepções das opções de cuidados de saúde",
+                "Informações insuficientes sobre opções de cuidados de saúde",
+                "Privacidade insuficiente para discutir abertamente as opções de cuidados de saúde",
+                "Redução na compreensão de todas as opções de cuidados de saúde disponíveis",
+                "Tempo inadequado para discutir as opções de cuidados de saúde"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Experiência limitada de tomada de decisão",
+                "Família tradicional hierárquica",
+                "Sistemas de saúde tradicionais hierárquicos"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de tomada de decisão emancipada prejudicada",
+              "definicao_Diagnostico": "Suscetibilidade a processo de escolha de uma decisão sobre cuidados de saúde que não inclui conhecimento pessoal e/ou consideração de normas sociais, ou que não ocorre em ambiente flexível, resultando em insatisfação com a decisão.",
+              "codigo_Diagnostico": "00244",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Autoconfiança insuficiente na tomada de decisão",
+                "Confiança insuficiente para discutir abertamente as opções de cuidados de saúde",
+                "Incapacidade de expressar adequadamente as percepções das opções de cuidados de saúde",
+                "Informações insuficientes sobre opções de cuidados de saúde",
+                "Privacidade insuficiente para discutir abertamente as opções de cuidados de saúde",
+                "Redução na compreensão de todas as opções de cuidados de saúde disponíveis",
+                "Tempo inadequado para discutir as opções de cuidados de saúde"
+              ],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": [
+                "Experiência limitada de tomada de decisão",
+                "Família tradicional hierárquica",
+                "Sistemas de saúde tradicionais hierárquicos"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Disposição para tomada de decisão emancipada melhorada",
+              "definicao_Diagnostico": "Processo de escolha de uma decisão sobre cuidados de saúde que inclui conhecimento pessoal e/ou consideração de normas sociais e que pode ser melhorado.",
+              "codigo_Diagnostico": "00243",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de aumentar a capacidade de compreender todas as opções disponíveis de cuidados de saúde",
+                "Expressa desejo de aumentar a capacidade de escolha de opções de cuidados de saúde que melhor combinem com o atual estilo de vida",
+                "Expressa desejo de aumentar a capacidade de implementar a opção de saúde escolhida",
+                "Expressa desejo de aumentar a capacidade de verbalizar a própria opinião sem restrições",
+                "Expressa desejo de aumentar a confiança na tomada de decisões",
+                "Expressa desejo de aumentar a confiança para discutir abertamente as opções de cuidados de saúde",
+                "Expressa desejo de aumentar a privacidade para discutir opções de cuidados de saúde",
+                "Expressa desejo de aumentar o conforto ao manifestar as opções de cuidados de saúde na presença de outros",
+                "Expressa desejo de melhorar a tomada de decisões"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        }
+      ]
+    }
+  ]

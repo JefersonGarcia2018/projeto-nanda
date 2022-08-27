@@ -1,0 +1,407 @@
+[
+    {
+      "arrayDominio": [
+        {
+          "tituloDominio": "Domínio 5",
+          "descricaoDominio": "Percepção/cognição",
+          "totalClasses": 5
+        }
+      ],
+      "arrayClasses": [
+        {
+          "tituloClasse": "Atenção",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Negligência unilateral",
+              "definicao_Diagnostico": "Prejuízo nas respostas sensorial e motora, nas representações mentais e na atenção espacial do corpo e do ambiente correspondente, caracterizado por desatenção a um dos lados e atenção excessiva ao lado oposto. A negligência do lado esquerdo é mais grave e persistente que a do lado direito.",
+              "codigo_Diagnostico": "00123",
+              "caracteristicas_Definidoras": [
+                "Alteração no comportamento de segurança no lado negligenciado",
+                "Deixa a comida no prato do lado negligenciado",
+                "Desempenho prejudicado nos testes de cancelamento e bissecção de linha",
+                "Desvio marcante do tronco aos estímulos no lado não negligenciado",
+                "Desvio marcante dos olhos aos estímulos no lado não negligenciado",
+                "Distúrbio na lateralização do som",
+                "Falha em cuidar da estética do lado negligenciado",
+                "Falha em movimentar a cabeça no hemiespaço negligenciado",
+                "Falha em movimentar o tronco no hemiespaço negligenciado",
+                "Falha em movimentar os membros no hemiespaço negligenciado",
+                "Falha em movimentar os olhos no hemiespaço negligenciado",
+                "Falha em perceber pessoas que se aproximam a partir do lado negligenciado",
+                "Falha em vestir o lado negligenciado",
+                "Hemianopsia",
+                "Hemiplegia do lado esquerdo decorrente de acidente vascular encefálico",
+                "Negligência representacional",
+                "Negligência visuoespacial unilateral",
+                "Omissão de desenhos no lado negligenciado",
+                "Parece não perceber posicionamento do membro negligenciado",
+                "Perseverança",
+                "Substituição de letras ao ler, para formar palavras alternativas",
+                "Transferência da sensação de dor para o lado não negligenciado",
+                "Uso de apenas metade vertical da página ao escrever"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Lesão encefálica"
+              ],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Orientação",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "",
+              "definicao_Diagnostico": "",
+              "codigo_Diagnostico": "",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Sensação/percepção",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "",
+              "definicao_Diagnostico": "",
+              "codigo_Diagnostico": "",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Cognição",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Confusão aguda",
+              "definicao_Diagnostico": "Distúrbios reversíveis de consciência, atenção, cognição e percepção que surgem em um período de tempo breve, com duração inferior a 3 meses.",
+              "codigo_Diagnostico": "00128",
+              "caracteristicas_Definidoras": [
+                "Agitação",
+                "Alteração na função cognitiva",
+                "Alteração na função psicomotora",
+                "Alteração no nível de consciência",
+                "Alucinações",
+                "Incapacidade de iniciar comportamento voltado a uma meta",
+                "Incapacidade de iniciar um comportamento intencional",
+                "Inquietação",
+                "Percepções incorretas",
+                "Seguimento insuficiente de comportamento intencional",
+                "Seguimento insuficiente de comportamento voltado a uma meta"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Alteração no ciclo sono-vigília",
+                "Desidratação",
+                "Desnutrição",
+                "Dor",
+                "Mobilidade prejudicada",
+                "Privação sensorial",
+                "Retenção urinária",
+                "Uso inadequado de contenção"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração na função cognitiva",
+                "Delirium",
+                "Demência",
+                "Função metabólica prejudicada",
+                "Infecção"
+              ],
+              "populacoes_Em_Risco": [
+                "História de acidente vascular encefálico",
+                "Idade ≥ 60 anos",
+                "Sexo masculino"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Risco de confusão aguda",
+              "definicao_Diagnostico": "Suscetibilidade a distúrbios reversíveis de consciência, atenção, cognição e percepção que surgem em um período de tempo breve e que podem comprometer a saúde.",
+              "codigo_Diagnostico": "00173",
+              "caracteristicas_Definidoras": [],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [
+                "Abuso de substâncias",
+                "Alteração no ciclo sono-vigília",
+                "Desidratação",
+                "Desnutrição",
+                "Dor",
+                "Mobilidade prejudicada",
+                "Privação sensorial",
+                "Retenção urinária",
+                "Uso inadequado de contenção"
+              ],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Alteração na função cognitiva",
+                "Delirium",
+                "Demência",
+                "Função metabólica prejudicada",
+                "Infecção"
+              ],
+              "populacoes_Em_Risco": [
+                "História de acidente vascular encefálico",
+                "Idade ≥ 60 anos",
+                "Sexo masculino"
+              ]
+            },
+            {
+              "titulo_Diagnostico": "Confusão crônica",
+              "definicao_Diagnostico": "Alteração irreversível, progressiva, insidiosa e prolongada do intelecto, do comportamento e da personalidade, manifestada por prejuízo nas funções cognitivas (memória, fala, linguagem, tomada de decisão e função executiva) e dependência na execução das atividades diárias.",
+              "codigo_Diagnostico": "00129",
+              "caracteristicas_Definidoras": [
+                "Alteração em pelo menos uma função cognitiva além da memória",
+                "Alteração na função social",
+                "Alteração na memória de curto prazo",
+                "Alteração na memória de longo prazo",
+                "Alteração na personalidade",
+                "Alteração no comportamento",
+                "Estado de alerta adequado aos arredores",
+                "Incapacidade de realizar pelo menos uma atividade cotidiana",
+                "Início insidioso e irreversível no prejuízo cognitivo",
+                "Prejuízo cognitivo prolongado",
+                "Prejuízo progressivo na função cognitiva"
+              ],
+              "fatores_Relacionados": [
+                "A serem desenvolvidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Acidente vascular encefálico",
+                "Demência"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Conhecimento deficiente",
+              "definicao_Diagnostico": "Ausência de informações cognitivas ou de aquisição de informações relativas a um tópico específico.",
+              "codigo_Diagnostico": "00126",
+              "caracteristicas_Definidoras": [
+                "Comportamento inapropriado",
+                "Conhecimento insuficiente",
+                "Desempenho inadequado em um teste",
+                "Seguimento de instruções inadequado"
+              ],
+              "fatores_Relacionados": [
+                "Conhecimento insuficiente sobre recursos",
+                "Informações incorretas apresentadas por outros",
+                "Informações insuficientes",
+                "Interesse insuficiente em aprender"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Alteração na memória"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Disposição para conhecimento melhorado",
+              "definicao_Diagnostico": "Padrão de informações cognitivas ou de aquisição de informações relativas a um tópico específico, que pode ser melhorado.",
+              "codigo_Diagnostico": "00161",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de melhorar a aprendizagem"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Controle de impulsos ineficaz",
+              "definicao_Diagnostico": "Padrão de reações rápidas e não planejadas a estímulos internos ou externos, sem levar em conta as consequências negativas dessas reações ao indivíduo impulsivo ou aos outros.",
+              "codigo_Diagnostico": "00222",
+              "caracteristicas_Definidoras": [
+                "Agir sem pensar",
+                "Busca de sensações",
+                "Compartilhar detalhes pessoais de forma inadequada",
+                "Comportamento violento",
+                "Explosões de temperamento",
+                "Familiaridade excessiva com estranhos",
+                "Fazer perguntas pessoais sem levar em conta o desconforto dos outros",
+                "Incapacidade de poupar dinheiro ou regular as finanças",
+                "Irritabilidade",
+                "Promiscuidade sexual",
+                "Vício em jogos de apostas"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Desesperança",
+                "Tabagismo",
+                "Transtorno do humor"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na função cognitiva",
+                "Alteração no desenvolvimento",
+                "Distúrbio cerebral orgânico",
+                "Transtorno da personalidade"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Controle emocional lábil",
+              "definicao_Diagnostico": "Rompantes incontroláveis de expressão emocional exagerada e involuntária.",
+              "codigo_Diagnostico": "00251",
+              "caracteristicas_Definidoras": [
+                "Ausência de contato visual",
+                "Choro",
+                "Choro excessivo sem sentir tristeza",
+                "Choro incontrolável",
+                "Choro involuntário",
+                "Constrangimento relacionado à expressão de emoções",
+                "Dificuldade em usar expressões faciais",
+                "Distanciamento de situação profissional",
+                "Distanciamento de situação social",
+                "Expressão de emoções incongruente com o fator desencadeador",
+                "Risadas excessivas sem sentir felicidade",
+                "Risadas incontroláveis",
+                "Risadas involuntárias"
+              ],
+              "fatores_Relacionados": [
+                "Abuso de substâncias",
+                "Alteração na autoestima",
+                "Conhecimento insuficiente sobre a doença",
+                "Conhecimento insuficiente sobre o controle de sintomas",
+                "Estressores",
+                "Fadiga",
+                "Força muscular insuficiente",
+                "Mal-estar social",
+                "Transtorno emocional"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Agente farmacêutico",
+                "Deficiência física",
+                "Lesão encefálica",
+                "Prejuízo funcional",
+                "Prejuízo musculoesquelético",
+                "Transtorno do humor",
+                "Transtorno psiquiátrico"
+              ],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Memória prejudicada",
+              "definicao_Diagnostico": "Incapacidade persistente de recordar ou recuperar partes de informações ou habilidades.",
+              "codigo_Diagnostico": "00131",
+              "caracteristicas_Definidoras": [
+                "Capacidade preservada de realizar atividades da vida diária de forma independente",
+                "Esquecimento constante de efetuar uma ação em horário agendado",
+                "Esquecimento persistente",
+                "Incapacidade persistente de aprender novas habilidades",
+                "Incapacidade persistente de aprender novas informações",
+                "Incapacidade persistente de executar uma habilidade previamente aprendida",
+                "Incapacidade persistente de manter uma nova habilidade",
+                "Incapacidade persistente de recordar informações sobre fatos ou eventos",
+                "Incapacidade persistente de recordar nomes, palavras ou objetos familiares",
+                "Incapacidade persistente de recordar se uma ação foi efetuada",
+                "Incapacidade persistente de reter novas informações"
+              ],
+              "fatores_Relacionados": [
+                "Alteração no volume de líquidos"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Anemia",
+                "Débito cardíaco diminuído",
+                "Desequilíbrio eletrolítico",
+                "Doença de Parkinson",
+                "Hipóxia",
+                "Lesão encefálica",
+                "Prejuízo cognitivo leve",
+                "Prejuízo neurológico",
+                "Outros fatores relacionados modificáveis a serem desenvolvidos."
+              ],
+              "populacoes_Em_Risco": []
+            }
+          ]
+        },
+        {
+          "tituloClasse": "Comunicação",
+          "diagnosticos": [
+            {
+              "titulo_Diagnostico": "Disposição para comunicação melhorada",
+              "definicao_Diagnostico": "Padrão de troca de informações e ideias com outros que pode ser melhorado.",
+              "codigo_Diagnostico": "00157",
+              "caracteristicas_Definidoras": [
+                "Expressa desejo de melhorar a comunicação"
+              ],
+              "fatores_Relacionados": [],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [],
+              "populacoes_Em_Risco": []
+            },
+            {
+              "titulo_Diagnostico": "Comunicação verbal prejudicada",
+              "definicao_Diagnostico": "Capacidade diminuída, retardada ou ausente para receber, processar, transmitir e/ou usar um sistema de símbolos.",
+              "codigo_Diagnostico": "00051",
+              "caracteristicas_Definidoras": [
+                "Ausência de contato visual",
+                "Déficit visual parcial",
+                "Déficit visual total",
+                "Desorientação em relação a pessoas",
+                "Desorientação no espaço",
+                "Desorientação no tempo",
+                "Dificuldade em manter a comunicação",
+                "Dificuldade em usar expressões corporais",
+                "Dificuldade em usar expressões faciais",
+                "Dificuldade na atenção seletiva",
+                "Dificuldade para compreender a comunicação",
+                "Dificuldade para expressar pensamentos verbalmente",
+                "Dificuldade para falar",
+                "Dificuldade para formar frases",
+                "Dificuldade para formar palavras",
+                "Dificuldade para verbalizar",
+                "Dispneia",
+                "Fala arrastada",
+                "Gagueira",
+                "Incapacidade de falar",
+                "Incapacidade de falar o idioma do cuidador",
+                "Incapacidade de usar expressões corporais",
+                "Incapacidade de usar expressões faciais",
+                "Verbalização inapropriada"
+              ],
+              "fatores_Relacionados": [
+                "Alteração no autoconceito",
+                "Baixa autoestima",
+                "Barreira ambiental",
+                "Estímulos insuficientes",
+                "Incongruência cultural",
+                "Informações insuficientes",
+                "Transtorno emocional",
+                "Vulnerabilidade"
+              ],
+              "fator_De_Risco": [],
+              "condicoes_Associadas": [
+                "Alteração na percepção",
+                "Alteração no desenvolvimento",
+                "Barreira física",
+                "Condição fisiológica",
+                "Defeito orofaríngeo",
+                "Prejuízo no sistema nervoso central",
+                "Regime de tratamento",
+                "Transtorno psicótico"
+              ],
+              "populacoes_Em_Risco": [
+                "Ausência de pessoa significativa"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
