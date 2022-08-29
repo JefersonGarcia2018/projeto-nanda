@@ -24,7 +24,8 @@
                 <!-- v-for em [classe.diagnosticos] para gerar os Buttons-Modal e os seus respectivos Modais -->
                 <b-card-text v-for="(diagnostico, index2) in classe.diagnosticos" :key="diagnostico.id">
                 <div v-if="diagnostico.titulo_Diagnostico !== ''">
-                  <b-button size="sm" variant="outline-primary" v-b-modal="`modal-diagnostico-${index1}-${index2}`">{{diagnostico.titulo_Diagnostico}}</b-button>
+                  
+                <b-button size="sm" variant="outline-primary" v-b-modal="`modal-diagnostico-${index1}-${index2}`">{{diagnostico.titulo_Diagnostico}}</b-button>
                  
                  <!-- Modal -->
                   <b-modal :id="`modal-diagnostico-${index1}-${index2}`" scrollable size="lg" cancel-disabled>
@@ -36,53 +37,6 @@
                         </div>
                     </template>
 
-                    <!-- v-if para renderizar o List-group de [ Fatores Relacionados ], se existir -->
-                    <div class="mb-3" v-if="diagnostico.fatores_Relacionados.length > 0">
-                      <b-list-group>
-
-                        <b-list-group-item class="text-center bg-warning text-white">
-                         <strong>Fatores Relacionados</strong>
-                        </b-list-group-item>
-                        <!-- v-for em [ Fatores Relacionados ]  para renderizar cada item -->
-                        <div v-for="(item, index3) in diagnostico.fatores_Relacionados" :key="`${index3}`">
-                          
-                          <div v-if="verificarItem(item, 'FatoresRelacionados')">
-                            <b-list-group-item class="text-center bg-light text-danger">
-                                <strong>{{item}}</strong>
-                            </b-list-group-item>
-                          </div>
-
-                          <div v-else>
-                            <b-list-group-item class="d-flex justify-content-between align-items-center">
-                                <b-form-checkbox 
-                                v-model="selectedFatoresRelacionados" 
-                                :value="`${item}`"
-                                >
-                                {{item}}
-                                </b-form-checkbox>
-                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-FRela-${index1}-${index2}-${index3}`">detalhes...</b-badge>
-                            </b-list-group-item>
-
-                            <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                            <b-modal :id="`modal-secundario-detalhes-FRela-${index1}-${index2}-${index3}`" ok-only>
-                              <template #modal-header>
-                                  {{item}}
-                              </template>
-                              <p class="my-2">Aqui adicionaremos uma breve explicação sobre este termo.</p>
-                              <template #modal-footer="{ cancel }">
-                                <!-- Emulate built in modal footer ok and cancel button actions -->
-                                <b-button size="sm" variant="success" @click="cancel()">
-                                  OK
-                                </b-button>
-                              </template>
-                            </b-modal>
-                          </div>
-
-                        </div>
-
-                      </b-list-group>
-                    </div>
-                    
                     <!-- v-if para renderizar o List-group de [ Características Definidoras ], se existir -->
                     <div class="mb-3" v-if="diagnostico.caracteristicas_Definidoras.length > 0">
                       <b-list-group>
@@ -131,17 +85,17 @@
                       </b-list-group>
                     </div>
 
-                    <!-- v-if para renderizar o List-group de [ Fatores de Risco ], se existir -->
-                    <div class="mb-3" v-if="diagnostico.fator_De_Risco.length > 0">
+                    <!-- v-if para renderizar o List-group de [ Fatores Relacionados ], se existir -->
+                    <div class="mb-3" v-if="diagnostico.fatores_Relacionados.length > 0">
                       <b-list-group>
 
-                        <b-list-group-item class="text-center bg-success text-white">
-                         <strong>Fatores de Risco</strong>
+                        <b-list-group-item class="text-center bg-warning text-white">
+                         <strong>Fatores Relacionados</strong>
                         </b-list-group-item>
-                        <!-- v-for em [ Fatores de Risco ]  para renderizar cada ietem -->
-                        <div v-for="(item, index3) in diagnostico.fator_De_Risco" :key="`${index3}`">
+                        <!-- v-for em [ Fatores Relacionados ]  para renderizar cada item -->
+                        <div v-for="(item, index3) in diagnostico.fatores_Relacionados" :key="`${index3}`">
                           
-                          <div v-if="verificarItem(item, 'FatoresDeRisco')">
+                          <div v-if="verificarItem(item, 'FatoresRelacionados')">
                             <b-list-group-item class="text-center bg-light text-danger">
                                 <strong>{{item}}</strong>
                             </b-list-group-item>
@@ -150,16 +104,16 @@
                           <div v-else>
                             <b-list-group-item class="d-flex justify-content-between align-items-center">
                                 <b-form-checkbox 
-                                v-model="selectedFatoresRiscos" 
+                                v-model="selectedFatoresRelacionados" 
                                 :value="`${item}`"
                                 >
                                 {{item}}
                                 </b-form-checkbox>
-                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-FRisco-${index1}-${index2}-${index3}`">detalhes...</b-badge>
+                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-FRela-${index1}-${index2}-${index3}`">detalhes...</b-badge>
                             </b-list-group-item>
 
                             <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                            <b-modal :id="`modal-secundario-detalhes-FRisco-${index1}-${index2}-${index3}`" ok-only>
+                            <b-modal :id="`modal-secundario-detalhes-FRela-${index1}-${index2}-${index3}`" ok-only>
                               <template #modal-header>
                                   {{item}}
                               </template>
@@ -278,6 +232,53 @@
                       </b-list-group>
                     </div>
 
+                    <!-- v-if para renderizar o List-group de [ Fatores de Risco ], se existir -->
+                    <div class="mb-3" v-if="diagnostico.fator_De_Risco.length > 0">
+                      <b-list-group>
+
+                        <b-list-group-item class="text-center bg-success text-white">
+                         <strong>Fatores de Risco</strong>
+                        </b-list-group-item>
+                        <!-- v-for em [ Fatores de Risco ]  para renderizar cada ietem -->
+                        <div v-for="(item, index3) in diagnostico.fator_De_Risco" :key="`${index3}`">
+                          
+                          <div v-if="verificarItem(item, 'FatoresDeRisco')">
+                            <b-list-group-item class="text-center bg-light text-danger">
+                                <strong>{{item}}</strong>
+                            </b-list-group-item>
+                          </div>
+
+                          <div v-else>
+                            <b-list-group-item class="d-flex justify-content-between align-items-center">
+                                <b-form-checkbox 
+                                v-model="selectedFatoresRiscos" 
+                                :value="`${item}`"
+                                >
+                                {{item}}
+                                </b-form-checkbox>
+                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-FRisco-${index1}-${index2}-${index3}`">detalhes...</b-badge>
+                            </b-list-group-item>
+
+                            <!-- Modal Secundário: informa os detalhes sobre cada item -->
+                            <b-modal :id="`modal-secundario-detalhes-FRisco-${index1}-${index2}-${index3}`" ok-only>
+                              <template #modal-header>
+                                  {{item}}
+                              </template>
+                              <p class="my-2">Aqui adicionaremos uma breve explicação sobre este termo.</p>
+                              <template #modal-footer="{ cancel }">
+                                <!-- Emulate built in modal footer ok and cancel button actions -->
+                                <b-button size="sm" variant="success" @click="cancel()">
+                                  OK
+                                </b-button>
+                              </template>
+                            </b-modal>
+                          </div>
+
+                        </div>
+
+                      </b-list-group>
+                    </div>
+
                     <template #modal-footer="{close}">
                       <!-- Emulate built in modal footer ok and cancel button actions -->
                       <b-button size="sm" variant="success" v-b-modal.modal-gerar-diagnostico @click="gerarDiagnostico(diagnostico.titulo_Diagnostico)">
@@ -301,7 +302,16 @@
           </b-card>
 
           <b-modal id="modal-gerar-diagnostico" title="Diagnóstico gerado" size="lg">
-            <p class="my-4">{{diagnosticoGerado}}</p>
+            <template #modal-header>
+                <div>
+                  <strong>Diagnóstico gerado</strong>
+                  <br>
+                  Copie e modifique conforme sua necessidade.
+                </div>
+            </template>
+
+            <strong class="text-info">{{diagnosticoGerado}}</strong>
+
             <template #modal-footer="{close}">
                       <!-- Emulate built in modal footer ok and cancel button actions -->
                       <b-button size="sm" variant="success" v-b-modal.modal-gerar-diagnostico @click="copiarDiagnostico()">
@@ -379,7 +389,36 @@ export default {
 
     gerarDiagnostico(diagnostico){
       //console.log(diagnostico);
-      this.diagnosticoGerado = `${diagnostico} relacionado a ${this.selectedFatoresRelacionados} caracterizado por ${this.selectedCaracDefinidoras}.`;
+
+      let stringCaracDefinidoras = `${this.selectedCaracDefinidoras}`.toLowerCase();
+      if(this.selectedCaracDefinidoras.length > 0) {
+        this.diagnosticoGerado = `${diagnostico}, caracterizado por ${stringCaracDefinidoras}.`;
+      }
+
+      let stringFatoresRelacionados = `${this.selectedFatoresRelacionados}`.toLowerCase();
+      if(this.selectedFatoresRelacionados.length > 0) {
+        this.diagnosticoGerado = `${diagnostico}, caracterizado por ${stringCaracDefinidoras}, relacionado a ${stringFatoresRelacionados}.`;
+      }
+
+      let stringCondAssociadas = `${this.selectedCondAssociadas}`.toLowerCase();
+      if(this.selectedCondAssociadas.length > 0) {
+        if (this.selectedCaracDefinidoras.length > 0) {
+          this.diagnosticoGerado = `${diagnostico}, caracterizado por ${stringCaracDefinidoras}, relacionado a ${stringCondAssociadas}.`;
+        } else {
+          this.diagnosticoGerado = `${diagnostico}, relacionado a ${stringCondAssociadas}.`;
+        }
+      }
+
+      let stringPopulacoesRisco = `${this.selectedPopulacoesRisco}`.toLowerCase();
+      if(this.selectedPopulacoesRisco.length > 0) {
+        if (this.selectedCaracDefinidoras.length > 0) {
+          this.diagnosticoGerado = `${diagnostico}, caracterizado por ${stringCaracDefinidoras}, relacionado a ${stringPopulacoesRisco}.`;
+        } else {
+          this.diagnosticoGerado = `${diagnostico}, relacionado a ${stringPopulacoesRisco}.`;
+        }
+        
+      }
+      
     },
 
     copiarDiagnostico(){

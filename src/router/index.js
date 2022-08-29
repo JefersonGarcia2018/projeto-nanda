@@ -113,6 +113,22 @@ const routes = [
     // this generates a separate chunk (DominioTreze.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "DominioTreze" */ '../views/DominioTreze.vue')
+  },
+  {
+    path: '/Pesquisa',
+    name: 'PesquisaView',
+    // route level code-splitting
+    // this generates a separate chunk (PesquisaView.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "PesquisaView" */ '../views/PesquisaView.vue')
+  },
+  {
+    path: '/Pesquisa',
+    name: 'ComponenteIntermediarioPesquisa',
+    // route level code-splitting
+    // this generates a separate chunk (ComponenteIntermediarioPesquisa.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "ComponenteIntermediarioPesquisa" */ '../components/ComponenteIntermediarioPesquisa.vue')
   }
 ]
 
