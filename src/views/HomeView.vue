@@ -22,19 +22,6 @@
       </div>
       </div>
     </div>
-
-    <div class="row mt-3">
-      <div class="col">
-        <div>
-          <b-embed
-            type="iframe"
-            aspect="16by9"
-            src="https://www.youtube.com/embed/tErs-ej5ZQg"
-            allowfullscreen
-          ></b-embed>
-        </div>
-      </div>
-    </div>
     
   </div>
 </template>
