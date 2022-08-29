@@ -15,5 +15,9 @@ export default {
       }
     },
 
+    SET_AGUARDAR_PESQUISA: (state, dado) => {
+      state.aguardarPesquisa = dado;
+    },
+
   };
   

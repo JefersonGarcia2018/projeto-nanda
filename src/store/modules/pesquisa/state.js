@@ -1,5 +1,7 @@
 export default {
     itemPesquisa: '',
 
-    arrayDiagnosticos: []
+    arrayDiagnosticos: [],
+
+    aguardarPesquisa: true
   };

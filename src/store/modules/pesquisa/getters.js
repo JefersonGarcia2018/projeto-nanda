@@ -9,6 +9,10 @@ export default {
     arrayDiagnosticos: (state) => {
       return state.arrayDiagnosticos;
     },
+
+    aguardarPesquisa: (state) => {
+      return state.aguardarPesquisa;
+    },
   
   };
   
