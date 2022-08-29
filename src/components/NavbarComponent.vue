@@ -76,7 +76,7 @@ export default {
 
             while (numeroDoDominio <= 13) {
               
-              let response = await axios.get(`http://localhost:8080//db_Dominios/Dominio${numeroDoDominio}_NANDA_2018_2020.json`);
+              let response = await axios.get(`/db_Dominios/Dominio${numeroDoDominio}_NANDA_2018_2020.json`);
               
               this.realizaPesquisa(response.data)
 
