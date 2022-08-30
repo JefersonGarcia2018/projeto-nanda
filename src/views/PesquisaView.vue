@@ -330,7 +330,6 @@
 </template>
 
 <script>
-//import { http } from "@/http/configuracao.js";
 import { mapGetters } from "vuex";
 
 export default {
@@ -341,7 +340,6 @@ export default {
       termoPesquisa: '',
       arrayClasses: [],
       objDominio: {},
-      //arrayDiagnosticos: [],
       selectedCaracDefinidoras: [],
       selectedFatoresRelacionados: [],
       selectedFatoresRiscos: [],

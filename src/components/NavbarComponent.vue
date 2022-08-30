@@ -27,7 +27,8 @@
 
 <script>
 import { mapMutations } from 'vuex'
-import axios from 'axios'
+//import axios from 'axios'
+import { http } from "@/http/configuracao.js";
 
 export default {
   name: 'NavbarComponent',
@@ -86,7 +87,7 @@ export default {
 
             while (numeroDoDominio <= 13) {
               
-              let response = await axios.get(`/db_Dominios/Dominio${numeroDoDominio}_NANDA_2018_2020.json`);
+              let response = await http.get(`/db_Dominios/Dominio${numeroDoDominio}_NANDA_2018_2020.json`);
               
               this.realizaPesquisa(response.data)
 
@@ -100,15 +101,17 @@ export default {
       },
         
      async onSubmit(event) {
-            event.preventDefault();
+        event.preventDefault();
 
-        if(this.form.itemPesquisa !== '')
+        let itemPesquisa = this.form.itemPesquisa.trim()
+
+        if(itemPesquisa !== '')
         {
             this.desabilitar = true;
 
             this.setAguardarPesquisa(false);
             this.delDiagnosticos();
-            this.setItemPesquisa(this.form.itemPesquisa);
+            this.setItemPesquisa(itemPesquisa);
 
            await this.capturarDados();
         
@@ -118,6 +121,8 @@ export default {
            this.form.itemPesquisa = '';
            this.setAguardarPesquisa(true);
            this.desabilitar = false;
+        } else {
+           this.form.itemPesquisa = '';
         }
             
       }
