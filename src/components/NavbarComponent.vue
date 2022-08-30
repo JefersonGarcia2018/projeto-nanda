@@ -11,8 +11,6 @@
       <input class="form-control w-100" v-model="form.itemPesquisa" type="text" placeholder="Pesquisar Diagnóstico" aria-label="Search" required>
       </b-form>
       <b-form v-else class="w-100" @submit="onSubmit">
-      <!-- <input disabled class="form-control w-100" v-model="form.itemPesquisa" type="text" placeholder="Pesquisar Diagnóstico" aria-label="Search" required> -->
-      
       <div class="ml-2 mx-2 text-primary">
         <b-spinner style="width: 1rem; height: 1rem;"></b-spinner> <strong class="ml-2 h5">Pesquisando...</strong>
       </div>
@@ -29,7 +27,6 @@
 
 <script>
 import { mapMutations } from 'vuex'
-//import { http } from "@/http/configuracao.js";
 import axios from 'axios'
 
 export default {
@@ -105,6 +102,8 @@ export default {
      async onSubmit(event) {
             event.preventDefault();
 
+        if(this.form.itemPesquisa !== '')
+        {
             this.desabilitar = true;
 
             this.setAguardarPesquisa(false);
@@ -119,6 +118,7 @@ export default {
            this.form.itemPesquisa = '';
            this.setAguardarPesquisa(true);
            this.desabilitar = false;
+        }
             
       }
     }

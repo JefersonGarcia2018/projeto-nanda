@@ -341,6 +341,7 @@
 <script>
 // @ is an alias to /src
 import HeadSlot from '@/slots/HeadSlot.vue'
+import { http } from "@/http/configuracao.js";
 
 export default {
   name: 'ComponenteConteudoCentral',
@@ -348,6 +349,8 @@ export default {
 
   data() {
       return {
+        arrayClasses: [],
+        objDominio: {},
         selectedCaracDefinidoras: [],
         selectedFatoresRelacionados: [],
         selectedFatoresRiscos: [],
@@ -358,11 +361,15 @@ export default {
   },
   
   props:{
-    objDominio: {required: true, type:Object},
-    arrayClasses: {required: true, type:Array}
+    numDominio: {required: true, type:[Number, String]}
   },
 
   methods: {
+    getDados(dados){
+      this.arrayClasses = dados[0].arrayClasses;
+      this.objDominio = dados[0].arrayDominio[0];
+    },
+
     verificarItem(item, grupo){
 
       let termos = [];
@@ -426,7 +433,7 @@ export default {
     }
   },
 
-  mounted() {
+  async mounted() {
     this.$root.$on('bv::modal::show', (bvEvent, modalId) => {
       //console.log('Modal exibido', bvEvent, modalId)
 
@@ -443,6 +450,16 @@ export default {
       }
       
     })
+
+    try {
+              
+          let response = await http.get(`/db_Dominios/Dominio${this.numDominio}_NANDA_2018_2020.json`);
+          
+          this.getDados(response.data);
+
+    } catch(e) {
+      console.error(e);
+    }
   }
 }
 </script>

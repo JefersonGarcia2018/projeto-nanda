@@ -1,12 +1,11 @@
 <template>
     <div class="viewDominioUm">
-      <conteudo-central :objDominio="objDominio" :arrayClasses="arrayClasses" />
+      <conteudo-central :numDominio="numDominio" />
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import { http } from "@/http/configuracao.js";
 import ConteudoCentral from '@/components/ConteudoCentral.vue'
 
 export default {
@@ -15,22 +14,8 @@ export default {
   
   data() {
       return {
-        arrayClasses: [],
-        objDominio: {},
+        numDominio: 1
       }
-  },
-
-  methods: {
-    getDados(dados){
-      this.arrayClasses = dados[0].arrayClasses;
-      this.objDominio = dados[0].arrayDominio[0];
-    }
-
-  },
-
-  mounted() {
-   http.get("/db_Dominios/Dominio1_NANDA_2018_2020.json")
-        .then( (dado) => (  this.getDados(dado.data) ) );
   }
 }
 

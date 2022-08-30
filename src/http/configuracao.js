@@ -1,3 +1,6 @@
 import axios from "axios";
 
-export const http = axios.create({ baseURL: "/", timeout: 10000,});
+export const http = axios.create({ 
+                                    baseURL: "/", 
+                                    timeout: 10000
+                                });
