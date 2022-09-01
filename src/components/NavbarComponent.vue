@@ -103,7 +103,7 @@ export default {
      async onSubmit(event) {
         event.preventDefault();
 
-        let itemPesquisa = this.form.itemPesquisa.trim()
+        let itemPesquisa = this.form.itemPesquisa.trim();
 
         if(itemPesquisa !== '')
         {

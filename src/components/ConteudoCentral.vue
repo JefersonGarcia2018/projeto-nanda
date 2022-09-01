@@ -37,61 +37,16 @@
                         </div>
                     </template>
 
-                    <!-- v-if para renderizar o List-group de [ Características Definidoras ], se existir -->
-                    <div class="mb-3" v-if="diagnostico.caracteristicas_Definidoras.length > 0">
-                      <b-list-group>
-
-                        <b-list-group-item class="text-center bg-dark text-white">
-                          <strong>Características Definidoras</strong>
-                        </b-list-group-item>
-                        
-                        <!-- v-for em [ Características Definidoras ]  para renderizar cada item -->
-                        <div v-for="(item, index3) in diagnostico.caracteristicas_Definidoras" :key="`${index3}`">
-                          
-                          <div v-if="verificarItem(item, 'CaracterísticasDefinidoras')">
-                            <b-list-group-item class="text-center bg-light text-danger">
-                                <strong>{{item}}</strong>
-                            </b-list-group-item>
-                          </div>
-
-                          <div v-else>
-                            <b-list-group-item class="d-flex justify-content-between align-items-center">
-                                <b-form-checkbox 
-                                v-model="selectedCaracDefinidoras" 
-                                :value="`${item}`"
-                                >
-                                {{item}}
-                                </b-form-checkbox>
-                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-CD-${index1}-${index2}-${index3}`">detalhes...</b-badge>
-                            </b-list-group-item>
-
-                            <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                            <b-modal :id="`modal-secundario-detalhes-CD-${index1}-${index2}-${index3}`" ok-only>
-                              <template #modal-header>
-                                  {{item}}
-                              </template>
-                              <p class="my-2">Aqui adicionaremos uma breve explicação sobre este termo.</p>
-                              <template #modal-footer="{ cancel }">
-                                <!-- Emulate built in modal footer ok and cancel button actions -->
-                                <b-button size="sm" variant="success" @click="cancel()">
-                                  OK
-                                </b-button>
-                              </template>
-                            </b-modal>
-                          </div>
-
-                        </div>
-
-                      </b-list-group>
-                    </div>
-
                     <!-- v-if para renderizar o List-group de [ Fatores Relacionados ], se existir -->
                     <div class="mb-3" v-if="diagnostico.fatores_Relacionados.length > 0">
                       <b-list-group>
 
                         <b-list-group-item class="text-center bg-warning text-white">
-                         <strong>Fatores Relacionados</strong>
+                         <strong>Fatores Relacionados</strong> <b-badge class="bg-white text-dark" pill v-b-modal="`modal-secundario-detalhes-FRelacionados`">?</b-badge>
+                         <br>
+                         Causas ou fatores contribuintes para o problema (fatores etiológicos). Sempre que possível, as ( <strong class="text-danger">intervenções</strong> <strong>de enfermagem</strong> ) devem voltar-se aos <strong>Fatores Relacionados</strong>.
                         </b-list-group-item>
+                  
                         <!-- v-for em [ Fatores Relacionados ]  para renderizar cada item -->
                         <div v-for="(item, index3) in diagnostico.fatores_Relacionados" :key="`${index3}`">
                           
@@ -132,15 +87,67 @@
                       </b-list-group>
                     </div>
 
+                    <!-- v-if para renderizar o List-group de [ Fatores de Risco ], se existir -->
+                    <div class="mb-3" v-if="diagnostico.fator_De_Risco.length > 0">
+                      <b-list-group>
+
+                        <b-list-group-item class="text-center bg-success text-white">
+                         <strong>Fatores de Risco</strong> <b-badge class="bg-white text-dark" pill v-b-modal="`modal-secundario-detalhes-FRisco`">?</b-badge>
+                         <br>
+                         São influências que aumentam a vulnerabilidade de indivíduos, famílias, grupos ou comunidades a um evento não saudável (p. ex., ambiental, psicológico, genético).
+                        </b-list-group-item>
+                        
+
+                        <!-- v-for em [ Fatores de Risco ]  para renderizar cada ietem -->
+                        <div v-for="(item, index3) in diagnostico.fator_De_Risco" :key="`${index3}`">
+                          
+                          <div v-if="verificarItem(item, 'FatoresDeRisco')">
+                            <b-list-group-item class="text-center bg-light text-danger">
+                                <strong>{{item}}</strong>
+                            </b-list-group-item>
+                          </div>
+
+                          <div v-else>
+                            <b-list-group-item class="d-flex justify-content-between align-items-center">
+                                <b-form-checkbox 
+                                v-model="selectedFatoresRiscos" 
+                                :value="`${item}`"
+                                >
+                                {{item}}
+                                </b-form-checkbox>
+                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-FRisco-${index1}-${index2}-${index3}`">detalhes...</b-badge>
+                            </b-list-group-item>
+
+                            <!-- Modal Secundário: informa os detalhes sobre cada item -->
+                            <b-modal :id="`modal-secundario-detalhes-FRisco-${index1}-${index2}-${index3}`" ok-only>
+                              <template #modal-header>
+                                  {{item}}
+                              </template>
+                              <p class="my-2">Aqui adicionaremos uma breve explicação sobre este termo.</p>
+                              <template #modal-footer="{ cancel }">
+                                <!-- Emulate built in modal footer ok and cancel button actions -->
+                                <b-button size="sm" variant="success" @click="cancel()">
+                                  OK
+                                </b-button>
+                              </template>
+                            </b-modal>
+                          </div>
+
+                        </div>
+
+                      </b-list-group>
+                    </div>
+
                     <!-- v-if para renderizar o List-group de [ Condições Associadas ], se existir -->
                     <div class="mb-3" v-if="diagnostico.condicoes_Associadas.length > 0">
                       <b-list-group>
 
                         <b-list-group-item class="text-center bg-danger text-white">
-                         <strong>Condições Associadas</strong>
+                         <strong>Condições Associadas</strong> <b-badge class="bg-white text-dark" pill v-b-modal="`modal-secundario-detalhes-CA`">?</b-badge>
                          <br>
                          São indicadores para os quais os enfermeiros não podem intervir de forma independente
                         </b-list-group-item>
+                        
                         
                         <!-- v-for em [ Condições Associadas ]  para renderizar cada item -->
                         <div v-for="(item, index3) in diagnostico.condicoes_Associadas" :key="`${index3}`">
@@ -187,10 +194,11 @@
                       <b-list-group>
 
                         <b-list-group-item class="text-center bg-primary text-white">
-                         <strong>Populações em Risco</strong>
+                         <strong>Populações em Risco</strong> <b-badge class="bg-white text-dark" pill v-b-modal="`modal-secundario-detalhes-PR`">?</b-badge>
                          <br>
                          São indicadores para os quais os enfermeiros não podem intervir de forma independente
                         </b-list-group-item>
+                        
                         
                         <!-- v-for em [ Populações em Risco ]  para renderizar cada item -->
                         <div v-for="(item, index3) in diagnostico.populacoes_Em_Risco" :key="`${index3}`">
@@ -232,17 +240,20 @@
                       </b-list-group>
                     </div>
 
-                    <!-- v-if para renderizar o List-group de [ Fatores de Risco ], se existir -->
-                    <div class="mb-3" v-if="diagnostico.fator_De_Risco.length > 0">
+                    <!-- v-if para renderizar o List-group de [ Características Definidoras ], se existir -->
+                    <div class="mb-3" v-if="diagnostico.caracteristicas_Definidoras.length > 0">
                       <b-list-group>
 
-                        <b-list-group-item class="text-center bg-success text-white">
-                         <strong>Fatores de Risco</strong>
+                        <b-list-group-item class="text-center bg-dark text-white">
+                          <strong>Características Definidoras</strong> <b-badge class="bg-white text-dark" pill v-b-modal="`modal-secundario-detalhes-CD`">?</b-badge>
+                          <br>
+                          É aquilo que o enfermeiro é capaz de ver; e de inferir pela audição (p. ex., narradas pelo paciente/família), tato ou olfato. Sinal ou sintoma (indicadores objetivos ou subjetivos)
                         </b-list-group-item>
-                        <!-- v-for em [ Fatores de Risco ]  para renderizar cada ietem -->
-                        <div v-for="(item, index3) in diagnostico.fator_De_Risco" :key="`${index3}`">
+                        
+                        <!-- v-for em [ Características Definidoras ]  para renderizar cada item -->
+                        <div v-for="(item, index3) in diagnostico.caracteristicas_Definidoras" :key="`${index3}`">
                           
-                          <div v-if="verificarItem(item, 'FatoresDeRisco')">
+                          <div v-if="verificarItem(item, 'CaracterísticasDefinidoras')">
                             <b-list-group-item class="text-center bg-light text-danger">
                                 <strong>{{item}}</strong>
                             </b-list-group-item>
@@ -251,16 +262,16 @@
                           <div v-else>
                             <b-list-group-item class="d-flex justify-content-between align-items-center">
                                 <b-form-checkbox 
-                                v-model="selectedFatoresRiscos" 
+                                v-model="selectedCaracDefinidoras" 
                                 :value="`${item}`"
                                 >
                                 {{item}}
                                 </b-form-checkbox>
-                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-FRisco-${index1}-${index2}-${index3}`">detalhes...</b-badge>
+                              <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-CD-${index1}-${index2}-${index3}`">detalhes...</b-badge>
                             </b-list-group-item>
 
                             <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                            <b-modal :id="`modal-secundario-detalhes-FRisco-${index1}-${index2}-${index3}`" ok-only>
+                            <b-modal :id="`modal-secundario-detalhes-CD-${index1}-${index2}-${index3}`" ok-only>
                               <template #modal-header>
                                   {{item}}
                               </template>
@@ -278,6 +289,9 @@
 
                       </b-list-group>
                     </div>
+
+                    
+
 
                     <template #modal-footer="{close}">
                       <!-- Emulate built in modal footer ok and cancel button actions -->
@@ -304,7 +318,7 @@
           <b-modal id="modal-gerar-diagnostico" title="Diagnóstico gerado" size="lg">
             <template #modal-header>
                 <div>
-                  <strong>Diagnóstico gerado</strong>
+                  <strong>Enunciado do Diagnóstico</strong>
                   <br>
                   Copie e modifique conforme sua necessidade.
                 </div>
@@ -321,6 +335,113 @@
                         Fechar
                       </b-button>
                     </template>
+          </b-modal>
+
+          <!-- Modal Explicação sobre Fatores Relacionados --> 
+          <b-modal size="lg" :id="`modal-secundario-detalhes-FRelacionados`" ok-only>
+            <template #modal-header>
+              <div>
+                Entendendo sobre <strong class="text-info">Fatores Relacionados</strong>
+              </div>
+            </template>
+            <p class="my-2">Os "<strong class="text-info">Fatores Relacionados</strong>" são um componente que integra todos os <strong>Diagnósticos de Enfermagem</strong> com <strong>foco no problema</strong>.</p>
+            <p>Causas ou fatores contribuintes para o problema(fatores etiológicos). Incluem etiologias, circunstâncias, fatos ou influências que têm certo tipo de relação com o <strong>Diagnósticos de Enfermagem</strong></p>
+            <p>Uma análise da história do paciente costuma ser útil à identificação de <strong class="text-info">Fatores Relacionados</strong>.</p>
+            <p>Sempre que possível, as ( <strong class="text-danger">intervenções</strong> <strong>de enfermagem</strong> ) devem voltar-se a esses <strong class="text-info">fatores</strong> etiológicos para a remoção da causa subjacente do <strong>Diagnósticos de Enfermagem</strong>.</p>
+            <template #modal-footer="{ cancel }">
+              <!-- Emulate built in modal footer ok and cancel button actions -->
+              <b-button size="sm" variant="success" @click="cancel()">
+                OK
+              </b-button>
+            </template>
+          </b-modal>
+
+          <!-- Modal Explicação sobre Fatores de Risco -->
+          <b-modal size="lg" :id="`modal-secundario-detalhes-FRisco`" ok-only>
+            <template #modal-header>
+              <div>
+                Entendendo sobre <strong class="text-info">Fatores de Risco</strong>
+              </div>
+            </template>
+            São influências que aumentam a vulnerabilidade de indivíduos, famílias, grupos ou comunidades a um evento não saudável (p. ex., ambiental, psicológico, genético).
+            <template #modal-footer="{ cancel }">
+              <!-- Emulate built in modal footer ok and cancel button actions -->
+              <b-button size="sm" variant="success" @click="cancel()">
+                OK
+              </b-button>
+            </template>
+          </b-modal>
+
+          <!-- Modal Explicação sobre Condições Associadas -->
+          <b-modal size="lg" :id="`modal-secundario-detalhes-CA`" ok-only>
+            <template #modal-header>
+              <div>
+                Entendendo sobre <strong class="text-info">Condições Associadas</strong>
+              </div>
+            </template>
+            <p class="my-2">"<strong class="text-info">Condições Associadas</strong>" é um termo empregado a partir do NANDA I 2018-2020</p>
+            <p>Não são passíveis de <strong class="text-danger">intervenções</strong> de enfermagem independentes.</p>
+            <p><strong class="text-info">Condições Associadas</strong> são diagnósticos médicos, lesões, procedimentos, dispositivos médicos ou agentes farmacêuticos. Essas condições não são independentemente modificáveis pelo enfermeiro, embora podem auxiliar o enfermeiro a analisar e confirmar diagnósticos potenciais.</p>
+            <p>Ao separar esses indicadores, o enfermeiro consegue reconhecer mais rapidamente os <strong>"Fatores Relacionados"</strong> a serem alvos das <strong class="text-danger">intervenções</strong> ou as <strong>"Características Definidoras"</strong> que precisem de controle de sintomas.</p>
+            <p>A intenção por trás dessa nova categoria é oferecer ao enfermeiro informações que apoiem o seu diagnóstico e também identifiquem, com clareza, aqueles dados da avaliação que ele pode e não pode influenciar diretamente.</p>
+            <template #modal-footer="{ cancel }">
+              <!-- Emulate built in modal footer ok and cancel button actions -->
+              <b-button size="sm" variant="success" @click="cancel()">
+                OK
+              </b-button>
+            </template>
+          </b-modal>
+
+          <!-- Modal Explicação sobre Populações em Risco -->
+          <b-modal size="lg" :id="`modal-secundario-detalhes-PR`" ok-only>
+            <template #modal-header>
+              <div>
+                Entendendo sobre <strong class="text-info">Populações em Risco</strong>
+              </div>
+            </template>
+            <p class="my-2">"<strong class="text-info">Populações em Risco</strong>" é um termo empregado a partir do NANDA I 2018-2020</p>
+            <p>Não são passíveis de <strong class="text-danger">intervenções</strong> de enfermagem independentes.</p>
+            <p><strong class="text-info">Populações em Risco</strong> são grupos de pessoas que partilham alguma característica que faz cada membro ser suscetível a determinada resposta humana, como características demográficas, história de saúde/familiar, estágios de crescimento/desenvolvimento ou exposição a determinados eventos/experiências.</p>
+            <template #modal-footer="{ cancel }">
+              <!-- Emulate built in modal footer ok and cancel button actions -->
+              <b-button size="sm" variant="success" @click="cancel()">
+                OK
+              </b-button>
+            </template>
+          </b-modal>
+
+          <!-- Modal Explicação sobre Características Definidoras -->
+          <b-modal size="lg" :id="`modal-secundario-detalhes-CD`" ok-only>
+            <template #modal-header>
+              <div>
+                Entendendo sobre <strong class="text-info">Características Definidoras</strong>
+              </div>
+            </template>
+            <p class="my-2">São <strong class="text-success">indicadores</strong>/<strong class="text-success">inferências</strong> observáveis pelo enfermeiro.</p>
+            <p>Ou seja, é aquilo que o enfermeiro é capaz de ver; e de inferir pela audição (p. ex., narradas pelo paciente/família), tato ou olfato. Sinal ou sintoma (indicadores objetivos ou subjetivos).</p>      
+            <p>Estão listadas em ordem alfabética. O objetivo final é identificar as <strong class="text-info">Características Definidoras</strong> <strong>críticas</strong>, que devem estar presentes para que seja definido o diagnóstico. Quando isso for possível, reorganizaremos esses <strong class="text-success">indicadores</strong> por ordem de importância.</p>
+            <p>
+              <strong>Quantas <span class="text-info">Características Definidoras</span> preciso identificar para definir determinado diagnóstico de enfermagem para um paciente?</strong>
+              <ul>
+                <li>Depende do diagnóstico.</li>
+                <li>No caso de alguns diagnósticos, apenas uma <strong class="text-info">Característica Definidora</strong> é necessária; por exemplo, com os diagnósticos de <strong>promoção da saúde</strong>, o desejo expresso de um paciente de melhorar determinada resposta humana já é suficiente.</li>
+                <li>Outros diagnósticos requerem um grupo de sintomas, possivelmente três ou quatro, para que o diagnóstico seja acurado. Futuramente, gostaríamos de limitar a quantidade de <strong class="text-success">indicadores</strong> diagnósticos oferecidos na NANDA-I, pois longas listas de sinais/sintomas não são tão úteis do ponto de vista clínico.</li>
+              </ul>
+            </p>
+            <p>
+              As <strong class="text-info">Características Definidoras</strong> estão presentes em três tipos de diagnóticos:
+              <ul>
+                <li>Diagnóstico com <strong>foco no problema</strong></li>
+                <li>Diagnóstico de <strong>promoção da saúde</strong></li>
+                <li>Diagnóstico de <strong>Síndrome</strong></li>
+              </ul>
+            </p>
+            <template #modal-footer="{ cancel }">
+              <!-- Emulate built in modal footer ok and cancel button actions -->
+              <b-button size="sm" variant="success" @click="cancel()">
+                OK
+              </b-button>
+            </template>
           </b-modal>
           
         </div>
@@ -351,8 +472,8 @@ export default {
       return {
         arrayClasses: [],
         objDominio: {},
-        selectedCaracDefinidoras: [],
         selectedFatoresRelacionados: [],
+        selectedCaracDefinidoras: [],
         selectedFatoresRiscos: [],
         selectedCondAssociadas: [],
         selectedPopulacoesRisco: [],
@@ -397,35 +518,37 @@ export default {
     gerarDiagnostico(diagnostico){
       //console.log(diagnostico);
 
-      let stringCaracDefinidoras = `${this.selectedCaracDefinidoras}`.toLowerCase();
-      if(this.selectedCaracDefinidoras.length > 0) {
-        this.diagnosticoGerado = `${diagnostico}, caracterizado por ${stringCaracDefinidoras}.`;
-      }
-
-      let stringFatoresRelacionados = `${this.selectedFatoresRelacionados}`.toLowerCase();
+      //Enunciado de Diagnóstico relacionado a Diagnósticos com Foco no Problema
+      //[Título] + [Fatores Relacionados] + [Característica Definidoras].
       if(this.selectedFatoresRelacionados.length > 0) {
-        this.diagnosticoGerado = `${diagnostico}, caracterizado por ${stringCaracDefinidoras}, relacionado a ${stringFatoresRelacionados}.`;
+        let stringFatoresRelacionados = this.selectedFatoresRelacionados.join(', ');
+        let stringCondAssociadas = this.selectedCondAssociadas.join(', ');
+        let stringPopulacoesRisco = this.selectedPopulacoesRisco.join(', ');
+        let stringCaracDefinidoras = this.selectedCaracDefinidoras.join(', ');
+
+        (this.selectedCaracDefinidoras.length > 0) ? 
+        this.diagnosticoGerado = `${diagnostico} relacionado a ${stringFatoresRelacionados.toLowerCase()}, ${stringCondAssociadas.toLowerCase()}, ${stringPopulacoesRisco.toLowerCase()}, evidenciado por ${stringCaracDefinidoras}.` :
+        this.diagnosticoGerado = `${diagnostico} relacionado a ${stringFatoresRelacionados.toLowerCase()}.`;
       }
 
-      let stringCondAssociadas = `${this.selectedCondAssociadas}`.toLowerCase();
-      if(this.selectedCondAssociadas.length > 0) {
-        if (this.selectedCaracDefinidoras.length > 0) {
-          this.diagnosticoGerado = `${diagnostico}, caracterizado por ${stringCaracDefinidoras}, relacionado a ${stringCondAssociadas}.`;
-        } else {
-          this.diagnosticoGerado = `${diagnostico}, relacionado a ${stringCondAssociadas}.`;
-        }
-      }
-
-      let stringPopulacoesRisco = `${this.selectedPopulacoesRisco}`.toLowerCase();
-      if(this.selectedPopulacoesRisco.length > 0) {
-        if (this.selectedCaracDefinidoras.length > 0) {
-          this.diagnosticoGerado = `${diagnostico}, caracterizado por ${stringCaracDefinidoras}, relacionado a ${stringPopulacoesRisco}.`;
-        } else {
-          this.diagnosticoGerado = `${diagnostico}, relacionado a ${stringPopulacoesRisco}.`;
-        }
+      //Enunciado de Diagnóstico relacionado a Diagnósticos de Risco
+      //[Título] + [Fatores de Risco] + [Condições Associadas] + [Populações em Risco].
+      if((this.selectedFatoresRiscos.length > 0 || this.selectedCondAssociadas.length > 0 || this.selectedPopulacoesRisco.length > 0) && diagnostico.indexOf('Risco') !== -1 && this.selectedFatoresRelacionados.length == 0) {
+        let stringFatoresRiscos = this.selectedFatoresRiscos.join(', ');
+        let stringCondAssociadas = this.selectedCondAssociadas.join(', ');
+        let stringPopulacoesRisco = this.selectedPopulacoesRisco.join(', ');
         
+        this.diagnosticoGerado = `${diagnostico} relacionado a ${stringFatoresRiscos.toLowerCase()}, ${stringCondAssociadas.toLowerCase()}, ${stringPopulacoesRisco.toLowerCase()}.`;
       }
-      
+
+      //Enunciado de Diagnóstico relacionados a Promoção da Saúde
+      //[Título] + [Característica Definidoras].
+      if(this.selectedCaracDefinidoras.length > 0 && diagnostico.indexOf('Disposição') !== -1) {
+        let stringCaracDefinidoras = this.selectedCaracDefinidoras.join(', ');
+
+        this.diagnosticoGerado = `${diagnostico}, evidenciado por ${stringCaracDefinidoras.toLowerCase()}.`;
+      }
+   
     },
 
     copiarDiagnostico(){
