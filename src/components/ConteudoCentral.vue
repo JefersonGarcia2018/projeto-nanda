@@ -145,7 +145,9 @@
                         <b-list-group-item class="text-center bg-danger text-white">
                          <strong>Condições Associadas</strong> <b-badge class="bg-white text-dark" pill v-b-modal="`modal-secundario-detalhes-CA`">?</b-badge>
                          <br>
-                         São indicadores para os quais os enfermeiros não podem intervir de forma independente
+                         São indicadores para os quais os enfermeiros não podem intervir de forma independente.
+                         <br>
+                         São diagnósticos médicos, lesões, procedimentos, dispositivos médicos ou agentes farmacêuticos.
                         </b-list-group-item>
                         
                         
@@ -196,7 +198,9 @@
                         <b-list-group-item class="text-center bg-primary text-white">
                          <strong>Populações em Risco</strong> <b-badge class="bg-white text-dark" pill v-b-modal="`modal-secundario-detalhes-PR`">?</b-badge>
                          <br>
-                         São indicadores para os quais os enfermeiros não podem intervir de forma independente
+                         São indicadores para os quais os enfermeiros não podem intervir de forma independente.
+                         <br>
+                         São grupos de pessoas que partilham alguma característica que faz cada membro ser suscetível a determinada resposta humana.
                         </b-list-group-item>
                         
                         
@@ -522,12 +526,12 @@ export default {
       //[Título] + [Fatores Relacionados] + [Característica Definidoras].
       if(this.selectedFatoresRelacionados.length > 0) {
         let stringFatoresRelacionados = this.selectedFatoresRelacionados.join(', ');
-        let stringCondAssociadas = this.selectedCondAssociadas.join(', ');
-        let stringPopulacoesRisco = this.selectedPopulacoesRisco.join(', ');
-        let stringCaracDefinidoras = this.selectedCaracDefinidoras.join(', ');
+        let stringCondAssociadas = (this.selectedCondAssociadas.length > 0) ? this.selectedCondAssociadas.join(', ')+',' : '';
+        let stringPopulacoesRisco = (this.selectedPopulacoesRisco.length > 0) ? this.selectedPopulacoesRisco.join(', ')+',' : '';
+        let stringCaracDefinidoras = (this.selectedCaracDefinidoras.length > 0) ? this.selectedCaracDefinidoras.join(', ') : '';
 
-        (this.selectedCaracDefinidoras.length > 0) ? 
-        this.diagnosticoGerado = `${diagnostico} relacionado a ${stringFatoresRelacionados.toLowerCase()}, ${stringCondAssociadas.toLowerCase()}, ${stringPopulacoesRisco.toLowerCase()}, evidenciado por ${stringCaracDefinidoras}.` :
+        (stringCaracDefinidoras !== '') ? 
+        this.diagnosticoGerado = `${diagnostico} relacionado a ${stringFatoresRelacionados.toLowerCase()}, ${stringCondAssociadas.toLowerCase()} ${stringPopulacoesRisco.toLowerCase()} evidenciado por ${stringCaracDefinidoras.toLowerCase()}.` :
         this.diagnosticoGerado = `${diagnostico} relacionado a ${stringFatoresRelacionados.toLowerCase()}.`;
       }
 
@@ -535,10 +539,10 @@ export default {
       //[Título] + [Fatores de Risco] + [Condições Associadas] + [Populações em Risco].
       if((this.selectedFatoresRiscos.length > 0 || this.selectedCondAssociadas.length > 0 || this.selectedPopulacoesRisco.length > 0) && diagnostico.indexOf('Risco') !== -1 && this.selectedFatoresRelacionados.length == 0) {
         let stringFatoresRiscos = this.selectedFatoresRiscos.join(', ');
-        let stringCondAssociadas = this.selectedCondAssociadas.join(', ');
-        let stringPopulacoesRisco = this.selectedPopulacoesRisco.join(', ');
+        let stringCondAssociadas = (this.selectedCondAssociadas.length > 0) ? this.selectedCondAssociadas.join(', ')+',' : '';
+        let stringPopulacoesRisco = (this.selectedPopulacoesRisco.length > 0) ? this.selectedPopulacoesRisco.join(', ') : '';
         
-        this.diagnosticoGerado = `${diagnostico} relacionado a ${stringFatoresRiscos.toLowerCase()}, ${stringCondAssociadas.toLowerCase()}, ${stringPopulacoesRisco.toLowerCase()}.`;
+        this.diagnosticoGerado = `${diagnostico} relacionado a ${stringFatoresRiscos.toLowerCase()}, ${stringCondAssociadas.toLowerCase()} ${stringPopulacoesRisco.toLowerCase()}.`;
       }
 
       //Enunciado de Diagnóstico relacionados a Promoção da Saúde
