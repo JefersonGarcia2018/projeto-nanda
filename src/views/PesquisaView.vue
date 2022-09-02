@@ -57,22 +57,10 @@
                         >
                         {{item}}
                         </b-form-checkbox>
-                      <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-FRela-${index1}-${index2}`">detalhes...</b-badge>
+                      <b-badge variant="primary" @click="pegarDetalheTermo(item)" pill v-b-modal="`modal-secundario-detalhes`">detalhes...</b-badge>
                     </b-list-group-item>
 
-                    <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                    <b-modal :id="`modal-secundario-detalhes-FRela-${index1}-${index2}`" ok-only>
-                      <template #modal-header>
-                          {{item}}
-                      </template>
-                      <p class="my-2">Aqui adicionaremos uma breve explicação sobre este termo.</p>
-                      <template #modal-footer="{ cancel }">
-                        <!-- Emulate built in modal footer ok and cancel button actions -->
-                        <b-button size="sm" variant="success" @click="cancel()">
-                          OK
-                        </b-button>
-                      </template>
-                    </b-modal>
+                    
                   </div>
 
                 </div>
@@ -107,22 +95,10 @@
                         >
                         {{item}}
                         </b-form-checkbox>
-                      <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-FRisco-${index1}-${index2}`">detalhes...</b-badge>
+                      <b-badge variant="primary" @click="pegarDetalheTermo(item)" pill v-b-modal="`modal-secundario-detalhes`">detalhes...</b-badge>
                     </b-list-group-item>
 
-                    <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                    <b-modal :id="`modal-secundario-detalhes-FRisco-${index1}-${index2}`" ok-only>
-                      <template #modal-header>
-                          {{item}}
-                      </template>
-                      <p class="my-2">Aqui adicionaremos uma breve explicação sobre este termo.</p>
-                      <template #modal-footer="{ cancel }">
-                        <!-- Emulate built in modal footer ok and cancel button actions -->
-                        <b-button size="sm" variant="success" @click="cancel()">
-                          OK
-                        </b-button>
-                      </template>
-                    </b-modal>
+                    
                   </div>
 
                 </div>
@@ -159,22 +135,10 @@
                         >
                         {{item}}
                         </b-form-checkbox>
-                      <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-CA-${index1}-${index2}`">detalhes...</b-badge>
+                      <b-badge variant="primary" @click="pegarDetalheTermo(item)" pill v-b-modal="`modal-secundario-detalhes`">detalhes...</b-badge>
                     </b-list-group-item>
 
-                    <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                    <b-modal :id="`modal-secundario-detalhes-CA-${index1}-${index2}`" ok-only>
-                      <template #modal-header>
-                          {{item}}
-                      </template>
-                      <p class="my-2">Aqui adicionaremos uma breve explicação sobre este termo.</p>
-                      <template #modal-footer="{ cancel }">
-                        <!-- Emulate built in modal footer ok and cancel button actions -->
-                        <b-button size="sm" variant="success" @click="cancel()">
-                          OK
-                        </b-button>
-                      </template>
-                    </b-modal>
+                    
                   </div>
 
                 </div>
@@ -211,22 +175,10 @@
                         >
                         {{item}}
                         </b-form-checkbox>
-                      <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-PR-${index1}-${index2}`">detalhes...</b-badge>
+                      <b-badge variant="primary" @click="pegarDetalheTermo(item)" pill v-b-modal="`modal-secundario-detalhes`">detalhes...</b-badge>
                     </b-list-group-item>
 
-                    <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                    <b-modal :id="`modal-secundario-detalhes-PR-${index1}-${index2}`" ok-only>
-                      <template #modal-header>
-                          {{item}}
-                      </template>
-                      <p class="my-2">Aqui adicionaremos uma breve explicação sobre este termo.</p>
-                      <template #modal-footer="{ cancel }">
-                        <!-- Emulate built in modal footer ok and cancel button actions -->
-                        <b-button size="sm" variant="success" @click="cancel()">
-                          OK
-                        </b-button>
-                      </template>
-                    </b-modal>
+                    
                   </div>
 
                 </div>
@@ -261,22 +213,9 @@
                         >
                         {{item}}
                         </b-form-checkbox>
-                      <b-badge variant="primary" pill v-b-modal="`modal-secundario-detalhes-CD-${index1}-${index2}`">detalhes...</b-badge>
+                      <b-badge variant="primary" @click="pegarDetalheTermo(item)" pill v-b-modal="`modal-secundario-detalhes`">detalhes...</b-badge>
                     </b-list-group-item>
 
-                    <!-- Modal Secundário: informa os detalhes sobre cada item -->
-                    <b-modal :id="`modal-secundario-detalhes-CD-${index1}-${index2}`" ok-only>
-                      <template #modal-header>
-                          {{item}}
-                      </template>
-                      <p class="my-2">Aqui adicionaremos uma breve explicação sobre este termo.</p>
-                      <template #modal-footer="{ cancel }">
-                        <!-- Emulate built in modal footer ok and cancel button actions -->
-                        <b-button size="sm" variant="success" @click="cancel()">
-                          OK
-                        </b-button>
-                      </template>
-                    </b-modal>
                   </div>
 
                 </div>
@@ -285,7 +224,6 @@
             </div>
 
             <template #modal-footer="{close}">
-              <!-- Emulate built in modal footer ok and cancel button actions -->
               <b-button size="sm" variant="success" v-b-modal.modal-gerar-diagnostico @click="gerarDiagnostico(itemDiagnostico[2].titulo_Diagnostico)">
                 Gerar
               </b-button>
@@ -297,8 +235,28 @@
 
 
       </div>
-      
 
+      <!-- Modal Secundário: informa os detalhes sobre cada item -->
+      <b-modal :id="`modal-secundario-detalhes`" ok-only>
+        <template #modal-header>
+            {{termo}}
+        </template>
+        <p v-if="detalheTermo !== ''" class="my-2">
+          {{detalheTermo}}
+        </p>
+        <p v-else>
+          Aqui adicionaremos uma breve explicação sobre este termo.
+        </p>
+        
+        <template #modal-footer="{ cancel }">
+          <!-- Emulate built in modal footer ok and cancel button actions -->
+          <b-button size="sm" variant="success" @click="cancel()">
+            OK
+          </b-button>
+        </template>
+      </b-modal>
+      
+      <!-- Modal Gerar Diagnóstico -->
       <b-modal id="modal-gerar-diagnostico" title="Diagnóstico gerado" size="lg">
         <template #modal-header>
             <div>
@@ -450,6 +408,7 @@
 
 <script>
 import { mapGetters } from "vuex";
+import { http } from "@/http/configuracao.js";
 
 export default {
   name: 'PesquisaView',
@@ -464,7 +423,9 @@ export default {
       selectedFatoresRiscos: [],
       selectedCondAssociadas: [],
       selectedPopulacoesRisco: [],
-      diagnosticoGerado: ''
+      diagnosticoGerado: '',
+      termo: '',
+      detalheTermo: ''
     }
   },
 
@@ -540,6 +501,24 @@ export default {
 
     copiarDiagnostico(){
       navigator.clipboard.writeText(this.diagnosticoGerado);
+    },
+
+    async pegarDetalheTermo(termo){
+
+      this.detalheTermo = '';
+      this.termo = termo;
+
+      try {  
+            let response = await http.get('/db_Dominios/detalhes_termos.json');
+
+            if ( termo in response.data ) {
+              this.detalheTermo = response.data[termo];
+            }
+
+      } catch(e) {
+        console.error(e);
+      }
+
     }
 
   },
