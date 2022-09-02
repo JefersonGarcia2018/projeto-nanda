@@ -573,6 +573,7 @@ export default {
         this.selectedFatoresRiscos = [];
         this.selectedCondAssociadas = [];
         this.selectedPopulacoesRisco = [];
+        this.diagnosticoGerado = '';
 
       }
       
