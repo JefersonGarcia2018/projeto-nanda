@@ -25,6 +25,9 @@
                       <li>Diagnóstico de promoção de saúde</li>
                       <li>Diagnóstico de síndrome</li>
                     </ul>
+                    <p>
+                      O diagnóstico de enfermagem nada mais é do que uma frase padrão descritiva sobre o estado de saúde de um paciente. Oficializada após a criação da Associação Americana de Diagnóstico de Enfermagem, conhecida como NANDA International, ela criou um padrão a ser seguido pelos profissionais.
+                    </p>
                    </dir>
                   </b-card-text>
                 </b-card-body>

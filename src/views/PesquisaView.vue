@@ -239,7 +239,7 @@
       <!-- Modal Secundário: informa os detalhes sobre cada item -->
       <b-modal :id="`modal-secundario-detalhes`" ok-only>
         <template #modal-header>
-            {{termo}}
+            <strong>{{termo}}</strong>
         </template>
         <p v-if="detalheTermo !== ''" class="my-2">
           {{detalheTermo}}
