@@ -37,7 +37,7 @@
                 <b-list-group-item class="text-center bg-warning text-white">
                   <strong>Fatores Relacionados</strong> <b-badge class="bg-white text-dark" pill v-b-modal="`modal-secundario-detalhes-FRelacionados`">?</b-badge>
                   <br>
-                  Causas ou fatores contribuintes para o problema (fatores etiológicos). Sempre que possível, as ( <strong class="text-danger">intervenções</strong> <strong>de enfermagem</strong> ) devem voltar-se aos <strong>Fatores Relacionados</strong>.
+                  Causas ou fatores contribuintes para o problema. Sempre que possível, as <strong class="text-danger">intervenções</strong> <strong>de enfermagem</strong> devem voltar-se aos <strong>Fatores Relacionados</strong>.
                 </b-list-group-item>
 
                 <!-- v-for em [ Fatores Relacionados ]  para renderizar cada item -->
