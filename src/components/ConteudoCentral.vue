@@ -19,7 +19,7 @@
             </b-card-header>
             <b-collapse :id="`accordion-${index1}`" accordion="my-accordion" role="tabpanel">
               <b-card-body>
-                <p><strong>Termos Diagnósticos:</strong></p>
+                <p><strong>Títulos dos Diagnósticos:</strong></p>
                 
                 <!-- v-for em [classe.diagnosticos] para gerar os Buttons-Modal e os seus respectivos Modais -->
                 <b-card-text v-for="(diagnostico, index2) in classe.diagnosticos" :key="diagnostico.id">
