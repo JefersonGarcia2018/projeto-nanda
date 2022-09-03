@@ -1,5 +1,5 @@
 # projeto-nanda
-Projeto para apresentar os Domínios, Classes e Diagnósticos que estão definidos no livro NANDA 2018-2020.
+Projeto para apresentar os Domínios, Classes e Diagnósticos que estão definidos no livro NANDA 2018-2020.<br>
 Acesse o projeto: https://projeto-tcc-nanda-iv8sybz34-jefersongarcia2018.vercel.app/
 
 ## Project setup
